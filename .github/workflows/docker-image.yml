@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile -t vllm-playbook:$(date +%s)
+      run: docker build . --file ./run-nemotron-v2-VL/Dockerfile -t vllm-playbook:$(date +%s)
