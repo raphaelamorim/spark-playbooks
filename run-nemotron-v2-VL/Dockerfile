@@ -28,7 +28,7 @@ RUN export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 RUN python use_existing_torch.py && \
     pip install -r requirements/build.txt && \
     pip install --no-build-isolation -e .
-
+RUN pip install "fastsafetensors>=0.1.10"
 # Expose port 8000 for vLLM API server
 EXPOSE 8000
 

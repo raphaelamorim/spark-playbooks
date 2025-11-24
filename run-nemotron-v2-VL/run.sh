@@ -10,4 +10,4 @@ docker run --runtime nvidia --gpus all \
       --env "HUGGING_FACE_HUB_TOKEN=<YOUR_HUGGINGFACE_TOKEN>" \
       --env "TRITON_PTXAS_PATH=/usr/local/cuda/bin/ptxas" \
       vllm:25.10 \
-      vllm serve nvidia/Nemotron-Nano-VL-12B-V2-FP4-QAD --trust-remote-code --quantization modelopt_fp4 --max-model-len 24000 --gpu-memory-utilization 0.3
+      vllm serve nvidia/Nemotron-Nano-VL-12B-V2-FP4-QAD --load-format fastsafetensors --trust-remote-code --quantization modelopt_fp4 --max-model-len 24000 --gpu-memory-utilization 0.3
