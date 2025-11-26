@@ -1,0 +1,1153 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1699561,
+        "name": "Asstianhua",
+        "username": "asstianhua",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-21T12:38:22.443Z",
+        "cooked": "<p>I noticed that NVIDIA’s new DGX SPARK features 128GB of unified memory available for its GPU. So is it powerful and sufficiently compatible enough to run BindCraft? If anyone could test that it actually works, I’d purchase one for my research. Thanks.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-21T12:38:22.443Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 54.2,
+        "yours": false,
+        "topic_id": 348514,
+        "topic_slug": "can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program",
+        "display_username": "Asstianhua",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4704470,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program/348514/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1699595,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-10-21T14:42:37.497Z",
+        "cooked": "<p>not familiar with <a href=\"https://github.com/martinpacesa/BindCraft\" class=\"inline-onebox\">GitHub - martinpacesa/BindCraft: User friendly and accurate binder design pipeline</a> , but you’ll need to first confirm the vendor/project supports ARM64 platform.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-21T14:42:37.497Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 4.0,
+        "yours": false,
+        "topic_id": 348514,
+        "topic_slug": "can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://github.com/martinpacesa/BindCraft",
+            "internal": false,
+            "reflection": false,
+            "title": "GitHub - martinpacesa/BindCraft: User friendly and accurate binder design pipeline",
+            "clicks": 8
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program/348514/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1700474,
+        "name": "Asstianhua",
+        "username": "asstianhua",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-22T07:25:49.224Z",
+        "cooked": "<p>Thank you, that’s very helpful.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-22T07:25:49.224Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 3.4,
+        "yours": false,
+        "topic_id": 348514,
+        "topic_slug": "can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program",
+        "display_username": "Asstianhua",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4704470,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program/348514/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715763,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:13:04.176Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-17T19:13:04.176Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 348514,
+        "topic_slug": "can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program/348514/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1699561,
+      1699595,
+      1700474,
+      1715763
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      35
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Can I use the NVIDIA DGX SPARK to run the BindCraft program?",
+  "id": 348514,
+  "title": "Can I use the NVIDIA DGX SPARK to run the BindCraft program?",
+  "posts_count": 4,
+  "created_at": "2025-10-21T12:38:22.273Z",
+  "views": 89,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-22T07:25:49.224Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "can-i-use-the-nvidia-dgx-spark-to-run-the-bindcraft-program",
+  "category_id": 721,
+  "word_count": 71,
+  "deleted_at": null,
+  "user_id": 4704470,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348514",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "[Nvidia/Parabricks] Does pbrun support GPU options?",
+      "id": 158024,
+      "title": "[Nvidia/Parabricks] Does pbrun support GPU options?",
+      "slug": "nvidia-parabricks-does-pbrun-support-gpu-options",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217.png",
+      "created_at": "2020-10-27T03:39:50.629Z",
+      "last_posted_at": "2021-10-12T19:46:09.734Z",
+      "bumped": true,
+      "bumped_at": "2020-11-03T10:13:41.609Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 726,
+          "height": 443,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 366,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217_2_600x366.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 244,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217_2_400x244.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 183,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217_2_300x183.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 122,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/e/c/ecc47172a42a2232dca3fd0ae6227d505baf6217_2_200x122.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1092,
+      "category_id": 290,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 715212,
+            "username": "tsungjung411",
+            "name": "Tsungjung411",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tsungjung411/{size}/46741_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 76042,
+            "username": "mdemouth",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mdemouth/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVSwitch Accelerates NVIDIA DGX-2",
+      "id": 148639,
+      "title": "NVSwitch Accelerates NVIDIA DGX-2",
+      "slug": "nvswitch-accelerates-nvidia-dgx-2",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2018-08-21T16:15:48.000Z",
+      "last_posted_at": "2018-08-28T16:13:46.000Z",
+      "bumped": true,
+      "bumped_at": "2018-08-28T16:13:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 464,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 630171,
+            "username": "anon51073124",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 630172,
+            "username": "anon9445948",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 630173,
+            "username": "anon76852260",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVIDIA Parabricks Tesla K40c hardware requirement question",
+      "id": 123204,
+      "title": "NVIDIA Parabricks Tesla K40c hardware requirement question",
+      "slug": "nvidia-parabricks-tesla-k40c-hardware-requirement-question",
+      "posts_count": 8,
+      "reply_count": 4,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2020-05-14T23:28:27.280Z",
+      "last_posted_at": "2021-10-12T19:46:05.722Z",
+      "bumped": true,
+      "bumped_at": "2021-01-08T11:48:21.503Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 1224,
+      "category_id": 290,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 32946,
+            "username": "husamia",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 198677,
+            "username": "aquraini",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aquraini/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 262857,
+            "username": "miles.benton84",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/miles.benton84/{size}/40180_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 718662,
+            "username": "kountaydwivedi",
+            "name": "Kountay Dwivedi",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kountaydwivedi/{size}/45513_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPU Memory size change from 16GB to 32GB",
+      "id": 111227,
+      "title": "GPU Memory size change from 16GB to 32GB",
+      "slug": "gpu-memory-size-change-from-16gb-to-32gb",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2020-01-31T02:22:03.000Z",
+      "last_posted_at": "2020-01-31T02:22:03.000Z",
+      "bumped": false,
+      "bumped_at": "2020-01-31T02:22:03.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 533,
+      "category_id": 33,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 170186,
+            "username": "Kaka_m",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Not enough available memory for these GPUs",
+      "id": 165625,
+      "title": "Not enough available memory for these GPUs",
+      "slug": "not-enough-available-memory-for-these-gpus",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2021-01-11T08:44:10.491Z",
+      "last_posted_at": "2021-11-05T20:42:21.835Z",
+      "bumped": true,
+      "bumped_at": "2021-11-05T20:42:21.835Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "gpu"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 3267,
+      "category_id": 290,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 855476,
+            "username": "hermes2014",
+            "name": "Hermes2014",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/hermes2014/{size}/58077_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 99865,
+            "username": "gburnett",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gburnett/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1341717,
+            "username": "Vincent.G",
+            "name": "Vincent Gardeux",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vincent.g/{size}/119818_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1540192,
+            "username": "teapot0001",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Run parabricks and found cudaMemGetInfo returned 802",
+      "id": 199723,
+      "title": "Run parabricks and found cudaMemGetInfo returned 802",
+      "slug": "run-parabricks-and-found-cudamemgetinfo-returned-802",
+      "posts_count": 9,
+      "reply_count": 2,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2022-01-06T05:32:36.762Z",
+      "last_posted_at": "2022-01-13T08:04:18.133Z",
+      "bumped": true,
+      "bumped_at": "2022-01-13T08:04:18.133Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1665,
+      "category_id": 290,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 1647794,
+            "username": "user120120",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 99865,
+            "username": "gburnett",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gburnett/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Running Omniverse Replicator on the NVidia DGX family",
+      "id": 239035,
+      "title": "Running Omniverse Replicator on the NVidia DGX family",
+      "slug": "running-omniverse-replicator-on-the-nvidia-dgx-family",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2023-01-09T13:17:39.991Z",
+      "last_posted_at": "2023-01-09T13:17:40.074Z",
+      "bumped": true,
+      "bumped_at": "2023-01-09T13:17:40.074Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "gpu"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 437,
+      "category_id": 595,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2355389,
+            "username": "enrico.marchi",
+            "name": "Enrico Marchi",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Available GPU access from NVIDIA DGX Cloud",
+      "id": 265613,
+      "title": "Available GPU access from NVIDIA DGX Cloud",
+      "slug": "available-gpu-access-from-nvidia-dgx-cloud",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2023-09-06T21:01:53.398Z",
+      "last_posted_at": "2023-09-06T21:01:53.499Z",
+      "bumped": true,
+      "bumped_at": "2023-09-06T21:01:53.499Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 804,
+      "category_id": 643,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2573312,
+            "username": "vladislav.sandler",
+            "name": "Vladislav Sandler",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Updated Jetson AGX Xavier module available Now",
+      "id": 118769,
+      "title": "Updated Jetson AGX Xavier module available Now",
+      "slug": "updated-jetson-agx-xavier-module-available-now",
+      "posts_count": 12,
+      "reply_count": 2,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2020-04-07T01:40:39.639Z",
+      "last_posted_at": "2021-03-25T20:03:40.759Z",
+      "bumped": true,
+      "bumped_at": "2021-02-03T04:57:51.820Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 2627,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 25118,
+            "username": "prlawrence",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/prlawrence/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 547861,
+            "username": "kwaskoff",
+            "name": "Aleksandr Kwaskoff",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kwaskoff/{size}/26142_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 292697,
+            "username": "Tony_Li",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 946278,
+            "username": "aberistain",
+            "name": "Aberistain",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Announcing NVIDIA DGX GH200: The First 100 Terabyte GPU Memory System",
+      "id": 254739,
+      "title": "Announcing NVIDIA DGX GH200: The First 100 Terabyte GPU Memory System",
+      "slug": "announcing-nvidia-dgx-gh200-the-first-100-terabyte-gpu-memory-system",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2023-05-29T03:45:18.418Z",
+      "last_posted_at": "2023-05-29T03:45:18.575Z",
+      "bumped": true,
+      "bumped_at": "2023-05-30T16:47:00.505Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 827,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "not familiar with <a href=\"https://github.com/martinpacesa/BindCraft\" class=\"inline-onebox\">GitHub - martinpacesa/BindCraft: User friendly and accurate binder design pipeline</a> , but you’ll need to first confirm the vendor/project supports ARM64 platform.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4704470,
+        "username": "asstianhua",
+        "name": "Asstianhua",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4704470,
+      "username": "asstianhua",
+      "name": "Asstianhua",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 4704470,
+      "username": "asstianhua",
+      "name": "Asstianhua",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "links": [
+      {
+        "url": "https://github.com/martinpacesa/BindCraft",
+        "title": "GitHub - martinpacesa/BindCraft: User friendly and accurate binder design pipeline",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 8,
+        "user_id": 192972,
+        "domain": "github.com",
+        "root_domain": "github.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

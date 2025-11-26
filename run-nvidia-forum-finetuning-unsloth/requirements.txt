@@ -1,0 +1,5 @@
+requests>=2.28.0
+gguf
+protobuf
+sentencepiece
+mistral_common

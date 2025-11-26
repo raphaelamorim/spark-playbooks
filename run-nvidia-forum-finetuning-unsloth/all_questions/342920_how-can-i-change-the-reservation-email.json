@@ -1,0 +1,1095 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1669644,
+        "name": "ACodingfreak",
+        "username": "ACodingfreak",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-08-23T00:09:05.601Z",
+        "cooked": "<p>Hi All,</p>\n<p>As we wait for the DGX spark to be available, I want to check if it is possible to change the reservation email ?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-08-28T15:19:43.107Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 12,
+        "reads": 28,
+        "readers_count": 27,
+        "score": 65.6,
+        "yours": false,
+        "topic_id": 342920,
+        "topic_slug": "how-can-i-change-the-reservation-email",
+        "display_username": "ACodingfreak",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2880754,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/how-can-i-change-the-reservation-email/342920/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1676578,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-09-05T17:41:18.745Z",
+        "cooked": "<p>Unfortunately we cannot change the email associated with your current reservation. If you would like you cancel and make a new reservation.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-09-05T17:41:18.745Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 3.6,
+        "yours": false,
+        "topic_id": 342920,
+        "topic_slug": "how-can-i-change-the-reservation-email",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/how-can-i-change-the-reservation-email/342920/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698852,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-10-20T18:35:54.354Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-10-20T18:35:54.354Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 342920,
+        "topic_slug": "how-can-i-change-the-reservation-email",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/how-can-i-change-the-reservation-email/342920/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1669644,
+      1676578,
+      1698852
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      95
+    ],
+    [
+      2,
+      81
+    ],
+    [
+      3,
+      36
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "How can i change the reservation email?",
+  "id": 342920,
+  "title": "How can i change the reservation email?",
+  "posts_count": 3,
+  "created_at": "2025-08-23T00:09:05.541Z",
+  "views": 193,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-09-05T17:41:18.745Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "how-can-i-change-the-reservation-email",
+  "category_id": 721,
+  "word_count": 47,
+  "deleted_at": null,
+  "user_id": 2880754,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_342920",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "DGX Spark Bundle Reservation Removed From Account",
+      "id": 348093,
+      "title": "DGX Spark Bundle Reservation Removed From Account",
+      "slug": "dgx-spark-bundle-reservation-removed-from-account",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_1024x611.png",
+      "created_at": "2025-10-17T17:54:47.337Z",
+      "last_posted_at": "2025-10-17T18:13:09.423Z",
+      "bumped": true,
+      "bumped_at": "2025-10-17T18:13:09.423Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 2628,
+          "height": 1570,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 611,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_1024x611.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 477,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_800x477.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 358,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_600x358.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 238,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_400x238.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 179,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_300x179.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 119,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/f/4/f/f4fa8dd30a7f76adc9bba11c39dd15817d6f024a_2_200x119.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 118,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2739755,
+            "username": "nick.buhl",
+            "name": "Nick Buhl",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Have not received email",
+      "id": 132288,
+      "title": "Have not received email",
+      "slug": "have-not-received-email",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2011-03-16T22:17:49.000Z",
+      "last_posted_at": "2011-03-17T18:44:08.000Z",
+      "bumped": true,
+      "bumped_at": "2011-03-17T18:44:08.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 10552,
+      "category_id": 304,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 421288,
+            "username": "rumbolo",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 298667,
+            "username": "MatColgrove",
+            "name": "Mat Colgrove",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/matcolgrove/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How can I update the reservation choice?",
+      "id": 342921,
+      "title": "How can I update the reservation choice?",
+      "slug": "how-can-i-update-the-reservation-choice",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2025-08-23T01:26:39.472Z",
+      "last_posted_at": "2025-09-05T17:26:10.211Z",
+      "bumped": true,
+      "bumped_at": "2025-09-05T17:40:28.741Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 672,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1710193,
+            "username": "luchris429",
+            "name": "Luchris429",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2225469,
+            "username": "ecotexan.stephen",
+            "name": "Stephen",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ecotexan.stephen/{size}/436791_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4610736,
+            "username": "Garryfatt",
+            "name": "Harry ",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "subscription renewal",
+      "id": 134090,
+      "title": "subscription renewal",
+      "slug": "subscription-renewal",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2014-05-28T04:24:39.000Z",
+      "last_posted_at": "2014-05-28T15:04:28.000Z",
+      "bumped": true,
+      "bumped_at": "2014-05-28T15:04:28.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 6836,
+      "category_id": 304,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 377264,
+            "username": "Sanik1",
+            "name": "Sanik",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 298667,
+            "username": "MatColgrove",
+            "name": "Mat Colgrove",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/matcolgrove/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to get access to the NVIDIA DRIVE Developer Program ",
+      "id": 60874,
+      "title": "How to get access to the NVIDIA DRIVE Developer Program ",
+      "slug": "how-to-get-access-to-the-nvidia-drive-developer-program",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2018-05-02T04:48:17.000Z",
+      "last_posted_at": "2019-02-14T23:16:50.000Z",
+      "bumped": true,
+      "bumped_at": "2019-02-14T23:16:50.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1375,
+      "category_id": 66,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 178011,
+            "username": "ms_oh",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 41661,
+            "username": "SivaRamaKrishnaNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sivaramakrishnanv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21974,
+            "username": "SteveNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/stevenv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Cannot change Email",
+      "id": 228908,
+      "title": "Cannot change Email",
+      "slug": "cannot-change-email",
+      "posts_count": 26,
+      "reply_count": 23,
+      "highest_post_number": 27,
+      "image_url": null,
+      "created_at": "2022-09-23T23:51:07.724Z",
+      "last_posted_at": "2022-10-21T15:51:39.628Z",
+      "bumped": true,
+      "bumped_at": "2022-10-21T15:51:24.340Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 6580,
+      "category_id": 85,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2149093,
+            "username": "ariesficially",
+            "name": "Ariesficially",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ariesficially/{size}/203789_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2165723,
+            "username": "shaneneary886",
+            "name": "Shaneneary886",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 994933,
+            "username": "zp.marcos",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/zp.marcos/{size}/74275_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to change Email address",
+      "id": 255497,
+      "title": "Unable to change Email address",
+      "slug": "unable-to-change-email-address",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2023-06-04T09:40:34.998Z",
+      "last_posted_at": "2023-06-05T16:06:53.821Z",
+      "bumped": true,
+      "bumped_at": "2023-06-05T16:06:53.821Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 3389,
+      "category_id": 85,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2733814,
+            "username": "tktube123456",
+            "name": "Tktube123456",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX practical management for multi user system",
+      "id": 79765,
+      "title": "DGX practical management for multi user system",
+      "slug": "dgx-practical-management-for-multi-user-system",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-08-12T12:09:42.000Z",
+      "last_posted_at": "2019-08-27T18:49:40.000Z",
+      "bumped": true,
+      "bumped_at": "2019-08-27T18:49:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1657,
+      "category_id": 10,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 150863,
+            "username": "Sonicious",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sonicious/{size}/11443_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 75592,
+            "username": "ScottEllis",
+            "name": "Scott Ellis",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/scottellis/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Please delete my old Account now!",
+      "id": 172707,
+      "title": "Please delete my old Account now!",
+      "slug": "please-delete-my-old-account-now",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2021-03-18T10:28:54.986Z",
+      "last_posted_at": "2021-04-22T16:28:35.646Z",
+      "bumped": true,
+      "bumped_at": "2021-03-22T16:17:27.857Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1385,
+      "category_id": 85,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1073874,
+            "username": "BDC_Patrick",
+            "name": "Bdc Patrick",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bdc_patrick/{size}/82331_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How are drivers updated on a DGX-1?",
+      "id": 63094,
+      "title": "How are drivers updated on a DGX-1?",
+      "slug": "how-are-drivers-updated-on-a-dgx-1",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-07-10T23:15:30.000Z",
+      "last_posted_at": "2018-07-11T15:34:49.000Z",
+      "bumped": true,
+      "bumped_at": "2018-07-11T15:34:49.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3041,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2858,
+            "username": "Simusid",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "Unfortunately we cannot change the email associated with your current reservation. If you would like you cancel and make a new reservation.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 2880754,
+        "username": "ACodingfreak",
+        "name": "ACodingfreak",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      }
+    ],
+    "created_by": {
+      "id": 2880754,
+      "username": "ACodingfreak",
+      "name": "ACodingfreak",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

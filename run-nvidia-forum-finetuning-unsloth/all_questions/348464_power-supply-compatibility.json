@@ -1,0 +1,1084 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1699193,
+        "name": "Evolvingtech",
+        "username": "evolvingtech",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-21T05:12:56.613Z",
+        "cooked": "<p>I may be traveling overseas (to Europe from the United States), hence dealing with different voltage/currents. I suspect the provided power brick is compatible across these countries and that all I really need to do is to change the grounded cable that attaches from the power outlet to the brick.</p>\n<p>Just confirming this is okay to do and does not necessitate the purchase of a different power brick for the region in question (i.e., the brick accommodates both 120V and 240V).</p>\n<p>Please advise.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-21T05:12:56.613Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 76,
+        "reads": 32,
+        "readers_count": 31,
+        "score": 361.4,
+        "yours": false,
+        "topic_id": 348464,
+        "topic_slug": "power-supply-compatibility",
+        "display_username": "Evolvingtech",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1436571,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/power-supply-compatibility/348464/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1699615,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-10-21T15:16:24.819Z",
+        "cooked": "<p>yes.  the power brick works globally.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-21T15:16:24.819Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 4.4,
+        "yours": false,
+        "topic_id": 348464,
+        "topic_slug": "power-supply-compatibility",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/power-supply-compatibility/348464/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715754,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:10:03.424Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:10:03.424Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 348464,
+        "topic_slug": "power-supply-compatibility",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/power-supply-compatibility/348464/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1699193,
+      1699615,
+      1715754
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      36
+    ],
+    [
+      2,
+      35
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Power Supply Compatibility",
+  "id": 348464,
+  "title": "Power Supply Compatibility",
+  "posts_count": 3,
+  "created_at": "2025-10-21T05:12:56.550Z",
+  "views": 122,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-21T15:16:24.819Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "power-supply-compatibility",
+  "category_id": 721,
+  "word_count": 91,
+  "deleted_at": null,
+  "user_id": 1436571,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348464",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Jetson AC Adaptor 240 or 120 volt?",
+      "id": 34518,
+      "title": "Jetson AC Adaptor 240 or 120 volt?",
+      "slug": "jetson-ac-adaptor-240-or-120-volt",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2014-08-19T18:42:43.000Z",
+      "last_posted_at": "2014-08-20T19:29:27.000Z",
+      "bumped": true,
+      "bumped_at": "2014-08-20T19:29:27.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1366,
+      "category_id": 79,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 11875,
+            "username": "vor73x",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22510,
+            "username": "Finalfreak",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 22469,
+            "username": "rubmyleftfootgently",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Hooking Up GTX480 Power The instructions say you shouldn&rsquo;t but it seems so obvious&hellip;",
+      "id": 17168,
+      "title": "Hooking Up GTX480 Power The instructions say you shouldn't but it seems so obvious...",
+      "slug": "hooking-up-gtx480-power-the-instructions-say-you-shouldnt-but-it-seems-so-obvious",
+      "posts_count": 23,
+      "reply_count": 0,
+      "highest_post_number": 23,
+      "image_url": null,
+      "created_at": "2010-06-14T16:56:00.000Z",
+      "last_posted_at": "2010-06-16T12:21:48.000Z",
+      "bumped": true,
+      "bumped_at": "2010-06-16T12:21:48.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 30203,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4716,
+            "username": "timmiroon",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271,
+            "username": "seibert",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2309,
+            "username": "SPWorley",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 8478,
+            "username": "AlexanderAgathos",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/alexanderagathos/{size}/9921_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Replacement Power Brick",
+      "id": 66954,
+      "title": "Replacement Power Brick",
+      "slug": "replacement-power-brick",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2018-11-02T22:58:20.000Z",
+      "last_posted_at": "2021-10-18T18:30:41.385Z",
+      "bumped": true,
+      "bumped_at": "2018-11-03T03:00:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3343,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 196929,
+            "username": "keagenr",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What power supply for GX2 board ?",
+      "id": 3868,
+      "title": "What power supply for GX2 board ?",
+      "slug": "what-power-supply-for-gx2-board",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2008-05-28T10:56:23.000Z",
+      "last_posted_at": "2008-05-28T12:20:47.000Z",
+      "bumped": true,
+      "bumped_at": "2008-05-28T12:20:47.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4688,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2187,
+            "username": "jarjar",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1705,
+            "username": "E.D_Riedijk",
+            "name": "E.D. Riedijk",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "8-pin Y splitter cable for GTX 580 looking for a suitable cable",
+      "id": 20835,
+      "title": "8-pin Y splitter cable for GTX 580 looking for a suitable cable",
+      "slug": "8-pin-y-splitter-cable-for-gtx-580-looking-for-a-suitable-cable",
+      "posts_count": 10,
+      "reply_count": 0,
+      "highest_post_number": 10,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d.jpeg",
+      "created_at": "2011-02-02T17:23:08.000Z",
+      "last_posted_at": "2011-02-04T00:54:26.000Z",
+      "bumped": true,
+      "bumped_at": "2011-02-04T00:54:26.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 640,
+          "height": 480,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 450,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d_2_600x450.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d_2_400x300.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 225,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d_2_300x225.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 150,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/4/e/4ef010b60a11f73523df862f97793316a97d0e8d_2_200x150.jpeg"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 27988,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1119,
+            "username": "humorstar",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6716,
+            "username": "EbbAndBlow",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ebbandblow/{size}/9874_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2309,
+            "username": "SPWorley",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7410,
+            "username": "tera",
+            "name": "Tim Schmielau",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Power adapter &amp; Warranty",
+      "id": 40904,
+      "title": "Power adapter & Warranty",
+      "slug": "power-adapter-warranty",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2016-01-07T14:09:33.000Z",
+      "last_posted_at": "2016-01-09T17:29:17.000Z",
+      "bumped": true,
+      "bumped_at": "2016-01-09T17:29:17.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1070,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 29899,
+            "username": "MassimoL",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX station Tesla V100 Power Supply 3 phase compatable?",
+      "id": 180340,
+      "title": "DGX station Tesla V100 Power Supply 3 phase compatable?",
+      "slug": "dgx-station-tesla-v100-power-supply-3-phase-compatable",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2021-06-09T17:29:43.639Z",
+      "last_posted_at": "2021-06-10T16:46:42.630Z",
+      "bumped": true,
+      "bumped_at": "2021-06-10T16:46:42.630Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 887,
+      "category_id": 10,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1274485,
+            "username": "ryanporter",
+            "name": "Ryanporter",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 75592,
+            "username": "ScottEllis",
+            "name": "Scott Ellis",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/scottellis/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Drive PX2 AC power supply cord with 10 Pin connector (for US)",
+      "id": 62295,
+      "title": "Drive PX2 AC power supply cord with 10 Pin connector (for US)",
+      "slug": "drive-px2-ac-power-supply-cord-with-10-pin-connector-for-us",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2018-06-14T17:41:23.000Z",
+      "last_posted_at": "2018-06-14T17:41:23.000Z",
+      "bumped": false,
+      "bumped_at": "2018-06-14T17:41:23.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 631,
+      "category_id": 63,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 120200,
+            "username": "adithya.ranga",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Two questions about Drive AGX xavier install?",
+      "id": 79804,
+      "title": "Two questions about Drive AGX xavier install?",
+      "slug": "two-questions-about-drive-agx-xavier-install",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2019-08-13T01:33:56.000Z",
+      "last_posted_at": "2021-10-12T20:05:29.080Z",
+      "bumped": true,
+      "bumped_at": "2019-08-14T01:00:12.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 449,
+      "category_id": 59,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 263971,
+            "username": "gongzhan01",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21974,
+            "username": "SteveNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/stevenv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DC jack specs? (larger goal: powering the dev kit with a battery)",
+      "id": 45836,
+      "title": "DC jack specs? (larger goal: powering the dev kit with a battery)",
+      "slug": "dc-jack-specs-larger-goal-powering-the-dev-kit-with-a-battery",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2016-10-30T16:22:18.000Z",
+      "last_posted_at": "2021-10-18T19:00:51.408Z",
+      "bumped": true,
+      "bumped_at": "2016-11-05T01:52:52.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 6377,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 34510,
+            "username": "Matthew_K",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 26289,
+            "username": "Trumany",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/trumany/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 29491,
+            "username": "sperok",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "yes.  the power brick works globally.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 1436571,
+        "username": "evolvingtech",
+        "name": "Evolvingtech",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 1436571,
+      "username": "evolvingtech",
+      "name": "Evolvingtech",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 192972,
+      "username": "NVES",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png"
+    }
+  },
+  "bookmarks": []
+}

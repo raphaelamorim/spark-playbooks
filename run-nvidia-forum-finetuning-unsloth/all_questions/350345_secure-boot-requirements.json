@@ -1,0 +1,1061 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1709252,
+        "name": "Kal",
+        "username": "kal5",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-05T21:11:41.008Z",
+        "cooked": "<p>Is there a technical requirement for Secure Boot to be enabled in UEFI? I can understand that it is a best practice for security, but was wondering if there are checks put in place to refuse to install or run certain features if it is detected that Secure Boot is disabled?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-05T21:11:41.008Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 23,
+        "reads": 19,
+        "readers_count": 18,
+        "score": 108.6,
+        "yours": false,
+        "topic_id": 350345,
+        "topic_slug": "secure-boot-requirements",
+        "display_username": "Kal",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4719894,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/secure-boot-requirements/350345/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1709268,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-11-05T22:17:39.634Z",
+        "cooked": "<p>We want to make sure our customers are secured by default, so the DGX Spark comes with Secure Boot enabled by default. So if you want to disable Secure Boot, you can do so in the UEFI and will miss out on the security.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-05T22:17:39.634Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 3.2,
+        "yours": false,
+        "topic_id": 350345,
+        "topic_slug": "secure-boot-requirements",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/secure-boot-requirements/350345/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1717900,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-19T22:17:45.140Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-19T22:17:45.140Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 350345,
+        "topic_slug": "secure-boot-requirements",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/secure-boot-requirements/350345/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1709252,
+      1709268,
+      1717900
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      20
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Secure Boot Requirements",
+  "id": 350345,
+  "title": "Secure Boot Requirements",
+  "posts_count": 3,
+  "created_at": "2025-11-05T21:11:40.932Z",
+  "views": 60,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-11-05T22:17:39.634Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "secure-boot-requirements",
+  "category_id": 721,
+  "word_count": 95,
+  "deleted_at": null,
+  "user_id": 4719894,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_350345",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 4,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Secure Booting in TX1",
+      "id": 47648,
+      "title": "Secure Booting in TX1",
+      "slug": "secure-booting-in-tx1",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2017-02-02T05:54:44.000Z",
+      "last_posted_at": "2021-10-18T19:00:17.578Z",
+      "bumped": true,
+      "bumped_at": "2017-02-02T09:04:53.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 888,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 35753,
+            "username": "mohanprasath_12",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Trouble installing Nvidia drivers because of the disabled secure boot (Ubuntu 18.04)",
+      "id": 110643,
+      "title": "Trouble installing Nvidia drivers because of the disabled secure boot (Ubuntu 18.04)",
+      "slug": "trouble-installing-nvidia-drivers-because-of-the-disabled-secure-boot-ubuntu-18-04",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2020-01-18T09:16:22.000Z",
+      "last_posted_at": "2021-10-12T18:57:48.140Z",
+      "bumped": true,
+      "bumped_at": "2020-01-20T12:35:05.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 12183,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 199998,
+            "username": "atinesh.s",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 13293,
+            "username": "birdie",
+            "name": "Artem S. Tashkinov",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/birdie/{size}/10073_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Driver Install w/Secure Boot enabled",
+      "id": 158189,
+      "title": "Driver Install w/Secure Boot enabled",
+      "slug": "driver-install-w-secure-boot-enabled",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/3/c/3cf4f32e0ec6253baa495bf2aea38aec256fb8c4.png",
+      "created_at": "2020-10-28T15:40:08.260Z",
+      "last_posted_at": "2020-10-28T15:40:08.317Z",
+      "bumped": true,
+      "bumped_at": "2020-10-28T15:40:08.317Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 360,
+          "height": 250,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/3/c/3cf4f32e0ec6253baa495bf2aea38aec256fb8c4.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 208,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/c/3cf4f32e0ec6253baa495bf2aea38aec256fb8c4_2_300x208.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 138,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/c/3cf4f32e0ec6253baa495bf2aea38aec256fb8c4_2_200x138.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 852,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 723111,
+            "username": "tech12",
+            "name": "Tech",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Does the Ubuntu18.04 system of AGX Xavier have more security protection?",
+      "id": 68639,
+      "title": "Does the Ubuntu18.04 system of AGX Xavier have more security protection?",
+      "slug": "does-the-ubuntu18-04-system-of-agx-xavier-have-more-security-protection",
+      "posts_count": 10,
+      "reply_count": 0,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2018-12-18T09:56:45.000Z",
+      "last_posted_at": "2021-10-18T18:24:16.707Z",
+      "bumped": true,
+      "bumped_at": "2019-07-19T14:00:56.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1172,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 198835,
+            "username": "John_Z",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34956,
+            "username": "JerryChang",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jerrychang/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Configurable/Programmable secure boot in TK1",
+      "id": 47422,
+      "title": "Configurable/Programmable secure boot in TK1",
+      "slug": "configurable-programmable-secure-boot-in-tk1",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2017-01-20T00:26:45.000Z",
+      "last_posted_at": "2021-10-18T18:45:21.576Z",
+      "bumped": true,
+      "bumped_at": "2017-03-16T21:05:11.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1086,
+      "category_id": 79,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13582,
+            "username": "norrathe",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28097,
+            "username": "CHuang1",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/chuang1/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Does Quadro K5000 support UEFI boot?",
+      "id": 38986,
+      "title": "Does Quadro K5000 support UEFI boot?",
+      "slug": "does-quadro-k5000-support-uefi-boot",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2015-08-03T23:49:15.000Z",
+      "last_posted_at": "2015-08-03T23:49:15.000Z",
+      "bumped": false,
+      "bumped_at": "2015-08-03T23:49:15.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1658,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 27334,
+            "username": "lukemason",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Detecting if SecureBoot is enabled",
+      "id": 165872,
+      "title": "Detecting if SecureBoot is enabled",
+      "slug": "detecting-if-secureboot-is-enabled",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2021-01-13T22:22:24.849Z",
+      "last_posted_at": "2021-10-18T18:15:51.796Z",
+      "bumped": true,
+      "bumped_at": "2021-01-14T02:47:59.288Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "security"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 542,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 34000,
+            "username": "Undertow10",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/undertow10/{size}/22780_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34956,
+            "username": "JerryChang",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jerrychang/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "understanding &ldquo;secure boot&rdquo;",
+      "id": 64649,
+      "title": "understanding \"secure boot\"",
+      "slug": "understanding-secure-boot",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-08-30T09:35:31.000Z",
+      "last_posted_at": "2018-08-30T14:39:09.000Z",
+      "bumped": true,
+      "bumped_at": "2018-08-30T14:39:09.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1104,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 35450,
+            "username": "ranchu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "TX2: Non-secure (hypervisor) mode (Jetpack 28.1)",
+      "id": 54135,
+      "title": "TX2: Non-secure (hypervisor) mode (Jetpack 28.1)",
+      "slug": "tx2-non-secure-hypervisor-mode-jetpack-28-1",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2017-10-12T07:13:08.000Z",
+      "last_posted_at": "2021-10-18T18:27:09.940Z",
+      "bumped": true,
+      "bumped_at": "2017-10-13T01:42:26.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 654,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 53715,
+            "username": "aleem_chisti",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 33910,
+            "username": "VickNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vicknv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "UEFI Secure Boot",
+      "id": 227063,
+      "title": "UEFI Secure Boot",
+      "slug": "uefi-secure-boot",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2022-09-05T11:42:36.996Z",
+      "last_posted_at": "2022-09-07T23:00:25.532Z",
+      "bumped": true,
+      "bumped_at": "2022-09-07T23:00:25.532Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "security"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 731,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2113275,
+            "username": "Max_Dichler",
+            "name": "Max",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/max_dichler/{size}/231640_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "We want to make sure our customers are secured by default, so the DGX Spark comes with Secure Boot enabled by default. So if you want to disable Secure Boot, you can do so in the UEFI and will miss out on the security.",
+    "accepter_name": null,
+    "accepter_username": "kal5"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4719894,
+        "username": "kal5",
+        "name": "Kal",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 4719894,
+      "username": "kal5",
+      "name": "Kal",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

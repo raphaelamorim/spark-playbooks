@@ -1,0 +1,1028 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1697937,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-18T14:10:51.330Z",
+        "cooked": "<p>My current software stack requires torch and torchaudio. CUDA13 requires torch v2.9. However, it keeps producing problematic audio when using torch v2.9, both with and without GPU enabled. When I switch to torch 2.8 CPU only, the generated audio sounds great. Torch 2.8 only supports CUDA 12, therefore, I couldn’t use the GPU on DGX SPARK if I have to use torch 2.8.</p>\n<p>So I am wondering if SPARK can be downgrade to CUDA 12? I tried to uninstall CUDA13 and install CUDA 12, then Nvidia SMI no longer shows the GPU. When I tried to install the CUDA13 back, everything is broken.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-20T18:55:59.540Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 81,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 406.0,
+        "yours": false,
+        "topic_id": 348158,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348158/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1698900,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-10-20T19:33:32.992Z",
+        "cooked": "<p>dup <a href=\"https://forums.developer.nvidia.com/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/4\" class=\"inline-onebox\">Can I downgrade DGX SPARK to cuda 12? - #4 by mccormackjim3</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-20T19:33:32.992Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 15.2,
+        "yours": false,
+        "topic_id": 348158,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/4",
+            "internal": true,
+            "reflection": false,
+            "title": "Can I downgrade DGX SPARK to cuda 12?",
+            "clicks": 59
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348158/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715749,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:08:02.587Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:08:02.587Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 348158,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348158/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1697937,
+      1698900,
+      1715749
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      38
+    ],
+    [
+      2,
+      36
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [
+    "cuda"
+  ],
+  "tags_descriptions": {},
+  "fancy_title": "Can I downgrade DGX SPARK to cuda 12?",
+  "id": 348158,
+  "title": "Can I downgrade DGX SPARK to cuda 12?",
+  "posts_count": 3,
+  "created_at": "2025-10-18T14:10:51.238Z",
+  "views": 150,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-20T19:33:32.992Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+  "category_id": 721,
+  "word_count": 126,
+  "deleted_at": null,
+  "user_id": 4698480,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348158",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Can I downgrade DGX SPARK to cuda 12?",
+      "id": 348191,
+      "title": "Can I downgrade DGX SPARK to cuda 12?",
+      "slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+      "posts_count": 7,
+      "reply_count": 4,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2025-10-18T23:45:38.763Z",
+      "last_posted_at": "2025-11-02T22:08:44.396Z",
+      "bumped": true,
+      "bumped_at": "2025-10-19T22:08:21.434Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 343,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4698480,
+            "username": "jefftown",
+            "name": "Daizefu",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 2917284,
+            "username": "mccormackjim3",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "decuda for cuda-3.x",
+      "id": 18498,
+      "title": "decuda for cuda-3.x",
+      "slug": "decuda-for-cuda-3-x",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2010-08-27T20:49:42.000Z",
+      "last_posted_at": "2010-08-27T21:27:47.000Z",
+      "bumped": true,
+      "bumped_at": "2010-08-27T21:27:47.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3452,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4421,
+            "username": "dgetrf",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 7410,
+            "username": "tera",
+            "name": "Tim Schmielau",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Downgrading Cuda 11 doesn&rsquo;t work",
+      "id": 155694,
+      "title": "Downgrading Cuda 11 doesn't work",
+      "slug": "downgrading-cuda-11-doesnt-work",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2020-09-27T21:46:53.329Z",
+      "last_posted_at": "2020-11-11T18:53:35.173Z",
+      "bumped": true,
+      "bumped_at": "2020-11-11T18:53:35.173Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2580,
+      "category_id": 285,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 583464,
+            "username": "edu.basilio.1971",
+            "name": "Edu Basilio 1971",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 760921,
+            "username": "realusbuntu",
+            "name": "Realusbuntu",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "CUDA 12.8",
+      "id": 350519,
+      "title": "CUDA 12.8",
+      "slug": "cuda-12-8",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-11-07T04:35:21.410Z",
+      "last_posted_at": "2025-11-07T04:54:54.918Z",
+      "bumped": true,
+      "bumped_at": "2025-11-07T04:54:54.918Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 74,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 118587,
+            "username": "atip.asvanund",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/atip.asvanund/{size}/89953_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4737667,
+            "username": "tuningManBin",
+            "name": "Bin Xie",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "CUDA 10.1 + Tensorflow 1.13",
+      "id": 70940,
+      "title": "CUDA 10.1 + Tensorflow 1.13",
+      "slug": "cuda-10-1-tensorflow-1-13",
+      "posts_count": 16,
+      "reply_count": 0,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2019-02-27T18:42:20.000Z",
+      "last_posted_at": "2019-07-25T13:18:46.000Z",
+      "bumped": true,
+      "bumped_at": "2019-07-25T13:18:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 44762,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 197289,
+            "username": "lukee2ni6",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 201954,
+            "username": "a.khan",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 201837,
+            "username": "ddsawat",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 113226,
+            "username": "bernard.at.spark",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 216181,
+            "username": "monocongo",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/monocongo/{size}/11802_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "id": 167425,
+      "title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "slug": "why-is-cuda10-0-able-to-work-with-pytorch1-7",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png",
+      "created_at": "2021-02-02T12:31:21.956Z",
+      "last_posted_at": "2021-02-03T12:24:33.989Z",
+      "bumped": true,
+      "bumped_at": "2021-02-03T12:24:33.989Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 2500,
+          "height": 2500,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 800,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_800x800.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_600x600.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 400,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_400x400.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_300x300.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 200,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_200x200.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 584,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 951635,
+            "username": "efbostonlouie",
+            "name": "Efbostonlouie",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6159,
+            "username": "njuffa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Cannot install Cuda for my GeForce GTX 1050 Ti on Ubuntu 18.04 ",
+      "id": 68291,
+      "title": "Cannot install Cuda for my GeForce GTX 1050 Ti on Ubuntu 18.04 ",
+      "slug": "cannot-install-cuda-for-my-geforce-gtx-1050-ti-on-ubuntu-18-04",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2018-12-08T19:54:35.000Z",
+      "last_posted_at": "2018-12-10T19:46:55.000Z",
+      "bumped": true,
+      "bumped_at": "2018-12-10T19:46:55.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 10515,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 198447,
+            "username": "aboriginal.art.connoisseu",
+            "name": "aboriginal.art.connoisseur",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "id": 70317,
+      "title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "slug": "solution-for-gpu-capability-2-1-for-running-tensorflow-and-pytorch",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-02-10T14:48:43.000Z",
+      "last_posted_at": "2019-02-25T16:26:46.000Z",
+      "bumped": true,
+      "bumped_at": "2019-02-25T16:26:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1887,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 200661,
+            "username": "Sonic12345",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 190340,
+            "username": "saulocpp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Cuda 10 - Jetpack 3.1 - Tx2",
+      "id": 79480,
+      "title": "Cuda 10 - Jetpack 3.1 - Tx2",
+      "slug": "cuda-10-jetpack-3-1-tx2",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2019-08-07T06:34:07.000Z",
+      "last_posted_at": "2019-08-07T21:47:07.000Z",
+      "bumped": true,
+      "bumped_at": "2019-08-07T21:47:07.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 876,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 233780,
+            "username": "ikoc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to determine correct cuda dependencies for tensorflow and downgrade",
+      "id": 167984,
+      "title": "How to determine correct cuda dependencies for tensorflow and downgrade",
+      "slug": "how-to-determine-correct-cuda-dependencies-for-tensorflow-and-downgrade",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2021-02-09T10:38:11.640Z",
+      "last_posted_at": "2021-02-09T10:38:11.712Z",
+      "bumped": true,
+      "bumped_at": "2021-02-09T10:38:11.712Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1632,
+      "category_id": 326,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 984888,
+            "username": "neildutoit13",
+            "name": "Neildutoit13",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "dup <a href=\"https://forums.developer.nvidia.com/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/4\" class=\"inline-onebox\">Can I downgrade DGX SPARK to cuda 12? - #4 by mccormackjim3</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4698480,
+        "username": "jefftown",
+        "name": "Daizefu",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 4698480,
+      "username": "jefftown",
+      "name": "Daizefu",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 192972,
+      "username": "NVES",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png"
+    },
+    "links": [
+      {
+        "url": "https://forums.developer.nvidia.com/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/4",
+        "title": "Can I downgrade DGX SPARK to cuda 12?",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 59,
+        "user_id": 192972,
+        "domain": "forums.developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

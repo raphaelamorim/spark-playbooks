@@ -1,0 +1,1442 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1698039,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-18T23:45:38.836Z",
+        "cooked": "<p>My current software stack requires torch and torchaudio. CUDA13 requires torch v2.9. However, it keeps producing problematic audio when using torch v2.9, both with and without GPU enabled. When I switch to torch 2.8 CPU only, the generated audio sounds great. Torch 2.8 only supports CUDA 12, therefore, I couldn’t use the GPU on DGX SPARK if I have to use torch 2.8.</p>\n<p>So I am wondering if SPARK can be downgrade to CUDA 12? I tried to uninstall CUDA13 and install CUDA 12, then Nvidia SMI no longer shows the GPU. When I tried to install the CUDA13 back, everything is broken.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-18T23:45:38.836Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 79,
+        "reads": 67,
+        "readers_count": 66,
+        "score": 363.4,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1698042,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-10-18T23:53:54.127Z",
+        "cooked": "<p>consider using CUDA 12.x based containers from <a href=\"https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags?version=13.0.1-devel-rockylinux9\" class=\"inline-onebox\">GPU-optimized AI, Machine Learning, &amp; HPC Software | NVIDIA NGC</a></p>\n<p>this should not effect your native host software stack, including the GPU driver.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-18T23:53:54.127Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 69,
+        "readers_count": 68,
+        "score": 33.8,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags?version=13.0.1-devel-rockylinux9",
+            "internal": false,
+            "reflection": false,
+            "title": "GPU-optimized AI, Machine Learning, & HPC Software | NVIDIA NGC",
+            "clicks": 28
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698107,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T13:09:11.596Z",
+        "cooked": "<p>Thank you for the advice, I will try out the container approach.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-19T13:09:11.596Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 65,
+        "readers_count": 64,
+        "score": 23.0,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698127,
+        "name": "",
+        "username": "mccormackjim3",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T15:33:08.961Z",
+        "cooked": "<p>Yes – I had to do container route to get indes2-tts running:</p>\n<p>My Key Lessons Learned for IndexTTS on DGX Spark:</p>\n<h3><a name=\"p-1698127-h-1-cuda-pytorch-compatibility-1\" class=\"anchor\" href=\"#p-1698127-h-1-cuda-pytorch-compatibility-1\"></a>1. <strong>CUDA &amp; PyTorch Compatibility</strong></h3>\n<ul>\n<li>\n<p><strong>Use CUDA 12.9.0</strong> with <strong>PyTorch 2.8.0</strong> (test/cu129 channel)</p>\n</li>\n<li>\n<p>Critical: Match exact CUDA version with PyTorch build</p>\n</li>\n<li>\n<p>Command: <code>pip3 install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/test/cu129</code></p>\n</li>\n</ul>\n<h3><a name=\"p-1698127-h-2-dependency-management-2\" class=\"anchor\" href=\"#p-1698127-h-2-dependency-management-2\"></a>2. <strong>Dependency Management</strong></h3>\n<ul>\n<li>\n<p><strong>Install in correct order</strong>: System deps → PyTorch → Core ML → Audio processing → UI</p>\n</li>\n<li>\n<p><strong>Essential system packages</strong>: <code>python3 python3-pip espeak-ng ffmpeg</code></p>\n</li>\n<li>\n<p><strong>Core ML stack</strong>: <code>transformers==4.52.1 tokenizers==0.21.0 safetensors==0.5.2 accelerate==1.8.1</code></p>\n</li>\n<li>\n<p><strong>Audio processing</strong>: <code>librosa==0.10.2.post1 soundfile numba==0.58.1</code></p>\n</li>\n<li>\n<p><strong>Web UI</strong>: <code>gradio==5.45.0</code></p>\n</li>\n</ul>\n<p></p><div class=\"video-placeholder-container\" data-video-src=\"https://global.discourse-cdn.com/nvidia/original/4X/8/e/4/8e4190cddad8255127ca4ce64d94236c4aefb6ec.mp4\" data-thumbnail-src=\"https://global.discourse-cdn.com/nvidia/original/4X/4/d/2/4d23cd33bacd26856f6e6ee274c75592b917558f.jpeg\" data-video-base62-sha1=\"kish1l2be4vblqGRjfsUaChtm6U.mp4\">\n  </div><p></p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-19T15:33:08.961Z",
+        "reply_count": 2,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 10,
+        "reads": 61,
+        "readers_count": 60,
+        "score": 82.2,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/can-i-downgrade-dgx-spark-to-cuda-12/348158/2",
+            "internal": true,
+            "reflection": true,
+            "title": "Can I downgrade DGX SPARK to cuda 12?",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 4698480,
+          "username": "jefftown",
+          "name": "Daizefu",
+          "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2917284,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698130,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T15:50:02.021Z",
+        "cooked": "<p>Hi Maccormackjim3, I am doing IntexTTS on DGX too. Your input is real valuable to me. Thank you for sharing.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-19T15:50:02.021Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 53,
+        "readers_count": 52,
+        "score": 35.6,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 2917284,
+          "username": "mccormackjim3",
+          "name": "",
+          "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/5",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698187,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T22:08:21.434Z",
+        "cooked": "<aside class=\"quote no-group\" data-username=\"mccormackjim3\" data-post=\"4\" data-topic=\"348191\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" class=\"avatar\" src=\"https://global.discourse-cdn.com/nvidia/original/4X/c/f/c/cfcd0270f5f560aad9f92e18c2ee3db07608c343.png\" data-dominant-color=\"DADBDA\"> mccormackjim3:</div>\n<blockquote>\n<p>ial system packag</p>\n</blockquote>\n</aside>\n<p>I finally got it working with the docker image. Have to spend quite a bit of time resolving the pynini package installation issue. Basically I have to install conda in the docker to get a working version of the pynini. And getting conda to activate the enviroment in docker is also not an easy task. Other than that, things are in order now and I can produce clear audio on SPARK.</p>\n<p>Cheers</p>",
+        "post_number": 7,
+        "post_type": 1,
+        "posts_count": 7,
+        "updated_at": "2025-10-19T22:09:23.564Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 1,
+        "incoming_link_count": 0,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 23.0,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/7",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1706369,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-02T22:08:44.396Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 8,
+        "post_type": 3,
+        "posts_count": 7,
+        "updated_at": "2025-11-02T22:08:44.396Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 8,
+        "readers_count": 7,
+        "score": 16.6,
+        "yours": false,
+        "topic_id": 348191,
+        "topic_slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/can-i-downgrade-dgx-spark-to-cuda-12/348191/8",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1698039,
+      1698042,
+      1698107,
+      1698127,
+      1698130,
+      1698187,
+      1706369
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      38
+    ],
+    [
+      3,
+      37
+    ],
+    [
+      7,
+      23
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Can I downgrade DGX SPARK to cuda 12?",
+  "id": 348191,
+  "title": "Can I downgrade DGX SPARK to cuda 12?",
+  "posts_count": 7,
+  "created_at": "2025-10-18T23:45:38.763Z",
+  "views": 343,
+  "reply_count": 4,
+  "like_count": 4,
+  "last_posted_at": "2025-11-02T22:08:44.396Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+  "category_id": 721,
+  "word_count": 409,
+  "deleted_at": null,
+  "user_id": 4698480,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348191",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 8,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 1,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Can I downgrade DGX SPARK to cuda 12?",
+      "id": 348158,
+      "title": "Can I downgrade DGX SPARK to cuda 12?",
+      "slug": "can-i-downgrade-dgx-spark-to-cuda-12",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-18T14:10:51.238Z",
+      "last_posted_at": "2025-10-20T19:33:32.992Z",
+      "bumped": true,
+      "bumped_at": "2025-10-20T19:33:32.992Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 150,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4698480,
+            "username": "jefftown",
+            "name": "Daizefu",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Install torchaudio and torchvison from wheel",
+      "id": 230097,
+      "title": "Install torchaudio and torchvison from wheel",
+      "slug": "install-torchaudio-and-torchvison-from-wheel",
+      "posts_count": 13,
+      "reply_count": 8,
+      "highest_post_number": 15,
+      "image_url": null,
+      "created_at": "2022-10-07T03:13:44.181Z",
+      "last_posted_at": "2022-10-17T02:44:37.344Z",
+      "bumped": true,
+      "bumped_at": "2022-10-17T02:44:37.344Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "pytorch",
+        "ngc"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 6215,
+      "category_id": 258,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 679943,
+            "username": "yilinw",
+            "name": "Yilinw",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1757914,
+            "username": "rroldan",
+            "name": "Rafael Roldán",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rroldan/{size}/181186_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Effective PyTorch and CUDA",
+      "id": 348230,
+      "title": "Effective PyTorch and CUDA",
+      "slug": "effective-pytorch-and-cuda",
+      "posts_count": 19,
+      "reply_count": 14,
+      "highest_post_number": 21,
+      "image_url": null,
+      "created_at": "2025-10-19T21:38:29.644Z",
+      "last_posted_at": "2025-11-18T02:21:45.937Z",
+      "bumped": true,
+      "bumped_at": "2025-11-18T02:21:45.937Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cudnn"
+      ],
+      "tags_descriptions": {},
+      "like_count": 6,
+      "views": 2588,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4630376,
+            "username": "markl02us",
+            "name": "Markl02us",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 43960,
+            "username": "abull",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4417968,
+            "username": "naeemgtng",
+            "name": "Naeem",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4715116,
+            "username": "weile.wang",
+            "name": "Weile Wang",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4594174,
+            "username": "simon.thornington",
+            "name": "Simon Thornington",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/simon.thornington/{size}/436434_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Install torchaudio and torchvison from wheel",
+      "id": 235604,
+      "title": "Install torchaudio and torchvison from wheel",
+      "slug": "install-torchaudio-and-torchvison-from-wheel",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2022-11-28T15:21:33.310Z",
+      "last_posted_at": "2022-12-21T04:57:34.113Z",
+      "bumped": true,
+      "bumped_at": "2022-11-29T15:33:40.705Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1719,
+      "category_id": 486,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 363349,
+            "username": "father",
+            "name": "保密",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/father/{size}/159489_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Install Pytorch on Jetson TK1",
+      "id": 52070,
+      "title": "Install Pytorch on Jetson TK1",
+      "slug": "install-pytorch-on-jetson-tk1",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2017-07-29T00:55:22.000Z",
+      "last_posted_at": "2021-10-18T18:44:41.007Z",
+      "bumped": true,
+      "bumped_at": "2019-08-12T14:50:03.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2505,
+      "category_id": 79,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 42100,
+            "username": "LiminMandawa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 160067,
+            "username": "christina.bukas",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 213769,
+            "username": "najam.r.syed",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "id": 70317,
+      "title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "slug": "solution-for-gpu-capability-2-1-for-running-tensorflow-and-pytorch",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-02-10T14:48:43.000Z",
+      "last_posted_at": "2019-02-25T16:26:46.000Z",
+      "bumped": true,
+      "bumped_at": "2019-02-25T16:26:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1887,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 200661,
+            "username": "Sonic12345",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 190340,
+            "username": "saulocpp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVIDIA RTX A6000 with CUDA capability sm_86 is not compatible with the current PyTorch installation.(Preview3)",
+      "id": 194083,
+      "title": "NVIDIA RTX A6000 with CUDA capability sm_86 is not compatible with the current PyTorch installation.(Preview3)",
+      "slug": "nvidia-rtx-a6000-with-cuda-capability-sm-86-is-not-compatible-with-the-current-pytorch-installation-preview3",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2021-11-05T01:21:25.387Z",
+      "last_posted_at": "2022-04-13T11:40:27.507Z",
+      "bumped": true,
+      "bumped_at": "2022-04-13T11:45:45.060Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 18697,
+      "category_id": 322,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 330790,
+            "username": "DDPG7",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1719920,
+            "username": "anshugarg20171",
+            "name": "Anshugarg20171",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 304142,
+            "username": "ikbangesh",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson-voice: Please update PyTorch to remain compatible with later versions of NeMo",
+      "id": 197711,
+      "title": "Jetson-voice: Please update PyTorch to remain compatible with later versions of NeMo",
+      "slug": "jetson-voice-please-update-pytorch-to-remain-compatible-with-later-versions-of-nemo",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2021-12-10T15:02:04.301Z",
+      "last_posted_at": "2022-02-04T20:39:30.932Z",
+      "bumped": true,
+      "bumped_at": "2021-12-22T15:37:23.063Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 747,
+      "category_id": 475,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1395166,
+            "username": "vanessa.crosby",
+            "name": "Vanessa Crosby",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vanessa.crosby/{size}/147868_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 658931,
+            "username": "rleary",
+            "name": "Ryan L",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rleary/{size}/136703_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "No torchaudio package that works with torch for Cuda",
+      "id": 300670,
+      "title": "No torchaudio package that works with torch for Cuda",
+      "slug": "no-torchaudio-package-that-works-with-torch-for-cuda",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2024-07-22T12:19:05.083Z",
+      "last_posted_at": "2024-08-12T09:02:31.280Z",
+      "bumped": true,
+      "bumped_at": "2024-07-29T09:01:50.916Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 1035,
+      "category_id": 632,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3638236,
+            "username": "jeroenvanhattem",
+            "name": "Jeroenvanhattem",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3661863,
+            "username": "anay.gokhale123",
+            "name": "Anay Gokhale123",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to cuda cores while using pytorch models ? only in cpu mode i can run my program which takes more time",
+      "id": 172960,
+      "title": "How to cuda cores while using pytorch models ? only in cpu mode i can run my program which takes more time",
+      "slug": "how-to-cuda-cores-while-using-pytorch-models-only-in-cpu-mode-i-can-run-my-program-which-takes-more-time",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2021-03-22T07:27:39.839Z",
+      "last_posted_at": "2021-10-18T18:15:18.679Z",
+      "bumped": true,
+      "bumped_at": "2021-03-26T06:56:53.537Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda",
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1248,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1068614,
+            "username": "nandkmyadav",
+            "name": "Nandkmyadav",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 4,
+    "username": "mccormackjim3",
+    "name": null,
+    "excerpt": "Yes – I had to do container route to get indes2-tts running: \nMy Key Lessons Learned for IndexTTS on DGX Spark: \n<a name=\"p-1698127-h-1-cuda-pytorch-compatibility-1\" class=\"anchor\" href=\"#p-1698127-h-1-cuda-pytorch-compatibility-1\"></a>1. CUDA &amp; PyTorch Compatibility\n\n\nUse CUDA 12.9.0 with PyTorch 2.8.0 (test/cu129 channel) \n\n\nCritical: Match exact CUDA version with PyTorch build \n\n\nCommand: pip3 install torch==2.8.0 to&hellip;",
+    "accepter_name": null,
+    "accepter_username": "jefftown"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4698480,
+        "username": "jefftown",
+        "name": "Daizefu",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 4,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 2917284,
+        "username": "mccormackjim3",
+        "name": "",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 4698480,
+      "username": "jefftown",
+      "name": "Daizefu",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png"
+    },
+    "links": [
+      {
+        "url": "https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags?version=13.0.1-devel-rockylinux9",
+        "title": "GPU-optimized AI, Machine Learning, & HPC Software | NVIDIA NGC",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 28,
+        "user_id": 192972,
+        "domain": "catalog.ngc.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

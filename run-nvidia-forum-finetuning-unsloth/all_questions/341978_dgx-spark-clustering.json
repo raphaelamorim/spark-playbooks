@@ -1,0 +1,1147 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1664135,
+        "name": "Hyson",
+        "username": "hyson",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-08-13T01:39:03.557Z",
+        "cooked": "<p>Hello,</p>\n<p>AFAIK, 2 DGX sparks can be directly clustered via connectX-7 ports,<br>\nDoes DGX sparks support clustering more than 3 nodes?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-08-13T01:39:03.557Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 587,
+        "reads": 135,
+        "readers_count": 134,
+        "score": 2926.8,
+        "yours": false,
+        "topic_id": 341978,
+        "topic_slug": "dgx-spark-clustering",
+        "display_username": "Hyson",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3271547,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-spark-clustering/341978/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1664291,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-08-13T02:42:55.315Z",
+        "cooked": "<p>Hi,</p>\n<p>We support stacking of up to TWO DGX Spark with an approved QSFP cable at this time.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-08-13T02:42:55.315Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 134,
+        "readers_count": 133,
+        "score": 41.6,
+        "yours": false,
+        "topic_id": 341978,
+        "topic_slug": "dgx-spark-clustering",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-spark-clustering/341978/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1665109,
+        "name": "Craig Mcintosh",
+        "username": "craig_mcintosh",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/craig_mcintosh/{size}/434206_2.png",
+        "created_at": "2025-08-13T19:03:05.636Z",
+        "cooked": "<p>When are we going to get an update on release so we can purchase them?</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-08-13T19:03:05.636Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 129,
+        "readers_count": 128,
+        "score": 50.6,
+        "yours": false,
+        "topic_id": 341978,
+        "topic_slug": "dgx-spark-clustering",
+        "display_username": "Craig Mcintosh",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 192972,
+          "username": "NVES",
+          "name": null,
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4569958,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-spark-clustering/341978/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1672230,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-08-27T19:03:45.096Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-08-27T19:03:45.096Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 60,
+        "readers_count": 59,
+        "score": 32.0,
+        "yours": false,
+        "topic_id": 341978,
+        "topic_slug": "dgx-spark-clustering",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/dgx-spark-clustering/341978/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1664135,
+      1664291,
+      1665109,
+      1672230
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      105
+    ],
+    [
+      3,
+      104
+    ],
+    [
+      4,
+      90
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "DGX Spark Clustering",
+  "id": 341978,
+  "title": "DGX Spark Clustering",
+  "posts_count": 4,
+  "created_at": "2025-08-13T01:39:03.161Z",
+  "views": 1309,
+  "reply_count": 1,
+  "like_count": 0,
+  "last_posted_at": "2025-08-13T19:03:05.636Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "dgx-spark-clustering",
+  "category_id": 721,
+  "word_count": 55,
+  "deleted_at": null,
+  "user_id": 3271547,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_341978",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "How many DGX Sparks can be interconnected using ConnectX?",
+      "id": 348459,
+      "title": "How many DGX Sparks can be interconnected using ConnectX?",
+      "slug": "how-many-dgx-sparks-can-be-interconnected-using-connectx",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2025-10-21T04:03:18.963Z",
+      "last_posted_at": "2025-10-21T04:15:37.238Z",
+      "bumped": true,
+      "bumped_at": "2025-10-21T04:15:37.238Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 761,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4600842,
+            "username": "s0ne",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Connecting 2 or more Tesla S U1 series is it possible?",
+      "id": 4765,
+      "title": "Connecting 2 or more Tesla S U1 series is it possible?",
+      "slug": "connecting-2-or-more-tesla-s-u1-series-is-it-possible",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2008-07-27T13:49:34.000Z",
+      "last_posted_at": "2008-07-28T08:24:49.000Z",
+      "bumped": true,
+      "bumped_at": "2008-07-28T08:24:49.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2426,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2512,
+            "username": "Michal",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 213,
+            "username": "netllama",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2435,
+            "username": "spg",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark Cluster larger than 2 nodes",
+      "id": 350622,
+      "title": "DGX Spark Cluster larger than 2 nodes",
+      "slug": "dgx-spark-cluster-larger-than-2-nodes",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-11-07T20:47:51.536Z",
+      "last_posted_at": "2025-11-07T20:50:51.300Z",
+      "bumped": true,
+      "bumped_at": "2025-11-07T20:47:51.631Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 1,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 45,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4739447,
+            "username": "steve362",
+            "name": "Steve",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -3,
+            "username": "discourse_ai_spam",
+            "name": "Discourse AI Spam Scanner",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/discourse_ai_spam/{size}/415330_2.png",
+            "admin": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "outfit a new cluster with GPUs help me decide",
+      "id": 7655,
+      "title": "outfit a new cluster with GPUs help me decide",
+      "slug": "outfit-a-new-cluster-with-gpus-help-me-decide",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2009-02-06T22:33:18.000Z",
+      "last_posted_at": "2009-02-07T16:11:45.000Z",
+      "bumped": true,
+      "bumped_at": "2009-02-07T16:11:45.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4176,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4042,
+            "username": "faircdl",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271,
+            "username": "seibert",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1354,
+            "username": "kristleifur",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kristleifur/{size}/12055_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "4-Way GPU Cluster",
+      "id": 24385,
+      "title": "4-Way GPU Cluster",
+      "slug": "4-way-gpu-cluster",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2011-09-20T09:06:21.000Z",
+      "last_posted_at": "2011-09-20T12:06:50.000Z",
+      "bumped": true,
+      "bumped_at": "2011-09-20T12:06:50.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 7887,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 8320,
+            "username": "satyam_shivam",
+            "name": "satyam shivam",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6675,
+            "username": "lycan_warlord",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/lycan_warlord/{size}/12112_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 271,
+            "username": "seibert",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Motherboards for multiple video cards",
+      "id": 3098,
+      "title": "Motherboards for multiple video cards",
+      "slug": "motherboards-for-multiple-video-cards",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2008-03-22T11:29:00.000Z",
+      "last_posted_at": "2008-04-11T08:05:36.000Z",
+      "bumped": true,
+      "bumped_at": "2008-04-11T08:05:36.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 6408,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1456,
+            "username": "koby",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1797,
+            "username": "crepatas",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 316,
+            "username": "Mu-Chi_Sung",
+            "name": "Mu-Chi Sung",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 270,
+            "username": "tachyon_john",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1085,
+            "username": "DenisR",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Great creative design for a 4320 GPU super cluster",
+      "id": 11834,
+      "title": "Great creative design for a 4320 GPU super cluster",
+      "slug": "great-creative-design-for-a-4320-gpu-super-cluster",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2009-08-27T19:49:24.000Z",
+      "last_posted_at": "2009-08-28T11:48:35.000Z",
+      "bumped": true,
+      "bumped_at": "2009-08-28T11:48:35.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3469,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2309,
+            "username": "SPWorley",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 944,
+            "username": "Qazax",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/qazax/{size}/9728_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1354,
+            "username": "kristleifur",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kristleifur/{size}/12055_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "4x 9800 GX2 possible? Quad 9800GX2 specification",
+      "id": 3568,
+      "title": "4x 9800 GX2 possible? Quad 9800GX2 specification",
+      "slug": "4x-9800-gx2-possible-quad-9800gx2-specification",
+      "posts_count": 39,
+      "reply_count": 0,
+      "highest_post_number": 39,
+      "image_url": null,
+      "created_at": "2008-05-01T21:04:34.000Z",
+      "last_posted_at": "2008-06-13T15:39:46.000Z",
+      "bumped": true,
+      "bumped_at": "2008-06-13T15:39:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 36982,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1304,
+            "username": "afaulconbridge",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 944,
+            "username": "Qazax",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/qazax/{size}/9728_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1838,
+            "username": "skippy1729",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 403,
+            "username": "DrYak",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dryak/{size}/12037_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2081,
+            "username": "afaulconbridge2",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson TX2 or TX1 clustering?",
+      "id": 51036,
+      "title": "Jetson TX2 or TX1 clustering?",
+      "slug": "jetson-tx2-or-tx1-clustering",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2017-06-23T08:32:12.000Z",
+      "last_posted_at": "2021-10-18T18:26:43.304Z",
+      "bumped": true,
+      "bumped_at": "2017-08-08T17:58:30.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2062,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 40876,
+            "username": "vii22",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vii22/{size}/11159_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 21533,
+            "username": "snarky",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/snarky/{size}/10446_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 23455,
+            "username": "ahthomas",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Is GeForce HPC possible?",
+      "id": 25890,
+      "title": "Is GeForce HPC possible?",
+      "slug": "is-geforce-hpc-possible",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2012-02-25T01:23:20.000Z",
+      "last_posted_at": "2012-02-27T00:16:36.000Z",
+      "bumped": true,
+      "bumped_at": "2012-02-27T00:16:36.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5961,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 12518,
+            "username": "KenjiK",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3243,
+            "username": "Gregory_Diamos",
+            "name": "Gregory Diamos",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271,
+            "username": "seibert",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "Hi, \nWe support stacking of up to TWO DGX Spark with an approved QSFP cable at this time.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4569958,
+        "username": "craig_mcintosh",
+        "name": "Craig Mcintosh",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/craig_mcintosh/{size}/434206_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3271547,
+        "username": "hyson",
+        "name": "Hyson",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 3271547,
+      "username": "hyson",
+      "name": "Hyson",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 4569958,
+      "username": "craig_mcintosh",
+      "name": "Craig Mcintosh",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/craig_mcintosh/{size}/434206_2.png"
+    }
+  },
+  "bookmarks": []
+}

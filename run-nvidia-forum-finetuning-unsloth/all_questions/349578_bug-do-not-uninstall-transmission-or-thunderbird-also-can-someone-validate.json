@@ -1,0 +1,1119 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1705151,
+        "name": "",
+        "username": "RazielAU",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T11:34:14.604Z",
+        "cooked": "<p>Since I’m not planning to download torrents or check e-mail, I decided to uninstall Thunderbird and Transmission using the Software GUI tool. Uninstalling either via the GUI seems to delete a whole bunch of packages, including all the NVIDIA themes and lots of tools/apps.</p>\n<p>I restored my system to a good state using Timeshift, then tried it again to see what would happen, and it did the same thing the second time around, so I suspect this might be a bug.</p>\n<p>Can someone who’s either happy to reimage or that has a Timeshift backup ready to restore try this out as well, as I’m considering to reimage if this is something related to my installation, rather than a general bug. If it is a bug, hopefully NVIDIA can fix it as I really want to get rid of some of these default apps I’m never going to use.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T11:34:14.604Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 7,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 30.0,
+        "yours": false,
+        "topic_id": 349578,
+        "topic_slug": "bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 583476,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate/349578/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1705277,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-30T15:12:57.597Z",
+        "cooked": "<p>This looks to be related to a known issue and we are working on it: <a href=\"https://forums.developer.nvidia.com/t/dgx-spark-don-t-remove-games/348170\" class=\"inline-onebox\">DGX Spark - don’t remove games?</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T15:12:57.597Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 24,
+        "readers_count": 23,
+        "score": 14.8,
+        "yours": false,
+        "topic_id": 349578,
+        "topic_slug": "bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/dgx-spark-don-t-remove-games/348170",
+            "internal": true,
+            "reflection": false,
+            "title": "DGX Spark - don’t remove games?",
+            "clicks": 13
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate/349578/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1705447,
+        "name": "",
+        "username": "RazielAU",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T22:34:16.815Z",
+        "cooked": "<p>Excellent, by the way, I don’t think it’s just those two apps, those are just the ones I tried uninstalling. But yeah, it leaves you with a whole bunch of stuff missing. I assume that means there’s no need for me to reimage? Just wait till the issue is solved?</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T22:34:38.987Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 19.2,
+        "yours": false,
+        "topic_id": 349578,
+        "topic_slug": "bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate",
+        "display_username": "",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 3567453,
+          "username": "aniculescu",
+          "name": "Aniculescu",
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 583476,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate/349578/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715812,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:38:03.283Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 5,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-17T19:38:03.283Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 349578,
+        "topic_slug": "bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate/349578/5",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1705151,
+      1705277,
+      1705447,
+      1715812
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      26
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "BUG: Do not uninstall transmission or thunderbird (also, can someone validate)",
+  "id": 349578,
+  "title": "BUG: Do not uninstall transmission or thunderbird (also, can someone validate)",
+  "posts_count": 4,
+  "created_at": "2025-10-30T11:34:14.534Z",
+  "views": 71,
+  "reply_count": 1,
+  "like_count": 0,
+  "last_posted_at": "2025-10-30T22:34:16.815Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "bug-do-not-uninstall-transmission-or-thunderbird-also-can-someone-validate",
+  "category_id": 721,
+  "word_count": 235,
+  "deleted_at": null,
+  "user_id": 583476,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_349578",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "No &ldquo;nvidia_profiles&rdquo; at uninstall",
+      "id": 58306,
+      "title": "No \"nvidia_profiles\" at uninstall",
+      "slug": "no-nvidia-profiles-at-uninstall",
+      "posts_count": 17,
+      "reply_count": 0,
+      "highest_post_number": 17,
+      "image_url": null,
+      "created_at": "2018-02-17T23:51:46.000Z",
+      "last_posted_at": "2021-10-14T20:17:46.169Z",
+      "bumped": true,
+      "bumped_at": "2018-02-21T22:54:34.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2806,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 145002,
+            "username": "burningjule",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 110644,
+            "username": "VulkanGuy",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vulkanguy/{size}/11251_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "downgrade process from CUDA 4.2 to CUDA 4.0 on Ubuntu 12.10 purges entire /usr/bin",
+      "id": 31804,
+      "title": "downgrade process from CUDA 4.2 to CUDA 4.0 on Ubuntu 12.10 purges entire /usr/bin",
+      "slug": "downgrade-process-from-cuda-4-2-to-cuda-4-0-on-ubuntu-12-10-purges-entire-usr-bin",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2013-12-22T20:12:04.000Z",
+      "last_posted_at": "2013-12-22T20:12:04.000Z",
+      "bumped": false,
+      "bumped_at": "2013-12-22T20:12:04.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 583,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 18489,
+            "username": "vargaconsulting",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "JetPack 2.2 and L4T R24.1 for Jetson TX1 released",
+      "id": 43328,
+      "title": "JetPack 2.2 and L4T R24.1 for Jetson TX1 released",
+      "slug": "jetpack-2-2-and-l4t-r24-1-for-jetson-tx1-released",
+      "posts_count": 45,
+      "reply_count": 0,
+      "highest_post_number": 45,
+      "image_url": null,
+      "created_at": "2016-06-16T11:53:44.000Z",
+      "last_posted_at": "2016-10-07T06:14:53.000Z",
+      "bumped": true,
+      "bumped_at": "2016-10-07T06:14:53.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 13458,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 32451,
+            "username": "Gary_4001",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gary_4001/{size}/12639_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 30432,
+            "username": "shallownet",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 32862,
+            "username": "josepqp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Crappy installer/uninstaller",
+      "id": 36566,
+      "title": "Crappy installer/uninstaller",
+      "slug": "crappy-installer-uninstaller",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2015-01-30T09:11:29.000Z",
+      "last_posted_at": "2015-02-07T15:36:07.000Z",
+      "bumped": true,
+      "bumped_at": "2015-02-07T15:36:07.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2446,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13453,
+            "username": "MrTheSoulz",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mrthesoulz/{size}/10088_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14114,
+            "username": "brebs",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/brebs/{size}/10124_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 15871,
+            "username": "blackout24",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 24478,
+            "username": "dad_gf",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "toolkit,sdk,graphic driver installation completally installed as directed but not verified",
+      "id": 12507,
+      "title": "toolkit,sdk,graphic driver installation completally installed as directed but not verified",
+      "slug": "toolkit-sdk-graphic-driver-installation-completally-installed-as-directed-but-not-verified",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2009-10-01T06:17:39.000Z",
+      "last_posted_at": "2009-10-01T06:17:39.000Z",
+      "bumped": false,
+      "bumped_at": "2009-10-01T06:17:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1073,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 6406,
+            "username": "abhis786hek",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson TK1 - ttf-mscorefonts-installer Notification",
+      "id": 34185,
+      "title": "Jetson TK1 - ttf-mscorefonts-installer Notification",
+      "slug": "jetson-tk1-ttf-mscorefonts-installer-notification",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9.png",
+      "created_at": "2014-07-24T22:52:42.000Z",
+      "last_posted_at": "2014-07-24T22:52:42.000Z",
+      "bumped": false,
+      "bumped_at": "2014-07-24T22:52:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 640,
+          "height": 480,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 450,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9_2_600x450.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9_2_400x300.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 225,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9_2_300x225.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 150,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/012d225339151c166801fa98d9a5758fc94312d9_2_200x150.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 888,
+      "category_id": 79,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 22088,
+            "username": "Yakov",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/yakov/{size}/12385_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Cuda 2.3 Toolkit/SDK Uninstallation Problem",
+      "id": 17145,
+      "title": "Cuda 2.3 Toolkit/SDK Uninstallation Problem",
+      "slug": "cuda-2-3-toolkit-sdk-uninstallation-problem",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2010-06-12T09:42:03.000Z",
+      "last_posted_at": "2010-08-11T16:17:46.000Z",
+      "bumped": true,
+      "bumped_at": "2010-08-11T16:17:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2001,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 7748,
+            "username": "sacrif",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7910,
+            "username": "HdcDst",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Uninstallation problems, help please.",
+      "id": 67214,
+      "title": "Uninstallation problems, help please.",
+      "slug": "uninstallation-problems-help-please",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-11-10T08:23:34.000Z",
+      "last_posted_at": "2018-11-12T12:41:39.000Z",
+      "bumped": true,
+      "bumped_at": "2018-11-12T12:41:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 408,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 197190,
+            "username": "piercingdragoneyes",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 190340,
+            "username": "saulocpp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How do I unistall NVDIA*.run files",
+      "id": 32097,
+      "title": "How do I unistall NVDIA*.run files",
+      "slug": "how-do-i-unistall-nvdia-run-files",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2014-01-27T00:37:24.000Z",
+      "last_posted_at": "2014-03-08T17:41:40.000Z",
+      "bumped": true,
+      "bumped_at": "2014-03-08T17:41:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 22664,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 19000,
+            "username": "Moone-1",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13172,
+            "username": "AndyDick",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/andydick/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 19185,
+            "username": "DanHansenDenmark",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson TX1 Ubuntu desktop graphics glitch",
+      "id": 42322,
+      "title": "Jetson TX1 Ubuntu desktop graphics glitch",
+      "slug": "jetson-tx1-ubuntu-desktop-graphics-glitch",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2016-04-14T13:37:19.000Z",
+      "last_posted_at": "2016-05-19T19:30:51.000Z",
+      "bumped": true,
+      "bumped_at": "2016-05-19T19:30:51.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1679,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 31723,
+            "username": "GottaMoveThese",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 31568,
+            "username": "Jijikos",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28097,
+            "username": "CHuang1",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/chuang1/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 32228,
+            "username": "FedoraLabs",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "This looks to be related to a known issue and we are working on it: <a href=\"https://forums.developer.nvidia.com/t/dgx-spark-don-t-remove-games/348170\" class=\"inline-onebox\">DGX Spark - don’t remove games?</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 583476,
+        "username": "RazielAU",
+        "name": "",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 583476,
+      "username": "RazielAU",
+      "name": "",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 583476,
+      "username": "RazielAU",
+      "name": "",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "links": [
+      {
+        "url": "https://forums.developer.nvidia.com/t/dgx-spark-don-t-remove-games/348170",
+        "title": "DGX Spark - don’t remove games?",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 13,
+        "user_id": 3567453,
+        "domain": "forums.developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

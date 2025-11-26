@@ -1,0 +1,1099 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1702126,
+        "name": "Ira2laefsky",
+        "username": "ira2laefsky",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-26T02:08:21.024Z",
+        "cooked": "<p>Is there a simple way to install the AFFINE Notebook application and local storage on my SSD with the DGX Spark?  If not is there a secure local allternative to Notebook LM which can reside on the DGX Spark?  I appologize in advance if I have used the wrong portion of NVIDA forums to post this query – Ira Laefsky</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-26T02:08:53.383Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 13,
+        "reads": 16,
+        "readers_count": 15,
+        "score": 68.2,
+        "yours": false,
+        "topic_id": 348943,
+        "topic_slug": "is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark",
+        "display_username": "Ira2laefsky",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2292768,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark/348943/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1703827,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-28T16:40:53.763Z",
+        "cooked": "<p>If AFFINE can be used on an ARM based Ubuntu system then it should be installable. For more specific info you would need to contact them</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-28T16:40:53.763Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 2.2,
+        "yours": false,
+        "topic_id": 348943,
+        "topic_slug": "is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark/348943/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715799,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:32:07.243Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:32:07.243Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 348943,
+        "topic_slug": "is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark/348943/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1702126,
+      1703827,
+      1715799
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      31
+    ],
+    [
+      2,
+      28
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Is there a simple way to install AFFINE Notebooks and Local Storage on the DGX Spark?",
+  "id": 348943,
+  "title": "Is there a simple way to install AFFINE Notebooks and Local Storage on the DGX Spark?",
+  "posts_count": 3,
+  "created_at": "2025-10-26T02:08:20.958Z",
+  "views": 53,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-28T16:40:53.763Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "is-there-a-simple-way-to-install-affine-notebooks-and-local-storage-on-the-dgx-spark",
+  "category_id": 721,
+  "word_count": 85,
+  "deleted_at": null,
+  "user_id": 2292768,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348943",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Workstation which is not DGX",
+      "id": 64459,
+      "title": "Workstation which is not DGX",
+      "slug": "workstation-which-is-not-dgx",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-08-24T11:52:28.000Z",
+      "last_posted_at": "2018-08-27T17:52:34.000Z",
+      "bumped": true,
+      "bumped_at": "2018-08-27T17:52:34.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 840,
+      "category_id": 33,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 180183,
+            "username": "prashanth.bhat",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 45216,
+            "username": "gcrider",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gcrider/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX practical management for multi user system",
+      "id": 79765,
+      "title": "DGX practical management for multi user system",
+      "slug": "dgx-practical-management-for-multi-user-system",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-08-12T12:09:42.000Z",
+      "last_posted_at": "2019-08-27T18:49:40.000Z",
+      "bumped": true,
+      "bumped_at": "2019-08-27T18:49:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1657,
+      "category_id": 10,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 150863,
+            "username": "Sonicious",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sonicious/{size}/11443_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 75592,
+            "username": "ScottEllis",
+            "name": "Scott Ellis",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/scottellis/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Armhf docker image on L4T arm64 with GPU accelerated OpenGL?  = Netflix playback :-)",
+      "id": 78406,
+      "title": "Armhf docker image on L4T arm64 with GPU accelerated OpenGL?  = Netflix playback :-)",
+      "slug": "armhf-docker-image-on-l4t-arm64-with-gpu-accelerated-opengl-netflix-playback",
+      "posts_count": 13,
+      "reply_count": 0,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2019-07-20T14:10:56.000Z",
+      "last_posted_at": "2021-10-18T17:44:49.647Z",
+      "bumped": true,
+      "bumped_at": "2019-07-25T21:30:53.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2131,
+      "category_id": 76,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 225495,
+            "username": "mr.chrismitchells",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 21533,
+            "username": "snarky",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/snarky/{size}/10446_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to install DIGITS and make it work with GPU? ",
+      "id": 57435,
+      "title": "How to install DIGITS and make it work with GPU? ",
+      "slug": "how-to-install-digits-and-make-it-work-with-gpu",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2018-01-25T09:53:23.000Z",
+      "last_posted_at": "2021-10-18T18:32:06.227Z",
+      "bumped": true,
+      "bumped_at": "2019-04-16T09:06:00.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 888,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 105161,
+            "username": "doruk.snmz",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 301988,
+            "username": "cudaeducation",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Please Nvidia could you build an ARM version of the SDKmanager ?",
+      "id": 107298,
+      "title": "Please Nvidia could you build an ARM version of the SDKmanager ?",
+      "slug": "please-nvidia-could-you-build-an-arm-version-of-the-sdkmanager",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-11-12T17:28:55.000Z",
+      "last_posted_at": "2019-11-12T21:23:45.000Z",
+      "bumped": true,
+      "bumped_at": "2019-11-12T21:23:45.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 515,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 232367,
+            "username": "mrcstckln",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 213336,
+            "username": "mdegans",
+            "name": "Michael de Gans",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mdegans/{size}/13104_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Ubuntu installed on Drive PX2",
+      "id": 65519,
+      "title": "Ubuntu installed on Drive PX2",
+      "slug": "ubuntu-installed-on-drive-px2",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-09-25T22:07:47.000Z",
+      "last_posted_at": "2018-09-26T01:19:40.000Z",
+      "bumped": true,
+      "bumped_at": "2018-09-26T01:19:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 851,
+      "category_id": 62,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 195206,
+            "username": "bramar",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nvidia SDK manager wont install",
+      "id": 78265,
+      "title": "Nvidia SDK manager wont install",
+      "slug": "nvidia-sdk-manager-wont-install",
+      "posts_count": 28,
+      "reply_count": 0,
+      "highest_post_number": 28,
+      "image_url": null,
+      "created_at": "2019-07-18T08:02:54.000Z",
+      "last_posted_at": "2021-10-14T23:54:42.405Z",
+      "bumped": true,
+      "bumped_at": "2020-01-24T02:18:03.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 11113,
+      "category_id": 76,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 251927,
+            "username": "turbocaff",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Accepted Answer",
+          "user": {
+            "id": 240573,
+            "username": "mans_a",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 252216,
+            "username": "mczemek",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 323203,
+            "username": "yahoo4660",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Extend the storage of Drive PX2",
+      "id": 67468,
+      "title": "Extend the storage of Drive PX2",
+      "slug": "extend-the-storage-of-drive-px2",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2018-11-15T20:50:22.000Z",
+      "last_posted_at": "2021-10-12T20:07:11.075Z",
+      "bumped": true,
+      "bumped_at": "2020-02-09T16:28:04.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 988,
+      "category_id": 63,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 197430,
+            "username": "xingzhou",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 21974,
+            "username": "SteveNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/stevenv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 246462,
+            "username": "xparr",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Black screen when using eGPU output with Dell XPS (iGPU+dGPU)",
+      "id": 71763,
+      "title": "Black screen when using eGPU output with Dell XPS (iGPU+dGPU)",
+      "slug": "black-screen-when-using-egpu-output-with-dell-xps-igpu-dgpu",
+      "posts_count": 31,
+      "reply_count": 0,
+      "highest_post_number": 31,
+      "image_url": null,
+      "created_at": "2019-03-20T21:17:12.000Z",
+      "last_posted_at": "2021-10-12T18:58:40.685Z",
+      "bumped": true,
+      "bumped_at": "2019-04-02T17:15:08.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3254,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster, Accepted Answer",
+          "user": {
+            "id": 202519,
+            "username": "spedeposti",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Run a 32bit Application on the Jetson Nano",
+      "id": 127050,
+      "title": "Run a 32bit Application on the Jetson Nano",
+      "slug": "run-a-32bit-application-on-the-jetson-nano",
+      "posts_count": 26,
+      "reply_count": 21,
+      "highest_post_number": 26,
+      "image_url": null,
+      "created_at": "2020-06-10T01:33:28.842Z",
+      "last_posted_at": "2021-10-15T03:59:26.710Z",
+      "bumped": true,
+      "bumped_at": "2021-04-15T11:14:51.733Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "kernel"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5611,
+      "category_id": 76,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 363879,
+            "username": "ncardamone10",
+            "name": "Ncardamone10",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 546630,
+            "username": "rreddy78",
+            "name": "Ravishankar S",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 350027,
+            "username": "marietto2008",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/marietto2008/{size}/16033_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "If AFFINE can be used on an ARM based Ubuntu system then it should be installable. For more specific info you would need to contact them",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 2292768,
+        "username": "ira2laefsky",
+        "name": "Ira2laefsky",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 2292768,
+      "username": "ira2laefsky",
+      "name": "Ira2laefsky",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

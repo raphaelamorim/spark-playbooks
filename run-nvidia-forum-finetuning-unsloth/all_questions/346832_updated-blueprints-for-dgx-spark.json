@@ -1,0 +1,1040 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1690920,
+        "name": "Alan Dang",
+        "username": "alan.dang",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-05T15:41:03.691Z",
+        "cooked": "<p><a href=\"https://build.nvidia.com/nvidia/aiq\" rel=\"noopener nofollow ugc\">Build an AI Agent for Enterprise Research Blueprint by NVIDIA | NVIDIA NIM</a></p>\n<p>Looking at the AI Agent blueprint, it seems like the majority of this runs within an H100/80GB setup except for the final LLM for generating the report.  I plan to use the blueprint on a DGX Spark with a quantized or smaller final LLM.</p>\n<p>Will NVIDIA be updating any of the existing blueprints to target the performance of a locally run DGX Spark GB10 class products, or will it be up to individual end-users to make the modifications as necessary?  Thanks.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-05T15:41:03.691Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 120,
+        "reads": 71,
+        "readers_count": 70,
+        "score": 589.0,
+        "yours": false,
+        "topic_id": 346832,
+        "topic_slug": "updated-blueprints-for-dgx-spark",
+        "display_username": "Alan Dang",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/nvidia/aiq",
+            "internal": false,
+            "reflection": false,
+            "title": "Build an AI Agent for Enterprise Research Blueprint by NVIDIA | NVIDIA NIM",
+            "clicks": 26
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 835463,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/updated-blueprints-for-dgx-spark/346832/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1696195,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-15T17:21:10.950Z",
+        "cooked": "<p>We currently have a Blueprint available with VSS.</p>\n<p>Please check out our playbooks <a href=\"https://build.nvidia.com/spark\" class=\"inline-onebox\">DGX Spark | Try NVIDIA NIM APIs</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-15T17:21:10.950Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 44,
+        "readers_count": 43,
+        "score": 43.6,
+        "yours": false,
+        "topic_id": 346832,
+        "topic_slug": "updated-blueprints-for-dgx-spark",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/spark",
+            "internal": false,
+            "reflection": false,
+            "title": "DGX Spark | Try NVIDIA NIM APIs",
+            "clicks": 44
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/updated-blueprints-for-dgx-spark/346832/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1704575,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-10-29T17:21:51.346Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-10-29T17:21:51.346Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 9,
+        "readers_count": 8,
+        "score": 11.8,
+        "yours": false,
+        "topic_id": 346832,
+        "topic_slug": "updated-blueprints-for-dgx-spark",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/updated-blueprints-for-dgx-spark/346832/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1690920,
+      1696195,
+      1704575
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      51
+    ],
+    [
+      2,
+      41
+    ],
+    [
+      3,
+      27
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [
+    "nim",
+    "blueprints"
+  ],
+  "tags_descriptions": {},
+  "fancy_title": "Updated blueprints for DGX Spark",
+  "id": 346832,
+  "title": "Updated blueprints for DGX Spark",
+  "posts_count": 3,
+  "created_at": "2025-10-05T15:41:03.624Z",
+  "views": 373,
+  "reply_count": 0,
+  "like_count": 2,
+  "last_posted_at": "2025-10-15T17:21:10.950Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "updated-blueprints-for-dgx-spark",
+  "category_id": 721,
+  "word_count": 119,
+  "deleted_at": null,
+  "user_id": 835463,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_346832",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Launch date for the AIQ blueprint",
+      "id": 334035,
+      "title": "Launch date for the AIQ blueprint",
+      "slug": "launch-date-for-the-aiq-blueprint",
+      "posts_count": 6,
+      "reply_count": 4,
+      "highest_post_number": 6,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_1024x544.jpeg",
+      "created_at": "2025-05-22T19:09:55.944Z",
+      "last_posted_at": "2025-06-12T19:44:44.375Z",
+      "bumped": true,
+      "bumped_at": "2025-06-12T19:44:44.375Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1280,
+          "height": 680,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 544,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_1024x544.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 425,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_800x425.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 318,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_600x318.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 212,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_400x212.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 159,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_300x159.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 106,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/4/7/2478acdca819b4bacb258ed5f781fe0e028bcf58_2_200x106.jpeg"
+        }
+      ],
+      "tags": [
+        "nemo-agent-toolkit"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 137,
+      "category_id": 715,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4371977,
+            "username": "leoberdu",
+            "name": "Leoberdu",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 56232,
+            "username": "mdemoret_nv",
+            "name": "Michael Demoret",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mdemoret_nv/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 829933,
+            "username": "nsessions",
+            "name": "Nicola Sessions",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nsessions/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3983720,
+            "username": "vtong",
+            "name": "Victor Tong",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vtong/{size}/412298_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Suggestion for https://build.nvidia.com/spark/",
+      "id": 348240,
+      "title": "Suggestion for https://build.nvidia.com/spark/",
+      "slug": "suggestion-for-https-build-nvidia-com-spark",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-20T01:42:43.244Z",
+      "last_posted_at": "2025-10-20T02:23:12.584Z",
+      "bumped": true,
+      "bumped_at": "2025-10-20T02:23:12.584Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 218,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1436571,
+            "username": "evolvingtech",
+            "name": "Evolvingtech",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GH200 + Enterprise RAG pipeline",
+      "id": 332261,
+      "title": "GH200 + Enterprise RAG pipeline",
+      "slug": "gh200-enterprise-rag-pipeline",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-05-05T10:15:07.111Z",
+      "last_posted_at": "2025-05-05T10:15:07.184Z",
+      "bumped": true,
+      "bumped_at": "2025-05-05T10:28:04.866Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim",
+        "blueprints"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 65,
+      "category_id": 705,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4333120,
+            "username": "gicior01",
+            "name": "Gicior01",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "New NVIDIA NIM Agent Blueprints now available",
+      "id": 304790,
+      "title": "New NVIDIA NIM Agent Blueprints now available",
+      "slug": "new-nvidia-nim-agent-blueprints-now-available",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-08-27T16:24:00.136Z",
+      "last_posted_at": "2024-12-23T16:10:40.267Z",
+      "bumped": true,
+      "bumped_at": "2024-08-27T16:24:00.711Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 248,
+      "category_id": 700,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1547621,
+            "username": "neal.vaidya",
+            "name": "Neal Vaidya",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/neal.vaidya/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Build AI model from scratch",
+      "id": 159162,
+      "title": "Build AI model from scratch",
+      "slug": "build-ai-model-from-scratch",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2020-11-09T17:13:29.368Z",
+      "last_posted_at": "2020-11-09T17:13:29.422Z",
+      "bumped": true,
+      "bumped_at": "2020-11-09T17:13:29.422Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 312,
+      "category_id": 93,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 754753,
+            "username": "Jiten.Gala",
+            "name": "Jiten Gala",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jiten.gala/{size}/48402_2.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "AI Workbench for DGX Spark?",
+      "id": 348785,
+      "title": "AI Workbench for DGX Spark?",
+      "slug": "ai-workbench-for-dgx-spark",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-24T02:02:10.745Z",
+      "last_posted_at": "2025-10-24T16:56:17.257Z",
+      "bumped": true,
+      "bumped_at": "2025-10-24T16:56:17.257Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 166,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 913121,
+            "username": "tamalotes",
+            "name": "Tamalotes",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Simplifying AI Development with NVIDIA Base Command Platform",
+      "id": 236363,
+      "title": "Simplifying AI Development with NVIDIA Base Command Platform",
+      "slug": "simplifying-ai-development-with-nvidia-base-command-platform",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2022-12-06T17:00:30.909Z",
+      "last_posted_at": "2023-09-25T21:36:54.511Z",
+      "bumped": true,
+      "bumped_at": "2023-09-25T21:36:54.511Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 1496,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2929439,
+            "username": "chip.maguire",
+            "name": "Chip Maguire",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/chip.maguire/{size}/281490_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2292401,
+            "username": "jhandzik",
+            "name": "Jhandzik",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Accelerating AI and ML Workflows with Amazon SageMaker and NVIDIA NGC",
+      "id": 148806,
+      "title": "Accelerating AI and ML Workflows with Amazon SageMaker and NVIDIA NGC",
+      "slug": "accelerating-ai-and-ml-workflows-with-amazon-sagemaker-and-nvidia-ngc",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2020-08-25T23:52:58.652Z",
+      "last_posted_at": "2020-08-25T23:52:58.703Z",
+      "bumped": true,
+      "bumped_at": "2020-08-25T23:52:58.703Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 388,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Now Available: AI-Q NVIDIA Blueprint",
+      "id": 335918,
+      "title": "Now Available: AI-Q NVIDIA Blueprint",
+      "slug": "now-available-ai-q-nvidia-blueprint",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-06-12T02:15:21.159Z",
+      "last_posted_at": "2025-06-12T02:15:21.260Z",
+      "bumped": true,
+      "bumped_at": "2025-06-12T02:15:21.260Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "agentic-ai",
+        "blueprints",
+        "nemo-agent-toolkit",
+        "nemo-retriever",
+        "retrieval"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 76,
+      "category_id": 87,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 829933,
+            "username": "nsessions",
+            "name": "Nicola Sessions",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nsessions/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Run Jupyter Notebooks on Google Cloud with New One Click Deploy Feature in the NGC Catalog",
+      "id": 210416,
+      "title": "Run Jupyter Notebooks on Google Cloud with New One Click Deploy Feature in the NGC Catalog",
+      "slug": "run-jupyter-notebooks-on-google-cloud-with-new-one-click-deploy-feature-in-the-ngc-catalog",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2022-04-06T15:30:35.467Z",
+      "last_posted_at": "2022-04-06T15:30:35.567Z",
+      "bumped": true,
+      "bumped_at": "2022-04-06T15:30:35.567Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 550,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "We currently have a Blueprint available with VSS. \nPlease check out our playbooks <a href=\"https://build.nvidia.com/spark\" class=\"inline-onebox\">DGX Spark | Try NVIDIA NIM APIs</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 835463,
+        "username": "alan.dang",
+        "name": "Alan Dang",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 835463,
+      "username": "alan.dang",
+      "name": "Alan Dang",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    },
+    "links": [
+      {
+        "url": "https://build.nvidia.com/spark",
+        "title": "DGX Spark | Try NVIDIA NIM APIs",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 44,
+        "user_id": 3567453,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://build.nvidia.com/nvidia/aiq",
+        "title": "Build an AI Agent for Enterprise Research Blueprint by NVIDIA | NVIDIA NIM",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 26,
+        "user_id": 835463,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

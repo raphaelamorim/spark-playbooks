@@ -1,0 +1,1015 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1698318,
+        "name": null,
+        "username": "vgoklani",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/vgoklani/{size}/11912_2.png",
+        "created_at": "2025-10-20T03:12:04.086Z",
+        "cooked": "<p>Could you please share an optimized launch command for tensor-rt that runs gpt-oss-120b on two sparks.</p>\n<p>unfortunately this does not work, and we absolutely do not want to use the transformers package or backend.</p>\n<p>```bash</p>\n<p>docker exec<br>\n-e MODEL=$MODEL_HANDLE<br>\n-e HF_TOKEN=$HF_TOKEN<br>\n-it $TRTLLM_MN_CONTAINER bash -c ’<br>\nmpirun -x HF_TOKEN trtllm-llmapi-launch trtllm-serve $MODEL<br>\n–tp_size 2<br>\n–backend pytorch<br>\n–max_num_tokens 32768<br>\n–max_batch_size 4<br>\n–extra_llm_api_options /tmp/extra-llm-api-config.yml<br>\n–port 8888’<br>\n```</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-20T18:54:26.649Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 67,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 319.0,
+        "yours": false,
+        "topic_id": 348251,
+        "topic_slug": "optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks",
+        "display_username": null,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 248663,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks/348251/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1698914,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-20T20:06:58.692Z",
+        "cooked": "<p>Hi,</p>\n<p>Please check out our playbook that details how to run TensorRT-LLM on single and multi spark setups.</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://build.nvidia.com/spark/trt-llm/overview\">\n  <header class=\"source\">\n      <img class=\"site-icon\" alt=\"\" src=\"https://global.discourse-cdn.com/nvidia/original/4X/9/f/1/9f1167225419383138d03f68efb909d69ea79ac1.png\" data-dominant-color=\"74B700\" width=\"16\" height=\"16\">\n\n      <a href=\"https://build.nvidia.com/spark/trt-llm/overview\" target=\"_blank\" rel=\"noopener\">build.nvidia.com</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    <img width=\"690\" height=\"361\" class=\"thumbnail\" alt=\"\" src=\"https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_690x361.jpeg\" data-dominant-color=\"1D1A18\">\n\n<h3><a href=\"https://build.nvidia.com/spark/trt-llm/overview\" target=\"_blank\" rel=\"noopener\">Try NVIDIA NIM APIs</a></h3>\n\n  <p>Experience the leading models to build enterprise generative AI apps now.</p>\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-20T20:06:58.692Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 18.6,
+        "yours": false,
+        "topic_id": 348251,
+        "topic_slug": "optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/spark/trt-llm/overview",
+            "internal": false,
+            "reflection": false,
+            "title": "Try NVIDIA NIM APIs",
+            "clicks": 30
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks/348251/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715746,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:08:02.515Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:08:02.515Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 348251,
+        "topic_slug": "optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks/348251/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1698318,
+      1698914,
+      1715746
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      37
+    ],
+    [
+      2,
+      36
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Optimized tensor-rt command for running gpt-oss-120B on two dgx-sparks",
+  "id": 348251,
+  "title": "Optimized tensor-rt command for running gpt-oss-120B on two dgx-sparks",
+  "posts_count": 3,
+  "created_at": "2025-10-20T03:12:03.983Z",
+  "views": 125,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-20T20:06:58.692Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "optimized-tensor-rt-command-for-running-gpt-oss-120b-on-two-dgx-sparks",
+  "category_id": 721,
+  "word_count": 103,
+  "deleted_at": null,
+  "user_id": 248663,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348251",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "TRT LLM for Inference - two Sparks example is VERY slow",
+      "id": 348517,
+      "title": "TRT LLM for Inference - two Sparks example is VERY slow",
+      "slug": "trt-llm-for-inference-two-sparks-example-is-very-slow",
+      "posts_count": 6,
+      "reply_count": 1,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2025-10-21T13:38:59.615Z",
+      "last_posted_at": "2025-10-23T17:07:05.129Z",
+      "bumped": true,
+      "bumped_at": "2025-10-23T17:07:05.129Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 341,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 248663,
+            "username": "vgoklani",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vgoklani/{size}/11912_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3191529,
+            "username": "cosinus",
+            "name": "Christian Otto Stelter",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/cosinus/{size}/447737_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2083101,
+            "username": "eugr",
+            "name": "Eugr",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/eugr/{size}/449615_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to inference with tensorrt on multi gpus in python",
+      "id": 174624,
+      "title": "How to inference with tensorrt on multi gpus in python",
+      "slug": "how-to-inference-with-tensorrt-on-multi-gpus-in-python",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2021-04-09T01:17:22.502Z",
+      "last_posted_at": "2021-04-09T09:05:17.105Z",
+      "bumped": true,
+      "bumped_at": "2021-04-09T09:05:17.105Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2233,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 203524,
+            "username": "lizcomeon",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 662358,
+            "username": "spolisetty",
+            "name": "Spolisetty",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/spolisetty/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to run DGX Spark using the harmony format for gpt-oss",
+      "id": 348209,
+      "title": "How to run DGX Spark using the harmony format for gpt-oss",
+      "slug": "how-to-run-dgx-spark-using-the-harmony-format-for-gpt-oss",
+      "posts_count": 9,
+      "reply_count": 9,
+      "highest_post_number": 11,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_1024x535.png",
+      "created_at": "2025-10-19T13:32:58.832Z",
+      "last_posted_at": "2025-10-22T21:10:16.780Z",
+      "bumped": true,
+      "bumped_at": "2025-10-22T21:10:16.780Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1200,
+          "height": 628,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 535,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_1024x535.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 418,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_800x418.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 314,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_600x314.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 209,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_400x209.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 157,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_300x157.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 104,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/6/1/3/6139a248032ff8408beb3607867c5c3e251e5041_2_200x104.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 432,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 248663,
+            "username": "vgoklani",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vgoklani/{size}/11912_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4672941,
+            "username": "Actu4l",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to Set TensorRT to use Discrete GPU exclusively",
+      "id": 53235,
+      "title": "How to Set TensorRT to use Discrete GPU exclusively",
+      "slug": "how-to-set-tensorrt-to-use-discrete-gpu-exclusively",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2017-09-06T23:17:01.000Z",
+      "last_posted_at": "2017-09-07T00:43:39.000Z",
+      "bumped": true,
+      "bumped_at": "2017-09-07T00:43:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1356,
+      "category_id": 66,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 42569,
+            "username": "JerryHong",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 21974,
+            "username": "SteveNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/stevenv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Fail to speed up model by tensorrt ",
+      "id": 81184,
+      "title": "Fail to speed up model by tensorrt ",
+      "slug": "fail-to-speed-up-model-by-tensorrt",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2019-09-05T02:21:42.000Z",
+      "last_posted_at": "2019-09-05T02:21:42.000Z",
+      "bumped": false,
+      "bumped_at": "2019-09-05T02:21:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1120,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 266987,
+            "username": "zhenpalapala",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "TF-TRT5: How to run tensorflow-tensorrt inferences with multiple GPUs",
+      "id": 66426,
+      "title": "TF-TRT5: How to run tensorflow-tensorrt inferences with multiple GPUs",
+      "slug": "tf-trt5-how-to-run-tensorflow-tensorrt-inferences-with-multiple-gpus",
+      "posts_count": 11,
+      "reply_count": 0,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2018-10-19T20:39:52.000Z",
+      "last_posted_at": "2019-09-03T13:22:18.000Z",
+      "bumped": true,
+      "bumped_at": "2019-09-03T13:22:18.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3700,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 161190,
+            "username": "sanchezvr7",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sanchezvr7/{size}/16521_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 224640,
+            "username": "yh01",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Using Multiple GPUS ",
+      "id": 80248,
+      "title": "Using Multiple GPUS ",
+      "slug": "using-multiple-gpus",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2019-08-20T09:56:07.000Z",
+      "last_posted_at": "2019-08-20T09:56:07.000Z",
+      "bumped": false,
+      "bumped_at": "2019-08-20T09:56:07.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 544,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 267333,
+            "username": "derekmagee",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to make full use of GPU?",
+      "id": 64686,
+      "title": "How to make full use of GPU?",
+      "slug": "how-to-make-full-use-of-gpu",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2018-08-31T09:02:27.000Z",
+      "last_posted_at": "2018-09-03T01:50:02.000Z",
+      "bumped": true,
+      "bumped_at": "2018-09-03T01:50:02.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1265,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 194389,
+            "username": "linzheshabia",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "on TX2, there is no effect using tensorRT to speed up my trained model ",
+      "id": 71366,
+      "title": "on TX2, there is no effect using tensorRT to speed up my trained model ",
+      "slug": "on-tx2-there-is-no-effect-using-tensorrt-to-speed-up-my-trained-model",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2019-03-11T06:40:18.000Z",
+      "last_posted_at": "2019-03-11T06:40:18.000Z",
+      "bumped": false,
+      "bumped_at": "2019-03-11T06:40:18.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 729,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 201308,
+            "username": "xuefengxiaoyang",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "[TensorRT] Speed of concurrent execute multiple TensorRT model on one GPU",
+      "id": 124641,
+      "title": "[TensorRT] Speed of concurrent execute multiple TensorRT model on one GPU",
+      "slug": "tensorrt-speed-of-concurrent-execute-multiple-tensorrt-model-on-one-gpu",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2020-05-24T15:46:37.941Z",
+      "last_posted_at": "2020-05-24T17:55:06.821Z",
+      "bumped": true,
+      "bumped_at": "2020-05-24T17:55:06.821Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "tensorrt"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1836,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 180115,
+            "username": "summerxi",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 293505,
+            "username": "SunilJB",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/suniljb/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "Hi, \nPlease check out our playbook that details how to run TensorRT-LLM on single and multi spark setups.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 248663,
+        "username": "vgoklani",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/vgoklani/{size}/11912_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 248663,
+      "username": "vgoklani",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/vgoklani/{size}/11912_2.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    },
+    "links": [
+      {
+        "url": "https://build.nvidia.com/spark/trt-llm/overview",
+        "title": "Try NVIDIA NIM APIs",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 30,
+        "user_id": 3567453,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

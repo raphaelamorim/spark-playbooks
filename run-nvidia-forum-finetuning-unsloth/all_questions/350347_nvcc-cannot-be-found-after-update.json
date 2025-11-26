@@ -1,0 +1,1008 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1709260,
+        "name": "Martintalero",
+        "username": "martintalero",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-05T21:35:57.922Z",
+        "cooked": "<p>Hi: I have a Dell Pro Max with GB10 and today 06/11/2025 i got an update via dgx dashboard. After updating the system cannot run nvcc –version.  What should I do to make it run again?</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://global.discourse-cdn.com/nvidia/original/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd.png\" data-download-href=\"/uploads/short-url/ttHccUcT9ROcdGAy7N0xIosmxg9.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://global.discourse-cdn.com/nvidia/original/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd.png\" alt=\"image\" data-base62-sha1=\"ttHccUcT9ROcdGAy7N0xIosmxg9\" width=\"690\" height=\"368\" data-dominant-color=\"191A1A\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1750×934 27.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-05T21:35:57.922Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 24,
+        "reads": 19,
+        "readers_count": 18,
+        "score": 108.8,
+        "yours": false,
+        "topic_id": 350347,
+        "topic_slug": "nvcc-cannot-be-found-after-update",
+        "display_username": "Martintalero",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 966222,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/nvcc-cannot-be-found-after-update/350347/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1709276,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-11-05T22:35:34.791Z",
+        "cooked": "<p>Please check if you have the nvcc executable by looking at the <code>/usr/local/cuda/bin</code> directory (run <code>ls /usr/local/cuda/bin</code>) and seeing if nvcc is in that directory.<br>\nIf it is you may need to add it to your PATH, <code>export PATH=/usr/local/cuda/bin:$PATH</code></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-05T22:35:34.791Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 18,
+        "readers_count": 17,
+        "score": 18.6,
+        "yours": false,
+        "topic_id": 350347,
+        "topic_slug": "nvcc-cannot-be-found-after-update",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/nvcc-cannot-be-found-after-update/350347/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1717903,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-19T22:35:51.137Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-19T22:35:51.137Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 350347,
+        "topic_slug": "nvcc-cannot-be-found-after-update",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/nvcc-cannot-be-found-after-update/350347/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1709260,
+      1709276,
+      1717903
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      20
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "NVCC cannot be found after update",
+  "id": 350347,
+  "title": "NVCC cannot be found after update",
+  "posts_count": 3,
+  "created_at": "2025-11-05T21:35:57.857Z",
+  "views": 64,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-11-05T22:35:34.791Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "nvcc-cannot-be-found-after-update",
+  "category_id": 721,
+  "word_count": 93,
+  "deleted_at": null,
+  "user_id": 966222,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_1024x546.png",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_350347",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 4,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 1750,
+      "height": 934,
+      "url": "https://global.discourse-cdn.com/nvidia/original/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd.png"
+    },
+    {
+      "max_width": 1024,
+      "max_height": 1024,
+      "width": 1024,
+      "height": 546,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_1024x546.png"
+    },
+    {
+      "max_width": 800,
+      "max_height": 800,
+      "width": 800,
+      "height": 426,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_800x426.png"
+    },
+    {
+      "max_width": 600,
+      "max_height": 600,
+      "width": 600,
+      "height": 320,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_600x320.png"
+    },
+    {
+      "max_width": 400,
+      "max_height": 400,
+      "width": 400,
+      "height": 213,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_400x213.png"
+    },
+    {
+      "max_width": 300,
+      "max_height": 300,
+      "width": 300,
+      "height": 160,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_300x160.png"
+    },
+    {
+      "max_width": 200,
+      "max_height": 200,
+      "width": 200,
+      "height": 106,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/e/9/ce9a6ae20f9bc1322e73545ca83675e4c8eb47fd_2_200x106.png"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "SDK Files not running",
+      "id": 11733,
+      "title": "SDK Files not running",
+      "slug": "sdk-files-not-running",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2009-08-20T21:10:55.000Z",
+      "last_posted_at": "2009-08-21T05:34:06.000Z",
+      "bumped": true,
+      "bumped_at": "2009-08-21T05:34:06.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5772,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 6087,
+            "username": "FreonIceMan",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 5511,
+            "username": "Russel_Nurjew",
+            "name": "Russel Nurjew",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Cant seem to find nvcc!",
+      "id": 19112,
+      "title": "Cant seem to find nvcc!",
+      "slug": "cant-seem-to-find-nvcc",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2010-10-07T10:21:37.000Z",
+      "last_posted_at": "2010-10-08T13:56:37.000Z",
+      "bumped": true,
+      "bumped_at": "2010-10-08T13:56:37.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1044,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 9376,
+            "username": "nikhil.stephen",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVCC not found error message",
+      "id": 2190,
+      "title": "NVCC not found error message",
+      "slug": "nvcc-not-found-error-message",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2007-12-23T11:13:04.000Z",
+      "last_posted_at": "2008-02-14T07:38:09.000Z",
+      "bumped": true,
+      "bumped_at": "2008-02-14T07:38:09.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9379,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1381,
+            "username": "captainp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1085,
+            "username": "DenisR",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1587,
+            "username": "eirik",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "No nvcc after installing toolkit",
+      "id": 24401,
+      "title": "No nvcc after installing toolkit",
+      "slug": "no-nvcc-after-installing-toolkit",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2011-09-21T14:27:06.000Z",
+      "last_posted_at": "2011-09-21T14:31:42.000Z",
+      "bumped": true,
+      "bumped_at": "2011-09-21T14:31:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 17565,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 11783,
+            "username": "phantom7026",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 217,
+            "username": "mfatica",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "installation problem - nvcc command not found",
+      "id": 18904,
+      "title": "installation problem - nvcc command not found",
+      "slug": "installation-problem-nvcc-command-not-found",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2010-09-23T07:08:35.000Z",
+      "last_posted_at": "2010-09-25T08:00:16.000Z",
+      "bumped": true,
+      "bumped_at": "2010-09-25T08:00:16.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2765,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 9273,
+            "username": "tmillic",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Driver, toolkit and SDK installed, but nvcc doesn&rsquo;t work",
+      "id": 21239,
+      "title": "Driver, toolkit and SDK installed, but nvcc doesn't work",
+      "slug": "driver-toolkit-and-sdk-installed-but-nvcc-doesnt-work",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2011-02-26T01:01:49.000Z",
+      "last_posted_at": "2011-02-28T11:21:40.000Z",
+      "bumped": true,
+      "bumped_at": "2011-02-28T11:21:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1622,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 10339,
+            "username": "Nimarog",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1020,
+            "username": "LSChien",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVCC &ldquo;No command &lsquo;nvcc&rsquo; found&rdquo;",
+      "id": 14543,
+      "title": "NVCC \"No command 'nvcc' found\"",
+      "slug": "nvcc-no-command-nvcc-found",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2010-01-25T03:03:02.000Z",
+      "last_posted_at": "2010-01-25T17:47:32.000Z",
+      "bumped": true,
+      "bumped_at": "2010-01-25T17:47:32.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 8,
+      "views": 212596,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 7310,
+            "username": "Mecasickle",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2309,
+            "username": "SPWorley",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2855,
+            "username": "jma",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "problem with the nvcc (i&rsquo;m a beginner)",
+      "id": 7104,
+      "title": "problem with the nvcc (i'm a beginner)",
+      "slug": "problem-with-the-nvcc-im-a-beginner",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2009-01-07T13:15:23.000Z",
+      "last_posted_at": "2009-01-08T17:32:56.000Z",
+      "bumped": true,
+      "bumped_at": "2009-01-08T17:32:56.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 18248,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 3730,
+            "username": "brainfuck",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1705,
+            "username": "E.D_Riedijk",
+            "name": "E.D. Riedijk",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "nvcc error? on vista 64bit build error",
+      "id": 4811,
+      "title": "nvcc error? on vista 64bit build error",
+      "slug": "nvcc-error-on-vista-64bit-build-error",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2008-07-30T05:47:13.000Z",
+      "last_posted_at": "2009-10-26T19:35:36.000Z",
+      "bumped": true,
+      "bumped_at": "2009-10-26T19:35:36.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 12912,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2619,
+            "username": "inxbus",
+            "name": "inxbus@gmail.com",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2224,
+            "username": "tmurray",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 423,
+            "username": "MisterAnderson42",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2692,
+            "username": "elviin",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6605,
+            "username": "klkc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Problem running gpu code matlab cuda",
+      "id": 25351,
+      "title": "Problem running gpu code matlab cuda",
+      "slug": "problem-running-gpu-code-matlab-cuda",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2011-12-26T18:09:55.000Z",
+      "last_posted_at": "2012-05-03T18:54:52.000Z",
+      "bumped": true,
+      "bumped_at": "2012-05-03T18:54:52.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 8369,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 7344,
+            "username": "pnikkos",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12842,
+            "username": "nikeOnMatlab",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7176,
+            "username": "pasoleatis",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "Please check if you have the nvcc executable by looking at the /usr/local/cuda/bin directory (run ls /usr/local/cuda/bin) and seeing if nvcc is in that directory. \nIf it is you may need to add it to your PATH, export PATH=/usr/local/cuda/bin:$PATH",
+    "accepter_name": null,
+    "accepter_username": "martintalero"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 966222,
+        "username": "martintalero",
+        "name": "Martintalero",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 966222,
+      "username": "martintalero",
+      "name": "Martintalero",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

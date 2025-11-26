@@ -1,0 +1,1342 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1696338,
+        "name": "Jeremiahls",
+        "username": "jeremiahls",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/jeremiahls/{size}/445530_2.png",
+        "created_at": "2025-10-15T23:11:03.299Z",
+        "cooked": "<p>HELP!!  My DGX Spark will not boot!</p>\n<p>I went through the initial setup for my founder’s edition DGX spark.  It downloaded the system updates, then it downloaded the firmware, then it rebooted.  Upon rebooting It showed the nVidia logo and a progress bar.  Upon reaching about 50% progress the splash screen disappeared and an AMI bios screen appeared that said “Press <del> or  to enter setup”.  I waited about 15 minutes and nothing happened.  I tried pressing both DEL and ESC but the system had locked up.</del></p>\n<p>After trying to reboot the system it appears to no longer recognize HDMI or USB-C monitors.  The mouse lights up and I can hear the fan going, but no video output.</p>\n<p>Is there a way to factory reset it?  Is that even an option at this point?  There is no documentation with this really expensive device!</p>\n<p>HELP!!</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-15T23:11:03.299Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 681,
+        "reads": 121,
+        "readers_count": 120,
+        "score": 3364.0,
+        "yours": false,
+        "topic_id": 347825,
+        "topic_slug": "help-dgx-spark-will-not-boot",
+        "display_username": "Jeremiahls",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2091086,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/help-dgx-spark-will-not-boot/347825/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1696351,
+        "name": "Kberger",
+        "username": "kberger1",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+        "created_at": "2025-10-15T23:25:12.404Z",
+        "cooked": "<p>Please check this site as it contains the recovery image and instructions. <a href=\"https://developer.nvidia.com/topics/ai/dgx-spark\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">DGX Spark for AI Developers - Get Started | NVIDIA Developer</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-15T23:25:12.404Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 118,
+        "readers_count": 117,
+        "score": 58.4,
+        "yours": false,
+        "topic_id": 347825,
+        "topic_slug": "help-dgx-spark-will-not-boot",
+        "display_username": "Kberger",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://developer.nvidia.com/topics/ai/dgx-spark",
+            "internal": false,
+            "reflection": false,
+            "title": "DGX Spark for AI Developers - Get Started | NVIDIA Developer",
+            "clicks": 148
+          }
+        ],
+        "read": true,
+        "user_title": "Employee",
+        "title_is_group": true,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 3447257,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/help-dgx-spark-will-not-boot/347825/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1697535,
+        "name": "Weifengx",
+        "username": "weifengx",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-17T11:24:52.893Z",
+        "cooked": "<p>You are not alone. Check this: <a href=\"https://forums.developer.nvidia.com/t/active-issue-do-not-attempt-updates-or-setup/347963/16\">** ACTIVE ISSUE - DO NOT ATTEMPT UPDATES OR SETUP ** - DGX Spark / GB10 User Forum / DGX Spark / GB10 - NVIDIA Developer Forums</a></p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-17T11:24:52.893Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 75,
+        "readers_count": 74,
+        "score": 34.8,
+        "yours": false,
+        "topic_id": 347825,
+        "topic_slug": "help-dgx-spark-will-not-boot",
+        "display_username": "Weifengx",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/active-issue-do-not-attempt-updates-or-setup/347963/16",
+            "internal": true,
+            "reflection": false,
+            "title": "BOOT LOOP ISSUE RESOLVED",
+            "clicks": 168
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4696388,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/help-dgx-spark-will-not-boot/347825/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698055,
+        "name": "John",
+        "username": "john498",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T01:39:23.005Z",
+        "cooked": "<p>When you power on and you only see a black screen with a white square (left hand side) read:  If you are using a USB hub for your keyboard or mouse, unplug the hub.  The hub prevents the boot of the OS.  I recommend getting a USB-A to USB-C adaptor.  You can plug the hub back in once the OS has loaded.</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-19T01:39:23.005Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 40.8,
+        "yours": false,
+        "topic_id": 347825,
+        "topic_slug": "help-dgx-spark-will-not-boot",
+        "display_username": "John",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4699153,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/help-dgx-spark-will-not-boot/347825/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715779,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:27:07.258Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 5,
+        "post_type": 3,
+        "posts_count": 5,
+        "updated_at": "2025-11-17T19:27:07.258Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 347825,
+        "topic_slug": "help-dgx-spark-will-not-boot",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/help-dgx-spark-will-not-boot/347825/5",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1696338,
+      1696351,
+      1697535,
+      1698055,
+      1715779
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      41
+    ],
+    [
+      3,
+      39
+    ],
+    [
+      4,
+      38
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Help &ndash; DGX Spark will not boot",
+  "id": 347825,
+  "title": "Help -- DGX Spark will not boot",
+  "posts_count": 5,
+  "created_at": "2025-10-15T23:11:03.224Z",
+  "views": 817,
+  "reply_count": 0,
+  "like_count": 5,
+  "last_posted_at": "2025-10-19T01:39:23.005Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "help-dgx-spark-will-not-boot",
+  "category_id": 721,
+  "word_count": 272,
+  "deleted_at": null,
+  "user_id": 2091086,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_347825",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 4,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "New DGX Spark Unresponsive / Bricked After Initial Setup and Mandatory Update",
+      "id": 348837,
+      "title": "New DGX Spark Unresponsive / Bricked After Initial Setup and Mandatory Update",
+      "slug": "new-dgx-spark-unresponsive-bricked-after-initial-setup-and-mandatory-update",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2025-10-24T12:44:28.243Z",
+      "last_posted_at": "2025-11-03T19:12:11.696Z",
+      "bumped": true,
+      "bumped_at": "2025-11-03T19:12:11.696Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 828,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4710855,
+            "username": "umit01",
+            "name": "Umit",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3447257,
+            "username": "kberger1",
+            "name": "Kberger",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2083101,
+            "username": "eugr",
+            "name": "Eugr",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/eugr/{size}/449615_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2474958,
+            "username": "elsaco",
+            "name": "Elsaco",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3984933,
+            "username": "shah5",
+            "name": "Shah",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark cannot be boot",
+      "id": 348864,
+      "title": "DGX Spark cannot be boot",
+      "slug": "dgx-spark-cannot-be-boot",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-10-24T16:55:56.958Z",
+      "last_posted_at": "2025-10-29T16:46:19.402Z",
+      "bumped": true,
+      "bumped_at": "2025-10-29T16:46:19.402Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 157,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 96256,
+            "username": "kaikai.liu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "One of My Two DGX Sparks Bricked After Update",
+      "id": 349491,
+      "title": "One of My Two DGX Sparks Bricked After Update",
+      "slug": "one-of-my-two-dgx-sparks-bricked-after-update",
+      "posts_count": 13,
+      "reply_count": 10,
+      "highest_post_number": 18,
+      "image_url": null,
+      "created_at": "2025-10-29T23:20:52.215Z",
+      "last_posted_at": "2025-11-23T18:26:52.566Z",
+      "bumped": true,
+      "bumped_at": "2025-11-23T18:26:52.566Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 560,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4155836,
+            "username": "gpieceoffice",
+            "name": "Gpieceoffice",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 8254,
+            "username": "cgn1234",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2474958,
+            "username": "elsaco",
+            "name": "Elsaco",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4771709,
+            "username": "OverworkedTokens",
+            "name": "Kyle Kubis",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Initial Setup is stuck on the NVIDIA logo screen",
+      "id": 350508,
+      "title": "Initial Setup is stuck on the NVIDIA logo screen",
+      "slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-11-07T03:04:10.532Z",
+      "last_posted_at": "2025-11-10T02:14:08.551Z",
+      "bumped": true,
+      "bumped_at": "2025-11-10T02:14:08.551Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 70,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 4737799,
+            "username": "sourashisbhowmik",
+            "name": "Sourashisbhowmik",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark Recovery Media",
+      "id": 347997,
+      "title": "DGX Spark Recovery Media",
+      "slug": "dgx-spark-recovery-media",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-17T05:21:09.021Z",
+      "last_posted_at": "2025-11-12T21:30:58.115Z",
+      "bumped": true,
+      "bumped_at": "2025-11-12T21:30:58.115Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "boot",
+        "spark"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 423,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2980356,
+            "username": "raj.bharadwaj",
+            "name": "Raj Bharadwaj",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3191529,
+            "username": "cosinus",
+            "name": "Christian Otto Stelter",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/cosinus/{size}/447737_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4707789,
+            "username": "gajanan",
+            "name": "Gajanan",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4244707,
+            "username": "propellerheadvij",
+            "name": "Propellerheadvij",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/propellerheadvij/{size}/406074_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark will not turn on",
+      "id": 349209,
+      "title": "DGX Spark will not turn on",
+      "slug": "dgx-spark-will-not-turn-on",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-27T17:29:38.634Z",
+      "last_posted_at": "2025-10-28T18:03:27.649Z",
+      "bumped": true,
+      "bumped_at": "2025-10-28T18:03:27.649Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 204,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3315472,
+            "username": "scott165",
+            "name": "Scott",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "BOOT LOOP ISSUE RESOLVED",
+      "id": 347963,
+      "title": "BOOT LOOP ISSUE RESOLVED",
+      "slug": "boot-loop-issue-resolved",
+      "posts_count": 74,
+      "reply_count": 43,
+      "highest_post_number": 77,
+      "image_url": null,
+      "created_at": "2025-10-16T23:43:49.510Z",
+      "last_posted_at": "2025-11-17T06:11:46.425Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T06:11:46.425Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 31,
+      "views": 2071,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3590790,
+            "username": "MackenzieNVIDIA",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mackenzienvidia/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4695332,
+            "username": "emaadmanzoor",
+            "name": "Emaadmanzoor",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1520707,
+            "username": "user17220",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3447257,
+            "username": "kberger1",
+            "name": "Kberger",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3399508,
+            "username": "victor.yc.zhang",
+            "name": "Victor Yc Zhang",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark: Keyboard and Mouse Not Working After NVIDIA Driver Upgrade / DPKG Interruption",
+      "id": 348453,
+      "title": "DGX Spark: Keyboard and Mouse Not Working After NVIDIA Driver Upgrade / DPKG Interruption",
+      "slug": "dgx-spark-keyboard-and-mouse-not-working-after-nvidia-driver-upgrade-dpkg-interruption",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-10-21T01:31:47.971Z",
+      "last_posted_at": "2025-10-23T11:48:39.123Z",
+      "bumped": true,
+      "bumped_at": "2025-10-23T11:48:39.123Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 187,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4703106,
+            "username": "e12morgan",
+            "name": "E12morgan",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 3447257,
+            "username": "kberger1",
+            "name": "Kberger",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4708793,
+            "username": "therealmclovin",
+            "name": "Robert Kuehnl",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX spark keeps rebooting every 20-30 minutes",
+      "id": 350692,
+      "title": "DGX spark keeps rebooting every 20-30 minutes",
+      "slug": "dgx-spark-keeps-rebooting-every-20-30-minutes",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-11-09T02:19:47.859Z",
+      "last_posted_at": "2025-11-10T03:06:19.671Z",
+      "bumped": true,
+      "bumped_at": "2025-11-10T03:06:19.671Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "boot"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 188,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 130722,
+            "username": "kylezheng04",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kylezheng04/{size}/16171_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 835463,
+            "username": "alan.dang",
+            "name": "Alan Dang",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4292155,
+            "username": "la15",
+            "name": "La",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2153793,
+            "username": "Neurfer",
+            "name": "Nvidia 8343",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/neurfer/{size}/449067_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I can&rsquo;t reinstall the system on my DGX Spark",
+      "id": 349685,
+      "title": "I can't reinstall the system on my DGX Spark",
+      "slug": "i-cant-reinstall-the-system-on-my-dgx-spark",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-31T03:06:34.891Z",
+      "last_posted_at": "2025-10-31T03:40:12.356Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T03:40:12.356Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 120,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3895058,
+            "username": "gordonlok",
+            "name": "Gordonlok",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 1695778,
+            "username": "user158576",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "kberger1",
+    "name": null,
+    "excerpt": "Please check this site as it contains the recovery image and instructions. <a href=\"https://developer.nvidia.com/topics/ai/dgx-spark\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">DGX Spark for AI Developers - Get Started | NVIDIA Developer</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4699153,
+        "username": "john498",
+        "name": "John",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 4696388,
+        "username": "weifengx",
+        "name": "Weifengx",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3447257,
+        "username": "kberger1",
+        "name": "Kberger",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "trust_level": 2
+      },
+      {
+        "id": 2091086,
+        "username": "jeremiahls",
+        "name": "Jeremiahls",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/jeremiahls/{size}/445530_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      }
+    ],
+    "created_by": {
+      "id": 2091086,
+      "username": "jeremiahls",
+      "name": "Jeremiahls",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/jeremiahls/{size}/445530_2.png"
+    },
+    "last_poster": {
+      "id": 4699153,
+      "username": "john498",
+      "name": "John",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "links": [
+      {
+        "url": "https://forums.developer.nvidia.com/t/active-issue-do-not-attempt-updates-or-setup/347963/16",
+        "title": "BOOT LOOP ISSUE RESOLVED",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 168,
+        "user_id": 4696388,
+        "domain": "forums.developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://developer.nvidia.com/topics/ai/dgx-spark",
+        "title": "DGX Spark for AI Developers - Get Started | NVIDIA Developer",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 148,
+        "user_id": 3447257,
+        "domain": "developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

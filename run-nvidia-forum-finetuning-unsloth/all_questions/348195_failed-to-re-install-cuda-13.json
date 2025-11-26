@@ -1,0 +1,1147 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1698050,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T00:50:33.100Z",
+        "cooked": "<p>I uninstalled the CUDA 13 on the DGX SPARK and then installed CUDA 12, but found that the driver does not recognize the GB10. So I tried to re-install CUDA 13, but now I am getting issue like this:</p>\n<p>Unpacking libnvjitlink-dev-13-0 (13.0.88-1) …</p>\n<p>dpkg: error processing archive /tmp/apt-dpkg-install-ntbcbz/30-libnvjitlink-dev-13-0_13.0.88-1_arm64.deb (–unpack):</p>\n<p>trying to overwrite ‘/usr/local/cuda-13.0/include’, which is also in package cuda-nvml-dev-13-0 13.0.87-1</p>\n<p>No apport report written because MaxReports is reached already</p>\n<pre><code>                                                          Preparing to unpack .../31-libnvfatbin-dev-13-0_13.0.85-1_arm64.deb ...\n</code></pre>\n<p>Unpacking libnvfatbin-dev-13-0 (13.0.85-1) …</p>\n<p>dpkg: error processing archive /tmp/apt-dpkg-install-ntbcbz/31-libnvfatbin-dev-13-0_13.0.85-1_arm64.deb (–unpack):</p>\n<p>trying to overwrite ‘/usr/local/cuda-13.0/include’, which is also in package cuda-nvml-dev-13-0 13.0.87-1</p>\n<p>No apport report written because MaxReports is reached already</p>\n<pre><code>                                                          Preparing to unpack .../32-libnvjpeg-dev-13-0_13.0.1.86-1_arm64.deb ...\n</code></pre>\n<p>Unpacking libnvjpeg-dev-13-0 (13.0.1.86-1) …</p>\n<p>dpkg: error processing archive /tmp/apt-dpkg-install-ntbcbz/32-libnvjpeg-dev-13-0_13.0.1.86-1_arm64.deb (–unpack):</p>\n<p>trying to overwrite ‘/usr/local/cuda-13.0/include’, which is also in package cuda-nvml-dev-13-0 13.0.87-1</p>\n<p>No apport report written because MaxReports is reached already</p>\n<pre><code>                                                          Errors were encountered while processing:\n</code></pre>\n<p>/tmp/apt-dpkg-install-ntbcbz/00-cuda-cupti-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/01-cuda-cupti-dev-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/02-cuda-nvtx-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/03-cuda-cuxxfilt-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/04-cuda-cudart-13-0_13.0.96-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/05-cuda-cccl-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/06-cuda-culibos-dev-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/07-cuda-driver-dev-13-0_13.0.96-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/08-cuda-cudart-dev-13-0_13.0.96-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/09-cuda-crt-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/10-libnvptxcompiler-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/11-cuda-nvcc-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/12-cuda-nvrtc-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/13-libcublas-13-0_13.1.0.3-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/14-libcufft-13-0_12.0.0.61-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/15-libcurand-13-0_10.4.0.35-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/16-libcusolver-13-0_12.0.4.66-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/17-libcusparse-13-0_12.6.3.3-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/18-libnpp-13-0_13.0.1.2-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/19-libnvjitlink-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/20-libnvfatbin-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/21-libnvjpeg-13-0_13.0.1.86-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/22-cuda-profiler-api-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/23-cuda-nvrtc-dev-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/24-libcublas-dev-13-0_13.1.0.3-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/25-libcufft-dev-13-0_12.0.0.61-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/26-libcurand-dev-13-0_10.4.0.35-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/27-libcusolver-dev-13-0_12.0.4.66-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/28-libcusparse-dev-13-0_12.6.3.3-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/29-libnpp-dev-13-0_13.0.1.2-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/30-libnvjitlink-dev-13-0_13.0.88-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/31-libnvfatbin-dev-13-0_13.0.85-1_arm64.deb</p>\n<p>/tmp/apt-dpkg-install-ntbcbz/32-libnvjpeg-dev-13-0_13.0.1.86-1_arm64.deb</p>\n<p>E: Sub-process /usr/bin/dpkg returned an error code (1)</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-19T00:50:33.100Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 52,
+        "reads": 34,
+        "readers_count": 33,
+        "score": 256.6,
+        "yours": false,
+        "topic_id": 348195,
+        "topic_slug": "failed-to-re-install-cuda-13",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/failed-to-re-install-cuda-13/348195/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1698104,
+        "name": "Daizefu",
+        "username": "jefftown",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T13:07:10.625Z",
+        "cooked": "<p>I was able to resolve the issue with the —override option.</p>\n<p>Further more I figured out that to successfully install NVIDIA driver on the SPARK, one needs to enroll a signing key using the mokutil, due to secure boot. After that, things work as expected</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-19T13:07:10.625Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 26,
+        "readers_count": 25,
+        "score": 35.0,
+        "yours": false,
+        "topic_id": 348195,
+        "topic_slug": "failed-to-re-install-cuda-13",
+        "display_username": "Daizefu",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4698480,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/failed-to-re-install-cuda-13/348195/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698875,
+        "name": null,
+        "username": "abull",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+        "created_at": "2025-10-20T18:57:35.137Z",
+        "cooked": "<p>Glad you got this resolved. If you need to re-image, you can grab the recovery image from <a href=\"https://www.nvidia.com/en-us/support/dgx-spark/\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">NVIDIA DGX Spark Support</a> page and follow the directions in the <a href=\"https://docs.nvidia.com/dgx/dgx-spark/system-recovery.html\" rel=\"noopener nofollow ugc\">DGX Spark Users Guide</a>.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-20T18:57:35.137Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 22,
+        "readers_count": 21,
+        "score": 4.2,
+        "yours": false,
+        "topic_id": 348195,
+        "topic_slug": "failed-to-re-install-cuda-13",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://docs.nvidia.com/dgx/dgx-spark/system-recovery.html",
+            "internal": false,
+            "reflection": false,
+            "title": "System Recovery — DGX Spark User Guide",
+            "clicks": 6
+          },
+          {
+            "url": "https://www.nvidia.com/en-us/support/dgx-spark/",
+            "internal": false,
+            "reflection": false,
+            "title": "NVIDIA DGX Spark Support",
+            "clicks": 3
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "reply_to_user": {
+          "id": 4698480,
+          "username": "jefftown",
+          "name": "Daizefu",
+          "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 43960,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/failed-to-re-install-cuda-13/348195/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715748,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:08:02.551Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-17T19:08:02.551Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 348195,
+        "topic_slug": "failed-to-re-install-cuda-13",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/failed-to-re-install-cuda-13/348195/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1698050,
+      1698104,
+      1698875,
+      1715748
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      38
+    ],
+    [
+      2,
+      37
+    ],
+    [
+      3,
+      36
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Failed to re-install cuda 13",
+  "id": 348195,
+  "title": "Failed to re-install cuda 13",
+  "posts_count": 4,
+  "created_at": "2025-10-19T00:50:32.996Z",
+  "views": 137,
+  "reply_count": 1,
+  "like_count": 1,
+  "last_posted_at": "2025-10-20T18:57:35.137Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "failed-to-re-install-cuda-13",
+  "category_id": 721,
+  "word_count": 828,
+  "deleted_at": null,
+  "user_id": 4698480,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348195",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "NVidia driver not loading after CUDA 9.1 installation with runfile",
+      "id": 57207,
+      "title": "NVidia driver not loading after CUDA 9.1 installation with runfile",
+      "slug": "nvidia-driver-not-loading-after-cuda-9-1-installation-with-runfile",
+      "posts_count": 16,
+      "reply_count": 0,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2018-01-18T13:15:00.000Z",
+      "last_posted_at": "2018-03-11T21:09:02.000Z",
+      "bumped": true,
+      "bumped_at": "2018-03-11T21:09:02.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 21695,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 66077,
+            "username": "prodes38",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 129475,
+            "username": "HotDog2017",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 112809,
+            "username": "Yannnn",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/yannnn/{size}/12857_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 146180,
+            "username": "gkrangan",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "173.14.09 doesn&rsquo;t install libcuda anymore?",
+      "id": 4209,
+      "title": "173.14.09 doesn't install libcuda anymore?",
+      "slug": "173-14-09-doesnt-install-libcuda-anymore",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2008-06-19T15:15:16.000Z",
+      "last_posted_at": "2008-06-19T15:15:16.000Z",
+      "bumped": false,
+      "bumped_at": "2008-06-19T15:15:16.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3729,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 1236,
+            "username": "pffft_33",
+            "name": "pffft&#33;",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Is developer driver for ubuntu 11.10 (linux kernel 3.0.0) out? I need to install the developer drive",
+      "id": 24395,
+      "title": "Is developer driver for ubuntu 11.10 (linux kernel 3.0.0) out? I need to install the developer drive",
+      "slug": "is-developer-driver-for-ubuntu-11-10-linux-kernel-3-0-0-out-i-need-to-install-the-developer-drive",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2011-09-21T04:48:42.000Z",
+      "last_posted_at": "2011-12-03T09:01:43.000Z",
+      "bumped": true,
+      "bumped_at": "2011-12-03T09:01:43.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 13280,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 11631,
+            "username": "hexicn1",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 271,
+            "username": "seibert",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 11827,
+            "username": "edo_bvd",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "issues after installing cuda 10&hellip;.",
+      "id": 71241,
+      "title": "issues after installing cuda 10....",
+      "slug": "issues-after-installing-cuda-10",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2019-03-06T18:48:15.000Z",
+      "last_posted_at": "2019-03-15T11:12:16.000Z",
+      "bumped": true,
+      "bumped_at": "2019-03-15T11:12:16.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 15616,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 181264,
+            "username": "richardnunziata",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 175216,
+            "username": "abhijit65",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Driver update fails on Ubuntu after Cuda-6.5 install from .deb",
+      "id": 37191,
+      "title": "Driver update fails on Ubuntu after Cuda-6.5 install from .deb",
+      "slug": "driver-update-fails-on-ubuntu-after-cuda-6-5-install-from-deb",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2015-03-13T21:06:21.000Z",
+      "last_posted_at": "2015-03-14T01:25:10.000Z",
+      "bumped": true,
+      "bumped_at": "2015-03-14T01:25:10.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 6396,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2234,
+            "username": "cudesnick",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "cuda install fail - ubuntu 14.04",
+      "id": 41219,
+      "title": "cuda install fail - ubuntu 14.04",
+      "slug": "cuda-install-fail-ubuntu-14-04",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2016-02-01T14:20:51.000Z",
+      "last_posted_at": "2016-02-04T17:54:15.000Z",
+      "bumped": true,
+      "bumped_at": "2016-02-04T17:54:15.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3797,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 30343,
+            "username": "jeremyrutman",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jeremyrutman/{size}/12611_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Ubuntu Server 17.10, nVidia v390.30 driver, Cuda V9.0.176 : Cannot load nvidia driver since kernel update",
+      "id": 60622,
+      "title": "Ubuntu Server 17.10, nVidia v390.30 driver, Cuda V9.0.176 : Cannot load nvidia driver since kernel update",
+      "slug": "ubuntu-server-17-10-nvidia-v390-30-driver-cuda-v9-0-176-cannot-load-nvidia-driver-since-kernel-update",
+      "posts_count": 24,
+      "reply_count": 0,
+      "highest_post_number": 24,
+      "image_url": null,
+      "created_at": "2018-04-24T13:59:40.000Z",
+      "last_posted_at": "2021-10-14T20:17:40.050Z",
+      "bumped": true,
+      "bumped_at": "2018-04-27T12:34:23.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3793,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 178243,
+            "username": "sebastien.mansfeld",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Installed CUDA 10.0 on Ubuntu 18.04 with deb file. NVIDIA-SMI &ldquo;couldn&rsquo;t communicate with NVIDIA driver&rdquo;.",
+      "id": 80788,
+      "title": "Installed CUDA 10.0 on Ubuntu 18.04 with deb file. NVIDIA-SMI \"couldn't communicate with NVIDIA driver\".",
+      "slug": "installed-cuda-10-0-on-ubuntu-18-04-with-deb-file-nvidia-smi-couldnt-communicate-with-nvidia-driver",
+      "posts_count": 18,
+      "reply_count": 0,
+      "highest_post_number": 18,
+      "image_url": null,
+      "created_at": "2019-08-28T20:52:55.000Z",
+      "last_posted_at": "2021-10-12T18:57:57.054Z",
+      "bumped": true,
+      "bumped_at": "2019-09-11T06:05:13.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 6380,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster, Accepted Answer",
+          "user": {
+            "id": 271274,
+            "username": "dariusqte6m",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 272012,
+            "username": "CGG",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 276726,
+            "username": "harsh.patel",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Safe to update driver 396.37-&gt;54 with CUDA 9.2?",
+      "id": 64829,
+      "title": "Safe to update driver 396.37->54 with CUDA 9.2?",
+      "slug": "safe-to-update-driver-396-37-54-with-cuda-9-2",
+      "posts_count": 15,
+      "reply_count": 0,
+      "highest_post_number": 15,
+      "image_url": null,
+      "created_at": "2018-09-06T05:06:00.000Z",
+      "last_posted_at": "2021-10-14T20:17:34.995Z",
+      "bumped": true,
+      "bumped_at": "2018-09-08T23:30:48.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2932,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 193860,
+            "username": "kevintheobald",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Kernel Update breaks CUDA/nvidia-smi",
+      "id": 72808,
+      "title": "Kernel Update breaks CUDA/nvidia-smi",
+      "slug": "kernel-update-breaks-cuda-nvidia-smi",
+      "posts_count": 16,
+      "reply_count": 0,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2019-04-10T09:44:13.000Z",
+      "last_posted_at": "2019-04-23T09:44:17.000Z",
+      "bumped": true,
+      "bumped_at": "2019-04-23T09:44:17.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9425,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 197289,
+            "username": "lukee2ni6",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 113226,
+            "username": "bernard.at.spark",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "jefftown",
+    "name": null,
+    "excerpt": "I was able to resolve the issue with the —override option. \nFurther more I figured out that to successfully install NVIDIA driver on the SPARK, one needs to enroll a signing key using the mokutil, due to secure boot. After that, things work as expected",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4698480,
+        "username": "jefftown",
+        "name": "Daizefu",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 43960,
+        "username": "abull",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4698480,
+      "username": "jefftown",
+      "name": "Daizefu",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 43960,
+      "username": "abull",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png"
+    },
+    "links": [
+      {
+        "url": "https://docs.nvidia.com/dgx/dgx-spark/system-recovery.html",
+        "title": "System Recovery — DGX Spark User Guide",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 6,
+        "user_id": 43960,
+        "domain": "docs.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/support/dgx-spark/",
+        "title": "NVIDIA DGX Spark Support",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 3,
+        "user_id": 43960,
+        "domain": "www.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

@@ -1,0 +1,18 @@
+{
+    "servers": [
+        {
+            "url": "http://localhost:1234/v1/chat/completions",
+            "model": "gpt-oss-20b",
+            "timeout": 300,
+            "max_tokens": 3000,
+            "temperature": 0.5
+        },
+        {
+            "url": "http://192.168.8.193:1234/v1/chat/completions",
+            "model": "gpt-oss-20b",
+            "timeout": 300,
+            "max_tokens": 3000,
+            "temperature": 0.5
+        }
+    ]
+}

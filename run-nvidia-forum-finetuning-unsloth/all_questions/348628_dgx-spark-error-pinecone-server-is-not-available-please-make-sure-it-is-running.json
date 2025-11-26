@@ -1,0 +1,1295 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1700752,
+        "name": "Remzi",
+        "username": "cirit6",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/cirit6/{size}/448033_2.png",
+        "created_at": "2025-10-22T15:19:11.213Z",
+        "cooked": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://global.discourse-cdn.com/nvidia/original/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266.png\" data-download-href=\"/uploads/short-url/2565QcUhMgju0bZxCkMMPPcJLwO.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_690x375.png\" alt=\"image\" data-base62-sha1=\"2565QcUhMgju0bZxCkMMPPcJLwO\" width=\"690\" height=\"375\" srcset=\"https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_690x375.png, https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_1035x562.png 1.5x, https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_1380x750.png 2x\" data-dominant-color=\"1D1C1A\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">2140×1164 245 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>Embeddings Generation Failed<br>\nFailed to generate embeddings: Failed to generate embeddings: {“error”:“Pinecone server is not available. Please make sure it is running.”}</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-22T16:41:49.133Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 11,
+        "reads": 15,
+        "readers_count": 14,
+        "score": 52.8,
+        "yours": false,
+        "topic_id": 348628,
+        "topic_slug": "dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running",
+        "display_username": "Remzi",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2957139,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running/348628/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1700873,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-22T20:49:20.789Z",
+        "cooked": "<p>The playbook says: “<strong>Future Enhancements</strong>: Vector embeddings and GraphRAG capabilities are planned enhancements.”</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-22T20:49:20.789Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 2.2,
+        "yours": false,
+        "topic_id": 348628,
+        "topic_slug": "dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running/348628/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715765,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:13:04.239Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:13:04.239Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 348628,
+        "topic_slug": "dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running/348628/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1700752,
+      1700873,
+      1715765
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      34
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "DGX Spark error&rdquo;:&rdquo;Pinecone server is not available. Please make sure it is running",
+  "id": 348628,
+  "title": "DGX Spark error\":\"Pinecone server is not available. Please make sure it is running",
+  "posts_count": 3,
+  "created_at": "2025-10-22T15:19:11.146Z",
+  "views": 49,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-10-22T20:49:20.789Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "dgx-spark-error-pinecone-server-is-not-available-please-make-sure-it-is-running",
+  "category_id": 721,
+  "word_count": 41,
+  "deleted_at": null,
+  "user_id": 2957139,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_1024x556.png",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348628",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 2140,
+      "height": 1164,
+      "url": "https://global.discourse-cdn.com/nvidia/original/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266.png"
+    },
+    {
+      "max_width": 1024,
+      "max_height": 1024,
+      "width": 1024,
+      "height": 556,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_1024x556.png"
+    },
+    {
+      "max_width": 800,
+      "max_height": 800,
+      "width": 800,
+      "height": 435,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_800x435.png"
+    },
+    {
+      "max_width": 600,
+      "max_height": 600,
+      "width": 600,
+      "height": 326,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_600x326.png"
+    },
+    {
+      "max_width": 400,
+      "max_height": 400,
+      "width": 400,
+      "height": 217,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_400x217.png"
+    },
+    {
+      "max_width": 300,
+      "max_height": 300,
+      "width": 300,
+      "height": 163,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_300x163.png"
+    },
+    {
+      "max_width": 200,
+      "max_height": 200,
+      "width": 200,
+      "height": 108,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/e/9/0e97e243c5a73afc093e60824a60aef92ab17266_2_200x108.png"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Kaldi triton inference server not working on nvidia k80",
+      "id": 185748,
+      "title": "Kaldi triton inference server not working on nvidia k80",
+      "slug": "kaldi-triton-inference-server-not-working-on-nvidia-k80",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2021-08-05T12:41:24.899Z",
+      "last_posted_at": "2021-08-05T12:41:24.968Z",
+      "bumped": true,
+      "bumped_at": "2021-08-05T12:41:24.968Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 827,
+      "category_id": 97,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 924947,
+            "username": "muaaz",
+            "name": "Muaaz",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Triton inference server is sending back &ldquo;HTTP/1.1 400 Bad Request&rdquo;",
+      "id": 146244,
+      "title": "Triton inference server is sending back \"HTTP/1.1 400 Bad Request\"",
+      "slug": "triton-inference-server-is-sending-back-http-1-1-400-bad-request",
+      "posts_count": 7,
+      "reply_count": 1,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2020-08-10T16:27:39.641Z",
+      "last_posted_at": "2021-10-12T16:24:29.730Z",
+      "bumped": true,
+      "bumped_at": "2020-08-11T11:50:13.102Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 3585,
+      "category_id": 17,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 360816,
+            "username": "ghazni",
+            "name": "M G Saeed",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 32408,
+            "username": "Morganh",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/morganh/{size}/9748_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Not generating all embeddings?",
+      "id": 288657,
+      "title": "Not generating all embeddings?",
+      "slug": "not-generating-all-embeddings",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4.png",
+      "created_at": "2024-04-05T19:34:43.289Z",
+      "last_posted_at": "2024-04-05T19:34:43.365Z",
+      "bumped": true,
+      "bumped_at": "2024-04-05T20:38:01.496Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 952,
+          "height": 203,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 170,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4_2_800x170.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 127,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4_2_600x127.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 85,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4_2_400x85.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 63,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4_2_300x63.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 42,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/c/2/7/c276c6fd13d1d26d25cd0a178d877bb966dd38d4_2_200x42.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 215,
+      "category_id": 669,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 3419910,
+            "username": "werkwolkbvba",
+            "name": "Werkwolkbvba",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Isaac sim 2020.1 Early Access Docker Container warnings?",
+      "id": 142440,
+      "title": "Isaac sim 2020.1 Early Access Docker Container warnings?",
+      "slug": "isaac-sim-2020-1-early-access-docker-container-warnings",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2020-07-17T13:44:45.910Z",
+      "last_posted_at": "2024-04-05T15:36:14.639Z",
+      "bumped": true,
+      "bumped_at": "2020-07-17T16:16:59.074Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 668,
+      "category_id": 69,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 291759,
+            "username": "schulze762gr",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 7807,
+            "username": "Sheikh_Dawood",
+            "name": "Sheikh Dawood",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sheikh_dawood/{size}/153723_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "&rdquo;./jarvis_start.sh&rdquo; timed out",
+      "id": 175615,
+      "title": "\"./jarvis_start.sh\" timed out",
+      "slug": "jarvis-start-sh-timed-out",
+      "posts_count": 21,
+      "reply_count": 10,
+      "highest_post_number": 21,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b.png",
+      "created_at": "2021-04-19T07:56:19.920Z",
+      "last_posted_at": "2021-05-21T12:11:42.575Z",
+      "bumped": true,
+      "bumped_at": "2021-05-21T12:11:42.575Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 965,
+          "height": 617,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 511,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b_2_800x511.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 383,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b_2_600x383.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 255,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b_2_400x255.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 191,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b_2_300x191.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 127,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/f/b/fbe3e17011358295ae00c03aa1addaddec37b52b_2_200x127.png"
+        }
+      ],
+      "tags": [
+        "riva"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 2237,
+      "category_id": 475,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1149019,
+            "username": "toothsy",
+            "name": "toothsy",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/toothsy/{size}/90360_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1157072,
+            "username": "limbail",
+            "name": "Limbail",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 719197,
+            "username": "zhongjieyu",
+            "name": "Zhongjieyu",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 293505,
+            "username": "SunilJB",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/suniljb/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1219514,
+            "username": "carlo.raj",
+            "name": "Carlo Raj",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Part 5 Assessment in DLI Course ‘Building RAG Agents for LLMs’",
+      "id": 283365,
+      "title": "Part 5 Assessment in DLI Course ‘Building RAG Agents for LLMs’",
+      "slug": "part-5-assessment-in-dli-course-building-rag-agents-for-llms",
+      "posts_count": 12,
+      "reply_count": 7,
+      "highest_post_number": 14,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3.png",
+      "created_at": "2024-02-20T11:31:37.540Z",
+      "last_posted_at": "2024-02-21T15:19:57.602Z",
+      "bumped": true,
+      "bumped_at": "2024-02-21T15:19:57.602Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 978,
+          "height": 200,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 163,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3_2_800x163.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 122,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3_2_600x122.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 81,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3_2_400x81.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 61,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3_2_300x61.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 40,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/e/8/ee8b848c2a0bbe8206232390ca1993b4bdb4fad3_2_200x40.png"
+        }
+      ],
+      "tags": [
+        "dli"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 2460,
+      "category_id": 669,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 673286,
+            "username": "ryan_sg",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 2819604,
+            "username": "vkudlay",
+            "name": "Vkudlay",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vkudlay/{size}/317329_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DLI Course &ldquo;Building RAG Agents for LLMs&rdquo; - Help With Assessment",
+      "id": 285194,
+      "title": "DLI Course \"Building RAG Agents for LLMs\" - Help With Assessment",
+      "slug": "dli-course-building-rag-agents-for-llms-help-with-assessment",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2024-03-06T22:27:10.173Z",
+      "last_posted_at": "2024-09-05T12:36:33.401Z",
+      "bumped": true,
+      "bumped_at": "2024-09-05T12:36:33.401Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "dli"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 1557,
+      "category_id": 669,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3342831,
+            "username": "nreamaro",
+            "name": "Nreamaro",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2819604,
+            "username": "vkudlay",
+            "name": "Vkudlay",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vkudlay/{size}/317329_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 781659,
+            "username": "paul.fergus",
+            "name": "Paul Fergus",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3747646,
+            "username": "eya.jeljli",
+            "name": "Eya Jeljli",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "RAG example cannot run with nvolveqa_40k embeddings",
+      "id": 294017,
+      "title": "RAG example cannot run with nvolveqa_40k embeddings",
+      "slug": "rag-example-cannot-run-with-nvolveqa-40k-embeddings",
+      "posts_count": 6,
+      "reply_count": 3,
+      "highest_post_number": 6,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_1024x537.jpeg",
+      "created_at": "2024-05-24T08:39:04.738Z",
+      "last_posted_at": "2024-05-31T01:44:29.299Z",
+      "bumped": true,
+      "bumped_at": "2024-05-31T01:44:29.299Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1200,
+          "height": 630,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 537,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_1024x537.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 420,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_800x420.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 315,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_600x315.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 210,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_400x210.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 157,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_300x157.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 105,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/3/1/6/316a66268663c1ed647d412c828c5daa568aeb15_2_200x105.jpeg"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 616,
+      "category_id": 25,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2900868,
+            "username": "jason.cham",
+            "name": "Jason Cham",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3525357,
+            "username": "juttin05",
+            "name": "Juttin05",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson AGX Orin: riva_init.sh Fails",
+      "id": 218134,
+      "title": "Jetson AGX Orin: riva_init.sh Fails",
+      "slug": "jetson-agx-orin-riva-init-sh-fails",
+      "posts_count": 14,
+      "reply_count": 10,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2022-06-19T16:01:03.943Z",
+      "last_posted_at": "2022-08-03T20:26:22.049Z",
+      "bumped": true,
+      "bumped_at": "2022-07-20T20:26:08.101Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 1624,
+      "category_id": 475,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1895158,
+            "username": "ab-tools",
+            "name": "A Breitschopp",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ab-tools/{size}/164246_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 1277930,
+            "username": "rvinobha",
+            "name": "Rvinobha",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rvinobha/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Can´t start riva",
+      "id": 210146,
+      "title": "Can´t start riva",
+      "slug": "can-t-start-riva",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_1024x537.jpeg",
+      "created_at": "2022-04-03T08:42:18.742Z",
+      "last_posted_at": "2022-04-05T15:57:49.422Z",
+      "bumped": true,
+      "bumped_at": "2022-04-05T15:57:49.422Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1200,
+          "height": 630,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 537,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_1024x537.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 420,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_800x420.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 315,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_600x315.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 210,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_400x210.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 157,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_300x157.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 105,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_200x105.jpeg"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 1233,
+      "category_id": 475,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 78670,
+            "username": "rebotnix",
+            "name": "Gary Hilgemann",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rebotnix/{size}/11315_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1277930,
+            "username": "rvinobha",
+            "name": "Rvinobha",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rvinobha/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "The playbook says: “Future Enhancements: Vector embeddings and GraphRAG capabilities are planned enhancements.”",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 2957139,
+        "username": "cirit6",
+        "name": "Remzi",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/cirit6/{size}/448033_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 2957139,
+      "username": "cirit6",
+      "name": "Remzi",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/cirit6/{size}/448033_2.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

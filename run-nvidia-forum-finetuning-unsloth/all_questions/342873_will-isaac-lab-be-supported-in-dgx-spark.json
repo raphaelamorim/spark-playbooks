@@ -1,0 +1,1054 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1669463,
+        "name": "Juandiegoherrera207",
+        "username": "juandiegoherrera207",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-08-22T15:00:30.413Z",
+        "cooked": "<p>Hello NVIDIA Community,</p>\n<p>I am writing to seek clarification regarding NVIDIA Isaac Lab support for the new DGX Spark systems.</p>\n<p>When the DGX Spark was first announced, I was under the impression that its architecture would be perfectly suited for advanced robotics workloads, including Isaac Lab. However, I recently attended the launch webinar for the ASUS Ascent (the DGX Spark collaboration with ASUS), and I was left with some uncertainty.</p>\n<p>During the Q&amp;A session, an NVIDIA representative gave an ambiguous answer when asked about official support for Isaac Lab on this new platform. This has caused me significant concern.</p>\n<p>Could an official representative or anyone with direct knowledge please confirm if NVIDIA Isaac Lab will be fully supported on DGX Spark systems?</p>\n<p>This clarification is incredibly important for my purchasing decision. I am a developer from Colombia, where access to this level of technology is very limited. I have been saving my entire life’s savings with the specific goal of investing in a DGX system to advance my skills in robotics and AI. Before I make such a significant commitment, I need to be certain that it will support the key software I intend to learn and use.</p>\n<p>Thank you for your time and any information you can provide.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-08-22T15:00:30.413Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 673,
+        "reads": 141,
+        "readers_count": 140,
+        "score": 3303.0,
+        "yours": false,
+        "topic_id": 342873,
+        "topic_slug": "will-isaac-lab-be-supported-in-dgx-spark",
+        "display_username": "Juandiegoherrera207",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4367179,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/will-isaac-lab-be-supported-in-dgx-spark/342873/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1669516,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-08-22T16:32:48.141Z",
+        "cooked": "<p>We can confirm that Isaac Lab will be supported on the DGX Spark</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-08-22T16:32:48.141Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 130,
+        "readers_count": 129,
+        "score": 80.8,
+        "yours": false,
+        "topic_id": 342873,
+        "topic_slug": "will-isaac-lab-be-supported-in-dgx-spark",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 3
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/will-isaac-lab-be-supported-in-dgx-spark/342873/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1676550,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-09-05T16:33:13.074Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-09-05T16:33:13.074Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 98,
+        "readers_count": 97,
+        "score": 29.6,
+        "yours": false,
+        "topic_id": 342873,
+        "topic_slug": "will-isaac-lab-be-supported-in-dgx-spark",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/will-isaac-lab-be-supported-in-dgx-spark/342873/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1669463,
+      1669516,
+      1676550
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      95
+    ],
+    [
+      3,
+      81
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Will Isaac Lab be supported in DGX Spark?",
+  "id": 342873,
+  "title": "Will Isaac Lab be supported in DGX Spark?",
+  "posts_count": 3,
+  "created_at": "2025-08-22T15:00:30.331Z",
+  "views": 825,
+  "reply_count": 0,
+  "like_count": 4,
+  "last_posted_at": "2025-08-22T16:32:48.141Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "will-isaac-lab-be-supported-in-dgx-spark",
+  "category_id": 721,
+  "word_count": 224,
+  "deleted_at": null,
+  "user_id": 4367179,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_342873",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Does the DGX Spark run isaac lab/ isaac sim?",
+      "id": 347965,
+      "title": "Does the DGX Spark run isaac lab/ isaac sim?",
+      "slug": "does-the-dgx-spark-run-isaac-lab-isaac-sim",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-17T00:14:22.821Z",
+      "last_posted_at": "2025-10-17T15:29:18.599Z",
+      "bumped": true,
+      "bumped_at": "2025-10-17T15:29:18.599Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 241,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4695305,
+            "username": "Tee_1",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Can I install Isaac on DRIVE AGX?",
+      "id": 128630,
+      "title": "Can I install Isaac on DRIVE AGX?",
+      "slug": "can-i-install-isaac-on-drive-agx",
+      "posts_count": 7,
+      "reply_count": 4,
+      "highest_post_number": 7,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/c/0/c047d411fbabe6a769be375418277f6c469838cf.png",
+      "created_at": "2020-06-19T03:07:11.047Z",
+      "last_posted_at": "2021-10-12T20:04:37.073Z",
+      "bumped": true,
+      "bumped_at": "2020-06-21T17:05:44.779Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 582,
+          "height": 268,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/c/0/c047d411fbabe6a769be375418277f6c469838cf.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 184,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/0/c047d411fbabe6a769be375418277f6c469838cf_2_400x184.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 299,
+          "height": 138,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/0/c047d411fbabe6a769be375418277f6c469838cf_2_299x138.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 92,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/0/c047d411fbabe6a769be375418277f6c469838cf_2_200x92.png"
+        }
+      ],
+      "tags": [
+        "drive-misc"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 619,
+      "category_id": 59,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 224937,
+            "username": "Tony.Liu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 41661,
+            "username": "SivaRamaKrishnaNV",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/sivaramakrishnanv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Questions about buying into NVIDIA for Robotics and Deep Reinforcement Learning on AGX Xavier",
+      "id": 157898,
+      "title": "Questions about buying into NVIDIA for Robotics and Deep Reinforcement Learning on AGX Xavier",
+      "slug": "questions-about-buying-into-nvidia-for-robotics-and-deep-reinforcement-learning-on-agx-xavier",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2020-10-25T00:59:56.176Z",
+      "last_posted_at": "2021-10-18T18:21:18.064Z",
+      "bumped": true,
+      "bumped_at": "2020-10-25T23:50:59.434Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 638,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 203265,
+            "username": "s_quintanar",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nucleus does not support DGX station with DGX OS",
+      "id": 141733,
+      "title": "Nucleus does not support DGX station with DGX OS",
+      "slug": "nucleus-does-not-support-dgx-station-with-dgx-os",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2020-07-13T14:15:32.011Z",
+      "last_posted_at": "2024-04-05T15:36:14.516Z",
+      "bumped": true,
+      "bumped_at": "2020-07-13T15:00:52.625Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 454,
+      "category_id": 69,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 546085,
+            "username": "11712605",
+            "name": "11712605",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 193873,
+            "username": "ltorabi",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ltorabi/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Will Issac Sim support Arm64 (on the DGX spark)",
+      "id": 328238,
+      "title": "Will Issac Sim support Arm64 (on the DGX spark)",
+      "slug": "will-issac-sim-support-arm64-on-the-dgx-spark",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-03-25T18:44:59.322Z",
+      "last_posted_at": "2025-03-25T18:44:59.387Z",
+      "bumped": true,
+      "bumped_at": "2025-03-25T18:44:59.387Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 427,
+      "category_id": 322,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4100832,
+            "username": "shiy1",
+            "name": "Shiy",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "NsightGraphicsPro",
+            "flair_group_id": 113,
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark for robotic simulation and reinforcement learning",
+      "id": 350082,
+      "title": "DGX Spark for robotic simulation and reinforcement learning",
+      "slug": "dgx-spark-for-robotic-simulation-and-reinforcement-learning",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-11-03T17:57:45.204Z",
+      "last_posted_at": "2025-11-11T07:35:00.015Z",
+      "bumped": true,
+      "bumped_at": "2025-11-11T07:35:00.015Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 58,
+      "category_id": 600,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1126665,
+            "username": "re.valencia0188",
+            "name": "Re Valencia0188",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4575609,
+            "username": "vchuang",
+            "name": "Vchuang",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/vchuang/{size}/436710_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "What is the NVIDIA® Isaac ROS? How to get started with it?",
+      "id": 216433,
+      "title": "What is the NVIDIA® Isaac ROS? How to get started with it?",
+      "slug": "what-is-the-nvidia-isaac-ros-how-to-get-started-with-it",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2022-06-03T10:20:49.174Z",
+      "last_posted_at": "2022-06-05T23:54:32.121Z",
+      "bumped": true,
+      "bumped_at": "2022-06-05T23:54:32.121Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "isaac-sdk"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 682,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1624254,
+            "username": "venkatesanm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/venkatesanm/{size}/170095_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVIDIA Robotics &amp; AI Technical Workshop -LIVE on September 14 &amp; 15",
+      "id": 188230,
+      "title": "NVIDIA Robotics & AI Technical Workshop -LIVE on September 14 & 15",
+      "slug": "nvidia-robotics-ai-technical-workshop-live-on-september-14-15",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2021-09-01T18:26:15.773Z",
+      "last_posted_at": "2021-09-07T18:18:44.998Z",
+      "bumped": true,
+      "bumped_at": "2021-09-01T18:26:15.846Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "isaacsim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 1316,
+      "category_id": 71,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1031539,
+            "username": "lfarinas",
+            "name": "Lfarinas",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/lfarinas/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 25118,
+            "username": "prlawrence",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/prlawrence/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Welcome to Isaac ROS Forum!",
+      "id": 219270,
+      "title": "Welcome to Isaac ROS Forum!",
+      "slug": "welcome-to-isaac-ros-forum",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2022-06-29T16:39:01.303Z",
+      "last_posted_at": "2023-11-28T12:12:03.886Z",
+      "bumped": true,
+      "bumped_at": "2022-06-30T01:07:01.500Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 4,
+      "views": 1677,
+      "category_id": 600,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 833294,
+            "username": "nvidia-orin",
+            "name": "Nvidia Orin",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nvidia-orin/{size}/204576_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 723393,
+            "username": "hemals",
+            "name": "Hemal Shah",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/hemals/{size}/21824_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1179816,
+            "username": "Raffaello",
+            "name": "Raffaello Bonghi",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/raffaello/{size}/15508_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPU Operator 1.9 Adds Support for DGX A100 with DGX OS",
+      "id": 197389,
+      "title": "GPU Operator 1.9 Adds Support for DGX A100 with DGX OS",
+      "slug": "gpu-operator-1-9-adds-support-for-dgx-a100-with-dgx-os",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2021-12-07T18:00:30.703Z",
+      "last_posted_at": "2021-12-07T18:00:30.780Z",
+      "bumped": true,
+      "bumped_at": "2021-12-07T18:00:30.780Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 408,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "We can confirm that Isaac Lab will be supported on the DGX Spark",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4367179,
+        "username": "juandiegoherrera207",
+        "name": "Juandiegoherrera207",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      }
+    ],
+    "created_by": {
+      "id": 4367179,
+      "username": "juandiegoherrera207",
+      "name": "Juandiegoherrera207",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

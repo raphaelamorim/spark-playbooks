@@ -1,0 +1,1154 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1706240,
+        "name": "Jason",
+        "username": "Semfreak",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/semfreak/{size}/445906_2.png",
+        "created_at": "2025-11-02T05:55:17.520Z",
+        "cooked": "<h2><a name=\"p-1706240-system-information-1\" class=\"anchor\" href=\"#p-1706240-system-information-1\"></a>System Information</h2>\n<p><strong>Product</strong>: NVIDIA DGX Spark (2 units)</p>\n<p><strong>Software Configuration</strong>:</p>\n<ul>\n<li>\n<p><strong>OS</strong>: Ubuntu 24.04 (DGX OS 7.2.3)</p>\n</li>\n<li>\n<p><strong>Kernel</strong>: 6.11.0-1016-nvidia (aarch64)</p>\n</li>\n<li>\n<p><strong>GPU Driver</strong>: NVIDIA 580.95.05 (nvidia-580-open)</p>\n</li>\n<li>\n<p><strong>CUDA Toolkit</strong>: 13.0.2</p>\n</li>\n<li>\n<p><strong>NCCL</strong>: 2.27.7</p>\n</li>\n<li>\n<p><strong>MLNX_OFED</strong>: 24.07-0.6.1.0</p>\n</li>\n<li>\n<p><strong>Architecture</strong>: ARM64 (aarch64)</p>\n</li>\n</ul>\n<p><strong>Hardware Configuration</strong>:</p>\n<ul>\n<li>\n<p>2× DGX Spark systems with GB10 Grace Blackwell Superchips</p>\n</li>\n<li>\n<p>Connected via 200Gbps InfiniBand (Mellanox ConnectX-7)</p>\n</li>\n<li>\n<p>Network: 10.0.0.1 and 10.0.0.2</p>\n</li>\n<li>\n<p>Static IP configuration on enp1s0f0np0 interface</p>\n</li>\n</ul>\n<hr>\n<h2><a name=\"p-1706240-problem-description-2\" class=\"anchor\" href=\"#p-1706240-problem-description-2\"></a>Problem Description</h2>\n<p><strong>Issue</strong>: GPU Direct RDMA is not functional between our two DGX Spark systems, forcing distributed training to use a slow CPU bounce buffer path instead of direct GPU-to-GPU transfers over InfiniBand.</p>\n<p><strong>Impact</strong>: Distributed training performance is degraded by 3-5x due to:</p>\n<ul>\n<li>\n<p>Data path: GPU → CPU RAM → InfiniBand → CPU RAM → GPU (instead of direct GPU → IB → GPU)</p>\n</li>\n<li>\n<p>Bandwidth limited to ~25-30 GB/s instead of the full ~200 Gbps link capacity</p>\n</li>\n<li>\n<p>High CPU overhead during training</p>\n</li>\n<li>\n<p>Underutilized $32,000+ hardware investment</p>\n</li>\n</ul>\n<p><strong>Current Status</strong>:</p>\n<ul>\n<li>\n<p>✅ MLNX_OFED 24.07 installed and working correctly</p>\n</li>\n<li>\n<p>✅ InfiniBand link active (200Gbps)</p>\n</li>\n<li>\n<p>✅ RDMA communication working</p>\n</li>\n<li>\n<p>✅ NCCL using NET/IB transport</p>\n</li>\n<li>\n<p>✅ Distributed training completes (but slowly via CPU path)</p>\n</li>\n<li>\n<p>❌ GPU Direct RDMA explicitly disabled by NCCL</p>\n</li>\n<li>\n<p>❌ nvidia-peermem kernel module fails to load</p>\n</li>\n</ul>\n<hr>\n<h2><a name=\"p-1706240-technical-details-3\" class=\"anchor\" href=\"#p-1706240-technical-details-3\"></a>Technical Details</h2>\n<h3><a name=\"p-1706240-root-cause-identified-4\" class=\"anchor\" href=\"#p-1706240-root-cause-identified-4\"></a>Root Cause Identified</h3>\n<p>The <code>nvidia-peermem</code> kernel module located at:</p>\n<pre><code class=\"lang-auto\">/lib/modules/6.11.0-1016-nvidia/kernel/nvidia-580-open/nvidia-peermem.ko\n\n</code></pre>\n<p><strong>Fails to load with “Invalid argument” error:</strong></p>\n<pre><code class=\"lang-auto\">$ sudo modprobe nvidia-peermem\nmodprobe: ERROR: could not insert 'nvidia_peermem': Invalid argument\n\n</code></pre>\n<p><strong>System logs show:</strong></p>\n<pre><code class=\"lang-auto\">$ sudo dmesg | tail\n[timestamp] nvidia_peermem: Unknown symbol ib_register_peer_memory_client\n\n</code></pre>\n<h3><a name=\"p-1706240-analysis-5\" class=\"anchor\" href=\"#p-1706240-analysis-5\"></a>Analysis</h3>\n<p>Based on NVIDIA’s own documentation and community reports, this occurs when:</p>\n<ol>\n<li>\n<p>The NVIDIA GPU driver is installed <strong>before</strong> MLNX_OFED</p>\n</li>\n<li>\n<p>The <code>nvidia-peermem</code> module is compiled <strong>without</strong> the MLNX_OFED peer memory symbols</p>\n</li>\n<li>\n<p>Later installation of MLNX_OFED does not trigger recompilation of <code>nvidia-peermem</code></p>\n</li>\n<li>\n<p>The module lacks the required <code>ib_register_peer_memory_client</code> and <code>ib_unregister_peer_memory_client</code> symbols</p>\n</li>\n</ol>\n<p><strong>From NVIDIA’s documentation</strong> (GPUDirect RDMA guide):</p>\n<blockquote>\n<p>“If the NVIDIA GPU driver is installed before MOFED, the GPU driver must be uninstalled and installed again to make sure nvidia-peermem is compiled with the RDMA APIs that are provided by MLNX_OFED.”</p>\n</blockquote>\n<h3><a name=\"p-1706240-nccl-diagnostic-output-6\" class=\"anchor\" href=\"#p-1706240-nccl-diagnostic-output-6\"></a>NCCL Diagnostic Output</h3>\n<pre><code class=\"lang-auto\">$ NCCL_DEBUG=INFO [training script]\n...\nNET/IB : Using [0]mlx5_0:1/IB [RO]; OOB enp1s0f0np0:10.0.0.1&lt;0&gt;\nNET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0' (CUPTI metric failed)\n...\n\n</code></pre>\n<p>The “GPU Direct RDMA Disabled” message confirms NCCL cannot use GPU Direct.</p>\n<h3><a name=\"p-1706240-missing-system-components-7\" class=\"anchor\" href=\"#p-1706240-missing-system-components-7\"></a>Missing System Components</h3>\n<pre><code class=\"lang-auto\">$ ls /sys/kernel/mm/memory_peers/\nls: cannot access '/sys/kernel/mm/memory_peers/': No such file or directory\n\n</code></pre>\n<p>This directory should exist when peer memory support is active.</p>\n<hr>\n<h2><a name=\"p-1706240-what-weve-investigated-8\" class=\"anchor\" href=\"#p-1706240-what-weve-investigated-8\"></a>What We’ve Investigated</h2>\n<h3><a name=\"p-1706240-verification-that-other-components-work-9\" class=\"anchor\" href=\"#p-1706240-verification-that-other-components-work-9\"></a>Verification That Other Components Work</h3>\n<ol>\n<li>\n<p><strong>MLNX_OFED is correctly installed</strong>:</p>\n<pre><code class=\"lang-auto\">$ ofed_info -s\nMLNX_OFED_LINUX-24.07-0.6.1.0\n\n</code></pre>\n</li>\n<li>\n<p><strong>InfiniBand link is active</strong>:</p>\n<pre><code class=\"lang-auto\">$ ibstat\nCA 'mlx5_0'\n    Port 1:\n        State: Active\n        Physical state: LinkUp\n        Rate: 200\n\n</code></pre>\n</li>\n<li>\n<p><strong>RDMA devices are available</strong>:</p>\n<pre><code class=\"lang-auto\">$ ibv_devinfo | grep state\n        state:                  PORT_ACTIVE (4)\n\n</code></pre>\n</li>\n<li>\n<p><strong>Network connectivity works</strong>:</p>\n<pre><code class=\"lang-auto\">$ ping 10.0.0.2\nPING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.\n64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.156 ms\n\n</code></pre>\n</li>\n<li>\n<p><strong>Distributed training completes successfully</strong> (but slowly):</p>\n<ul>\n<li>\n<p>Training runs to completion</p>\n</li>\n<li>\n<p>NCCL uses IB transport (not falling back to TCP)</p>\n</li>\n<li>\n<p>Performance is degraded due to CPU bounce buffer path</p>\n</li>\n</ul>\n</li>\n</ol>\n<h3><a name=\"p-1706240-research-conducted-10\" class=\"anchor\" href=\"#p-1706240-research-conducted-10\"></a>Research Conducted</h3>\n<p>We’ve found this is a <strong>known issue</strong> affecting multiple platforms:</p>\n<ul>\n<li>\n<p>Grace Hopper (GH200) systems on Rocky Linux</p>\n</li>\n<li>\n<p>Various Ubuntu versions (16.04 through 22.04)</p>\n</li>\n<li>\n<p>Both x86_64 and ARM64 architectures</p>\n</li>\n<li>\n<p>Multiple kernel versions (4.4 through 6.11)</p>\n</li>\n</ul>\n<p><strong>Reference Issues</strong>:</p>\n<ul>\n<li>\n<p>NVIDIA Forums: “modprobe nvidia-peermem silently fails with EINVAL” (April 2024)</p>\n</li>\n<li>\n<p>GitHub Mellanox/nv_peer_memory: Issues <span class=\"hashtag-raw\">#28</span>, <span class=\"hashtag-raw\">#116</span></p>\n</li>\n<li>\n<p>Rocky Linux Forums: “Mismatched Version of Kernel Symbol” (July 2024)</p>\n</li>\n</ul>\n<hr>\n<h2><a name=\"p-1706240-why-this-is-surprising-for-dgx-spark-11\" class=\"anchor\" href=\"#p-1706240-why-this-is-surprising-for-dgx-spark-11\"></a>Why This Is Surprising for DGX Spark</h2>\n<p>While this is a known issue on DIY systems, <strong>we did not expect this on DGX Spark</strong> because:</p>\n<ol>\n<li>\n<p>❌ DGX systems ship with <strong>pre-validated software stacks</strong></p>\n</li>\n<li>\n<p>❌ DGX OS 7.2.3 is a <strong>custom Ubuntu image</strong> specifically for DGX Spark</p>\n</li>\n<li>\n<p>❌ These are <strong>$16,000+ enterprise systems</strong>, not DIY builds</p>\n</li>\n<li>\n<p>❌ Product launched <strong>October 15, 2025</strong> - brand new, should be tested</p>\n</li>\n<li>\n<p>❌ GPU Direct RDMA is a <strong>core advertised feature</strong> for multi-system clusters</p>\n</li>\n</ol>\n<p>The ConnectX-7 networking and dual-system clustering are prominently featured in DGX Spark marketing materials, implying GPU Direct RDMA functionality.</p>\n<hr>\n<h2><a name=\"p-1706240-what-weve-tried-12\" class=\"anchor\" href=\"#p-1706240-what-weve-tried-12\"></a>What We’ve Tried</h2>\n<h3><a name=\"p-1706240-attempted-solution-1-manual-module-loading-13\" class=\"anchor\" href=\"#p-1706240-attempted-solution-1-manual-module-loading-13\"></a>Attempted Solution 1: Manual Module Loading</h3>\n<pre><code class=\"lang-auto\">$ sudo modprobe nvidia-peermem\nmodprobe: ERROR: could not insert 'nvidia_peermem': Invalid argument\n\n</code></pre>\n<p><strong>Result</strong>: Failed with “Invalid argument”</p>\n<h3><a name=\"p-1706240-attempted-solution-2-checking-module-dependencies-14\" class=\"anchor\" href=\"#p-1706240-attempted-solution-2-checking-module-dependencies-14\"></a>Attempted Solution 2: Checking Module Dependencies</h3>\n<pre><code class=\"lang-auto\">$ modinfo /lib/modules/6.11.0-1016-nvidia/kernel/nvidia-580-open/nvidia-peermem.ko\n[Module exists but lacks proper MLNX_OFED symbols]\n\n</code></pre>\n<p><strong>Result</strong>: Module exists but compiled without MLNX_OFED peer memory API</p>\n<h3><a name=\"p-1706240-attempted-solution-3-researching-alternative-nv_peer_mem-15\" class=\"anchor\" href=\"#p-1706240-attempted-solution-3-researching-alternative-nv_peer_mem-15\"></a>Attempted Solution 3: Researching Alternative (nv_peer_mem)</h3>\n<p>Based on research, the standard solution is to use <code>nv_peer_mem</code> from MLNX_OFED instead of <code>nvidia-peermem</code> from the GPU driver. However:</p>\n<pre><code class=\"lang-auto\">$ apt-cache search nvidia-peer-memory\n[No results on ARM64 DGX OS 7.2.3]\n\n</code></pre>\n<p>The <code>nvidia-peer-memory-dkms</code> package appears to not be available in the DGX Spark software repositories.</p>\n<hr>\n<h2><a name=\"p-1706240-what-were-requesting-16\" class=\"anchor\" href=\"#p-1706240-what-were-requesting-16\"></a>What We’re Requesting</h2>\n<h3><a name=\"p-1706240-immediate-need-17\" class=\"anchor\" href=\"#p-1706240-immediate-need-17\"></a>Immediate Need</h3>\n<p><strong>1. Official workaround or fix</strong> to enable GPU Direct RDMA on DGX Spark systems running DGX OS 7.2.3</p>\n<p>Possible solutions:</p>\n<ul>\n<li>\n<p>Provide <code>nvidia-peer-memory-dkms</code> package for ARM64/Ubuntu 24.04</p>\n</li>\n<li>\n<p>Provide instructions for reinstalling GPU driver after MLNX_OFED</p>\n</li>\n<li>\n<p>Provide alternative peer memory module</p>\n</li>\n<li>\n<p>Issue software update that fixes the installation order</p>\n</li>\n</ul>\n<p><strong>2. Validation</strong> that our diagnosis is correct and this is the issue</p>\n<p><strong>3. Timeline</strong> for official fix if not immediately available</p>\n<h3><a name=\"p-1706240-long-term-request-18\" class=\"anchor\" href=\"#p-1706240-long-term-request-18\"></a>Long-Term Request</h3>\n<p><strong>4. Update DGX Spark software image</strong> to prevent this issue on future shipments by:</p>\n<ul>\n<li>\n<p>Installing MLNX_OFED before GPU driver, or</p>\n</li>\n<li>\n<p>Including properly compiled nvidia-peermem, or</p>\n</li>\n<li>\n<p>Including nv_peer_mem from MLNX_OFED in the base image</p>\n</li>\n</ul>\n<p><strong>5. Documentation update</strong> to address this issue in DGX Spark setup guides</p>\n<hr>\n<h2><a name=\"p-1706240-business-impact-19\" class=\"anchor\" href=\"#p-1706240-business-impact-19\"></a>Business Impact</h2>\n<p><strong>Current State</strong>:</p>\n<ul>\n<li>\n<p>Two DGX Spark systems are operational but severely performance-limited</p>\n</li>\n<li>\n<p>Distributed training is 3-5x slower than it should be</p>\n</li>\n<li>\n<p>Cannot realize the value of the multi-system investment</p>\n</li>\n<li>\n<p>Development and research productivity is significantly hampered</p>\n</li>\n</ul>\n<p><strong>Use Case</strong>: We are building AI training infrastructure for:</p>\n<ul>\n<li>\n<p>Large language model fine-tuning (70B-200B parameters)</p>\n</li>\n<li>\n<p>Distributed training across both DGX Spark systems</p>\n</li>\n<li>\n<p>MSP service development leveraging local AI compute</p>\n</li>\n<li>\n<p>Customer-facing AI applications</p>\n</li>\n</ul>\n<p>The lack of GPU Direct RDMA fundamentally undermines the purpose of having two interconnected DGX Spark systems.</p>\n<hr>\n<h2><a name=\"p-1706240-additional-information-available-20\" class=\"anchor\" href=\"#p-1706240-additional-information-available-20\"></a>Additional Information Available</h2>\n<p>We can provide upon request:</p>\n<ul>\n<li>\n<p>Complete <code>dmesg</code> output</p>\n</li>\n<li>\n<p>Full <code>nvidia-bug-report.sh</code> output</p>\n</li>\n<li>\n<p>NCCL debug logs</p>\n</li>\n<li>\n<p>Network topology diagrams</p>\n</li>\n<li>\n<p>Test scripts and benchmarks</p>\n</li>\n<li>\n<p>Any other diagnostic information needed</p>\n</li>\n</ul>\n<hr>\n<h2><a name=\"p-1706240-preferred-contact-method-21\" class=\"anchor\" href=\"#p-1706240-preferred-contact-method-21\"></a>Preferred Contact Method</h2>\n<p>[INSERT YOUR PREFERRED CONTACT METHOD]</p>\n<ul>\n<li>\n<p>Email: [INSERT EMAIL]</p>\n</li>\n<li>\n<p>Phone: [INSERT PHONE]</p>\n</li>\n<li>\n<p>Time Zone: US Central Time (Dallas, TX)</p>\n</li>\n<li>\n<p>Availability: [INSERT AVAILABILITY]</p>\n</li>\n</ul>\n<hr>\n<h2><a name=\"p-1706240-urgency-22\" class=\"anchor\" href=\"#p-1706240-urgency-22\"></a>Urgency</h2>\n<p><strong>Priority</strong>: High</p>\n<p><strong>Reason</strong>: Core functionality (GPU Direct RDMA for multi-system training) is not working on newly purchased enterprise hardware. This directly impacts our ability to use the systems for their intended purpose.</p>\n<p><strong>Timeline Need</strong>: We need a solution within 1-2 weeks to avoid significant project delays.</p>\n<hr>\n<h2><a name=\"p-1706240-summary-23\" class=\"anchor\" href=\"#p-1706240-summary-23\"></a>Summary</h2>\n<p>Two DGX Spark systems (serial numbers [INSERT]) cannot use GPU Direct RDMA for distributed training due to nvidia-peermem module compilation issue. This appears to be caused by DGX OS 7.2.3 installing the GPU driver before MLNX_OFED, resulting in nvidia-peermem being compiled without required peer memory symbols. We need an official fix or workaround to enable this core advertised feature.</p>\n<p>Thank you for your assistance.</p>\n<p>Jason Brashear<br>\nTitanium Computing</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-02T05:55:17.520Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 62,
+        "reads": 45,
+        "readers_count": 44,
+        "score": 283.6,
+        "yours": false,
+        "topic_id": 349837,
+        "topic_slug": "gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load",
+        "display_username": "Jason",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4305320,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load/349837/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1706302,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-11-02T15:29:12.173Z",
+        "cooked": "<p>For Spark RDMA details, please reference <a href=\"https://forums.developer.nvidia.com/t/dgx-spark-gb10-faq/347344#p-1694056-q-is-gpudirect-rdma-supported-on-dgx-spark-13\" class=\"inline-onebox\">DGX Spark / GB10 FAQ</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-02T15:29:12.173Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 2,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 17.2,
+        "yours": false,
+        "topic_id": 349837,
+        "topic_slug": "gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/dgx-spark-gb10-faq/347344",
+            "internal": true,
+            "reflection": false,
+            "title": "DGX Spark / GB10 FAQ",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load/349837/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715820,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:42:02.266Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:42:02.266Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 6,
+        "readers_count": 5,
+        "score": 0.8,
+        "yours": false,
+        "topic_id": 349837,
+        "topic_slug": "gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load/349837/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1706240,
+      1706302,
+      1715820
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      24
+    ],
+    [
+      2,
+      23
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "GPU Direct RDMA Not Working on DGX Spark Systems - nvidia-peermem Module Fails to Load",
+  "id": 349837,
+  "title": "GPU Direct RDMA Not Working on DGX Spark Systems - nvidia-peermem Module Fails to Load",
+  "posts_count": 3,
+  "created_at": "2025-11-02T05:55:17.350Z",
+  "views": 136,
+  "reply_count": 0,
+  "like_count": 0,
+  "last_posted_at": "2025-11-02T15:29:12.173Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "gpu-direct-rdma-not-working-on-dgx-spark-systems-nvidia-peermem-module-fails-to-load",
+  "category_id": 721,
+  "word_count": 1292,
+  "deleted_at": null,
+  "user_id": 4305320,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_349837",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 7,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "DGX Spark GPUDirect RDMA",
+      "id": 348787,
+      "title": "DGX Spark GPUDirect RDMA",
+      "slug": "dgx-spark-gpudirect-rdma",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2025-10-24T02:47:05.028Z",
+      "last_posted_at": "2025-10-29T03:29:37.478Z",
+      "bumped": true,
+      "bumped_at": "2025-10-29T03:29:37.478Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda",
+        "rdma-and-roce"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 395,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3134908,
+            "username": "chris.weisenborn",
+            "name": "Chris Weisenborn",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 3590790,
+            "username": "MackenzieNVIDIA",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mackenzienvidia/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 300928,
+            "username": "luigifcruz",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/luigifcruz/{size}/27537_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPUDirect RDMA support with CUDA 5",
+      "id": 27636,
+      "title": "GPUDirect RDMA support with CUDA 5",
+      "slug": "gpudirect-rdma-support-with-cuda-5",
+      "posts_count": 20,
+      "reply_count": 0,
+      "highest_post_number": 20,
+      "image_url": null,
+      "created_at": "2012-12-11T15:07:36.000Z",
+      "last_posted_at": "2013-05-28T10:08:53.000Z",
+      "bumped": true,
+      "bumped_at": "2013-05-28T10:08:53.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9336,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 12790,
+            "username": "tbenson",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 14503,
+            "username": "kanyok",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 7410,
+            "username": "tera",
+            "name": "Tim Schmielau",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 11310,
+            "username": "gue22",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gue22/{size}/9995_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 13929,
+            "username": "mauro_b",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPU Direct 1 and 2",
+      "id": 22496,
+      "title": "GPU Direct 1 and 2",
+      "slug": "gpu-direct-1-and-2",
+      "posts_count": 10,
+      "reply_count": 0,
+      "highest_post_number": 10,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_1024x537.jpeg",
+      "created_at": "2011-05-18T06:19:30.000Z",
+      "last_posted_at": "2011-06-15T04:06:54.000Z",
+      "bumped": true,
+      "bumped_at": "2011-06-15T04:06:54.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1200,
+          "height": 630,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 537,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_1024x537.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 420,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_800x420.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 315,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_600x315.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 210,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_400x210.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 157,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_300x157.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 105,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/6/16e0497f4e915d5f57dcf0f8aeaffebd3f4f4f34_2_200x105.jpeg"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3596,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 9126,
+            "username": "ikidntu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2224,
+            "username": "tmurray",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 217,
+            "username": "mfatica",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "RDMA GPUDirect//nvidia-peer-memory/cuda issue",
+      "id": 206782,
+      "title": "RDMA GPUDirect//nvidia-peer-memory/cuda issue",
+      "slug": "rdma-gpudirect-nvidia-peer-memory-cuda-issue",
+      "posts_count": 12,
+      "reply_count": 0,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2019-07-15T18:18:29.000Z",
+      "last_posted_at": "2019-09-12T13:33:45.000Z",
+      "bumped": true,
+      "bumped_at": "2019-09-12T13:33:45.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "software-and-drivers",
+        "howto-enable-verify-and-troubleshoo"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2380,
+      "category_id": 537,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 1775073,
+            "username": "andrew.lucas1",
+            "name": "Andrew Lucas",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1427566,
+            "username": "alekseys1",
+            "name": "Alekseys",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPUDirect RDMA performance",
+      "id": 27907,
+      "title": "GPUDirect RDMA performance",
+      "slug": "gpudirect-rdma-performance",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2013-01-10T15:29:33.000Z",
+      "last_posted_at": "2013-03-26T10:31:00.000Z",
+      "bumped": true,
+      "bumped_at": "2013-03-26T10:31:00.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2227,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 13758,
+            "username": "bo001",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 11310,
+            "username": "gue22",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gue22/{size}/9995_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "ibv_reg_mr got file exists error when used nv_peer_mem",
+      "id": 207395,
+      "title": "ibv_reg_mr got file exists error when used nv_peer_mem",
+      "slug": "ibv-reg-mr-got-file-exists-error-when-used-nv-peer-mem",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2017-09-06T12:13:11.000Z",
+      "last_posted_at": "2017-09-09T03:21:45.000Z",
+      "bumped": true,
+      "bumped_at": "2017-09-09T03:21:45.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 543,
+      "category_id": 1,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 1770919,
+            "username": "haizhu.shao",
+            "name": "Haizhu Shao",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1107549,
+            "username": "MvB",
+            "name": "Martijn van Breugel",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/mvb/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Trying to get GPUdirect RDMA working.",
+      "id": 29098,
+      "title": "Trying to get GPUdirect RDMA working.",
+      "slug": "trying-to-get-gpudirect-rdma-working",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2013-04-17T13:06:04.000Z",
+      "last_posted_at": "2014-04-10T22:38:29.000Z",
+      "bumped": true,
+      "bumped_at": "2014-04-10T22:38:29.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1663,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 14684,
+            "username": "magnushc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17024,
+            "username": "MeiChiao",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 19886,
+            "username": "sankarp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "RDMA between K80 GPU and remote host",
+      "id": 207474,
+      "title": "RDMA between K80 GPU and remote host",
+      "slug": "rdma-between-k80-gpu-and-remote-host",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2017-05-25T22:31:38.000Z",
+      "last_posted_at": "2017-05-28T11:24:38.000Z",
+      "bumped": true,
+      "bumped_at": "2017-05-28T11:24:38.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 658,
+      "category_id": 537,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 284265,
+            "username": "joao54r3n",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 1788307,
+            "username": "vikiz",
+            "name": "Viki Zaretsky",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "cuda 4.0rc2 cudaMemcpyPeer(Async) performance issues",
+      "id": 21970,
+      "title": "cuda 4.0rc2 cudaMemcpyPeer(Async) performance issues",
+      "slug": "cuda-4-0rc2-cudamemcpypeer-async-performance-issues",
+      "posts_count": 12,
+      "reply_count": 0,
+      "highest_post_number": 12,
+      "image_url": null,
+      "created_at": "2011-04-12T17:52:01.000Z",
+      "last_posted_at": "2011-05-03T20:25:20.000Z",
+      "bumped": true,
+      "bumped_at": "2011-05-03T20:25:20.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 13138,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 8184,
+            "username": "jiechenva",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 9507,
+            "username": "thomasco",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 217,
+            "username": "mfatica",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2224,
+            "username": "tmurray",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4403,
+            "username": "Will_Ramey",
+            "name": "Will Ramey",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/will_ramey/{size}/12082_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Enabling GPU Direct RDMA for DGX Spark Clustering",
+      "id": 352051,
+      "title": "Enabling GPU Direct RDMA for DGX Spark Clustering",
+      "slug": "enabling-gpu-direct-rdma-for-dgx-spark-clustering",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc.png",
+      "created_at": "2025-11-20T08:56:26.105Z",
+      "last_posted_at": "2025-11-22T20:22:51.186Z",
+      "bumped": true,
+      "bumped_at": "2025-11-22T20:22:51.186Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 690,
+          "height": 326,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 283,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc_2_600x283.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 188,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc_2_400x188.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 141,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc_2_300x141.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 94,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/1/2/4/1247505ab7f5e90ec13a7b27169e742405a622dc_2_200x94.png"
+        }
+      ],
+      "tags": [
+        "gpu"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 136,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4621449,
+            "username": "maiia",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/maiia/{size}/439026_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 217,
+            "username": "mfatica",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2083101,
+            "username": "eugr",
+            "name": "Eugr",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/eugr/{size}/449615_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "For Spark RDMA details, please reference <a href=\"https://forums.developer.nvidia.com/t/dgx-spark-gb10-faq/347344#p-1694056-q-is-gpudirect-rdma-supported-on-dgx-spark-13\" class=\"inline-onebox\">DGX Spark / GB10 FAQ</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4305320,
+        "username": "Semfreak",
+        "name": "Jason",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/semfreak/{size}/445906_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4305320,
+      "username": "Semfreak",
+      "name": "Jason",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/semfreak/{size}/445906_2.png"
+    },
+    "last_poster": {
+      "id": 192972,
+      "username": "NVES",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png"
+    }
+  },
+  "bookmarks": []
+}

@@ -1,0 +1,1149 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1711346,
+        "name": "Arceus",
+        "username": "dgxsprk",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-10T05:39:10.756Z",
+        "cooked": "<p>When following the DGX Dashboard Playbook: <a href=\"https://build.nvidia.com/spark/dgx-dashboard/instructions\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">DGX Dashboard | DGX Spark</a></p>\n<p>After Juypter launches and creating a test notebook and pasting the provided sample code in cell and running with Shift + Enter, it appears to show a user warning:</p>\n<pre><code class=\"lang-auto\">UserWarning: \n    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.\n    Minimum and Maximum cuda capability supported by this version of PyTorch is\n    (8.0) - (12.0)\n</code></pre>\n<p>I assume this sample code is not using the version of Pytorch that supports 12.1 and needs to be updated? Is there a workaround?</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-10T05:40:33.251Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 45,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 209.6,
+        "yours": false,
+        "topic_id": 350762,
+        "topic_slug": "dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1",
+        "display_username": "Arceus",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/spark/dgx-dashboard/instructions",
+            "internal": false,
+            "reflection": false,
+            "title": "DGX Dashboard | DGX Spark",
+            "clicks": 4
+          }
+        ],
+        "read": true,
+        "user_title": "",
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4743591,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1/350762/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1711799,
+        "name": null,
+        "username": "NVES",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "created_at": "2025-11-10T16:05:06.933Z",
+        "cooked": "<p>You can safely ignore.  cuda 12.1 is newer than the pytorch version used here.    Eng will be fixing this in a future OTA.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-11-10T16:05:06.933Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 21,
+        "readers_count": 20,
+        "score": 19.2,
+        "yours": false,
+        "topic_id": 350762,
+        "topic_slug": "dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 192972,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1/350762/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1720179,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-24T16:05:44.262Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-24T16:05:44.262Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0,
+        "yours": false,
+        "topic_id": 350762,
+        "topic_slug": "dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1/350762/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1711346,
+      1711799,
+      1720179
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      16
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "DGX Dashboard Playbook: pytorch in sample code not supporting cuda 12.1?",
+  "id": 350762,
+  "title": "DGX Dashboard Playbook: pytorch in sample code not supporting cuda 12.1?",
+  "posts_count": 3,
+  "created_at": "2025-11-10T05:39:10.687Z",
+  "views": 102,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-11-10T16:05:06.933Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "dgx-dashboard-playbook-pytorch-in-sample-code-not-supporting-cuda-12-1",
+  "category_id": 721,
+  "word_count": 119,
+  "deleted_at": null,
+  "user_id": 4743591,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_350762",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 4,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "PyTorch 2.4 and below: 10x slowdown on NVIDIA GB10 (sm_121) due to missing kernel support",
+      "id": 348907,
+      "title": "PyTorch 2.4 and below: 10x slowdown on NVIDIA GB10 (sm_121) due to missing kernel support",
+      "slug": "pytorch-2-4-and-below-10x-slowdown-on-nvidia-gb10-sm-121-due-to-missing-kernel-support",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-25T16:17:03.570Z",
+      "last_posted_at": "2025-10-25T22:09:35.426Z",
+      "bumped": true,
+      "bumped_at": "2025-10-25T16:17:03.642Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 1,
+      "tags": [
+        "cuda",
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 154,
+      "category_id": 93,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4712930,
+            "username": "bharath2005",
+            "name": "Bharath2005",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -3,
+            "username": "discourse_ai_spam",
+            "name": "Discourse AI Spam Scanner",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/discourse_ai_spam/{size}/415330_2.png",
+            "admin": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "id": 70317,
+      "title": "Solution for GPU capability 2.1 for running Tensorflow and PyTorch",
+      "slug": "solution-for-gpu-capability-2-1-for-running-tensorflow-and-pytorch",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2019-02-10T14:48:43.000Z",
+      "last_posted_at": "2019-02-25T16:26:46.000Z",
+      "bumped": true,
+      "bumped_at": "2019-02-25T16:26:46.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1887,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 200661,
+            "username": "Sonic12345",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 190340,
+            "username": "saulocpp",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Incorrect compute capability for Quadro M1200",
+      "id": 60362,
+      "title": "Incorrect compute capability for Quadro M1200",
+      "slug": "incorrect-compute-capability-for-quadro-m1200",
+      "posts_count": 14,
+      "reply_count": 0,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2018-04-17T19:00:15.000Z",
+      "last_posted_at": "2018-04-20T18:48:32.000Z",
+      "bumped": true,
+      "bumped_at": "2018-04-20T18:48:32.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5218,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 141488,
+            "username": "devin.bost",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 173046,
+            "username": "AnJiang",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6159,
+            "username": "njuffa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "GPU compute capability 2.1 is not supported (requires &gt;=3.0)",
+      "id": 79726,
+      "title": "GPU compute capability 2.1 is not supported (requires >=3.0)",
+      "slug": "gpu-compute-capability-2-1-is-not-supported-requires-3-0",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2019-08-11T21:33:17.000Z",
+      "last_posted_at": "2019-08-12T00:13:48.000Z",
+      "bumped": true,
+      "bumped_at": "2019-08-12T00:13:48.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5813,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 263886,
+            "username": "weironglue",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 10192,
+            "username": "Robert_Crovella",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/robert_crovella/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "id": 167425,
+      "title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "slug": "why-is-cuda10-0-able-to-work-with-pytorch1-7",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png",
+      "created_at": "2021-02-02T12:31:21.956Z",
+      "last_posted_at": "2021-02-03T12:24:33.989Z",
+      "bumped": true,
+      "bumped_at": "2021-02-03T12:24:33.989Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 2500,
+          "height": 2500,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 800,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_800x800.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_600x600.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 400,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_400x400.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_300x300.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 200,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_200x200.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 584,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 951635,
+            "username": "efbostonlouie",
+            "name": "Efbostonlouie",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6159,
+            "username": "njuffa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Kaolin CUDA 12 and Pytorch (11.3) Windows 11",
+      "id": 239616,
+      "title": "Kaolin CUDA 12 and Pytorch (11.3) Windows 11",
+      "slug": "kaolin-cuda-12-and-pytorch-11-3-windows-11",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2023-01-13T23:09:26.751Z",
+      "last_posted_at": "2023-01-13T23:09:26.906Z",
+      "bumped": true,
+      "bumped_at": "2023-01-13T23:09:26.906Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "kaolin"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1050,
+      "category_id": 731,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 1540487,
+            "username": "bimhox",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bimhox/{size}/131816_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Install Pytorch on Jetson TK1",
+      "id": 52070,
+      "title": "Install Pytorch on Jetson TK1",
+      "slug": "install-pytorch-on-jetson-tk1",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2017-07-29T00:55:22.000Z",
+      "last_posted_at": "2021-10-18T18:44:41.007Z",
+      "bumped": true,
+      "bumped_at": "2019-08-12T14:50:03.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2505,
+      "category_id": 79,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 42100,
+            "username": "LiminMandawa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 160067,
+            "username": "christina.bukas",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 213769,
+            "username": "najam.r.syed",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "id": 167310,
+      "title": "Why is cuda10.0 able to work with pytorch1.7?",
+      "slug": "why-is-cuda10-0-able-to-work-with-pytorch1-7",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png",
+      "created_at": "2021-02-01T13:06:52.262Z",
+      "last_posted_at": "2021-02-02T12:19:30.770Z",
+      "bumped": true,
+      "bumped_at": "2021-02-02T12:19:30.770Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 2500,
+          "height": 2500,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_1024x1024.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 800,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_800x800.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_600x600.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 400,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_400x400.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_300x300.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 200,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/6/c/6cd7da56682d360e2c6006ff3e31eb250c5a8675_2_200x200.png"
+        }
+      ],
+      "tags": [
+        "cuda",
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 462,
+      "category_id": 92,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 951635,
+            "username": "efbostonlouie",
+            "name": "Efbostonlouie",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 662358,
+            "username": "spolisetty",
+            "name": "Spolisetty",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/spolisetty/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "PyTorch 1.11 for JetPack 5.0 DP?",
+      "id": 211040,
+      "title": "PyTorch 1.11 for JetPack 5.0 DP?",
+      "slug": "pytorch-1-11-for-jetpack-5-0-dp",
+      "posts_count": 21,
+      "reply_count": 16,
+      "highest_post_number": 24,
+      "image_url": null,
+      "created_at": "2022-04-13T05:11:23.435Z",
+      "last_posted_at": "2022-05-25T03:49:21.268Z",
+      "bumped": true,
+      "bumped_at": "2022-05-05T01:33:56.700Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 3703,
+      "category_id": 258,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 112189,
+            "username": "znmeb",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/znmeb/{size}/20534_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 27738,
+            "username": "WasabiFan",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/wasabifan/{size}/101760_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "After CUDA 12.1 upgrade, RuntimeError: CUDA error: device-side assert triggered",
+      "id": 283933,
+      "title": "After CUDA 12.1 upgrade, RuntimeError: CUDA error: device-side assert triggered",
+      "slug": "after-cuda-12-1-upgrade-runtimeerror-cuda-error-device-side-assert-triggered",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2024-02-24T17:41:32.312Z",
+      "last_posted_at": "2024-02-24T17:41:32.385Z",
+      "bumped": true,
+      "bumped_at": "2024-02-25T12:33:32.082Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda",
+        "python",
+        "pytorch"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1026,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2705583,
+            "username": "brekgungor",
+            "name": "Brekgungor",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "NVES",
+    "name": null,
+    "excerpt": "You can safely ignore.  cuda 12.1 is newer than the pytorch version used here.    Eng will be fixing this in a future OTA.",
+    "accepter_name": null,
+    "accepter_username": "dgxsprk"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 192972,
+        "username": "NVES",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4743591,
+        "username": "dgxsprk",
+        "name": "Arceus",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 4743591,
+      "username": "dgxsprk",
+      "name": "Arceus",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 192972,
+      "username": "NVES",
+      "name": null,
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png"
+    },
+    "links": [
+      {
+        "url": "https://build.nvidia.com/spark/dgx-dashboard/instructions",
+        "title": "DGX Dashboard | DGX Spark",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 4,
+        "user_id": 4743591,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

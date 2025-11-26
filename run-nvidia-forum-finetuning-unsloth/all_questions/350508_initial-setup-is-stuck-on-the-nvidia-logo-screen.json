@@ -1,0 +1,1231 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1710219,
+        "name": "Sourashisbhowmik",
+        "username": "sourashisbhowmik",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-07T03:04:10.596Z",
+        "cooked": "<p>Hi, just got a DGX Spark out of the box. Connected it to monitor, mouse, and keyboard and ethernet cable. Initially it ran, I created the account, T&amp;C etc. Then there were progress bars followed by a few reboots but for the last 20 minutes it only shows the NVIDIA logo. Tried pressing Del and Esc multiple times, no change.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-11-07T03:04:10.596Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 9,
+        "reads": 24,
+        "readers_count": 23,
+        "score": 44.8,
+        "yours": false,
+        "topic_id": 350508,
+        "topic_slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+        "display_username": "Sourashisbhowmik",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4737799,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/initial-setup-is-stuck-on-the-nvidia-logo-screen/350508/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1710698,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-11-07T17:44:59.971Z",
+        "cooked": "<p>How is your keyboard connected to the Spark? USB-C directly, with a hub, other?<br>\nWe recommend trying with USB-C directly if you’re seeing keyboard issues.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-11-07T17:45:25.669Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 9.0,
+        "yours": false,
+        "topic_id": 350508,
+        "topic_slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/initial-setup-is-stuck-on-the-nvidia-logo-screen/350508/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1711230,
+        "name": "Sourashisbhowmik",
+        "username": "sourashisbhowmik",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-10T02:14:08.551Z",
+        "cooked": "<p>Hi, the installation worked. One reboot and it is now fine.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-11-10T02:14:08.551Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 14,
+        "readers_count": 13,
+        "score": 2.8,
+        "yours": false,
+        "topic_id": 350508,
+        "topic_slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+        "display_username": "Sourashisbhowmik",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3567453,
+          "username": "aniculescu",
+          "name": "Aniculescu",
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4737799,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/initial-setup-is-stuck-on-the-nvidia-logo-screen/350508/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1719639,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-24T02:14:48.226Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-24T02:14:48.226Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0,
+        "yours": false,
+        "topic_id": 350508,
+        "topic_slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/initial-setup-is-stuck-on-the-nvidia-logo-screen/350508/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1710219,
+      1710698,
+      1711230,
+      1719639
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      19
+    ],
+    [
+      2,
+      18
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Initial Setup is stuck on the NVIDIA logo screen",
+  "id": 350508,
+  "title": "Initial Setup is stuck on the NVIDIA logo screen",
+  "posts_count": 4,
+  "created_at": "2025-11-07T03:04:10.532Z",
+  "views": 70,
+  "reply_count": 1,
+  "like_count": 0,
+  "last_posted_at": "2025-11-10T02:14:08.551Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "initial-setup-is-stuck-on-the-nvidia-logo-screen",
+  "category_id": 721,
+  "word_count": 100,
+  "deleted_at": null,
+  "user_id": 4737799,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_350508",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 6,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Help &ndash; DGX Spark will not boot",
+      "id": 347825,
+      "title": "Help -- DGX Spark will not boot",
+      "slug": "help-dgx-spark-will-not-boot",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2025-10-15T23:11:03.224Z",
+      "last_posted_at": "2025-10-19T01:39:23.005Z",
+      "bumped": true,
+      "bumped_at": "2025-10-19T01:39:23.005Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 817,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2091086,
+            "username": "jeremiahls",
+            "name": "Jeremiahls",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jeremiahls/{size}/445530_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 3447257,
+            "username": "kberger1",
+            "name": "Kberger",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4696388,
+            "username": "weifengx",
+            "name": "Weifengx",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4699153,
+            "username": "john498",
+            "name": "John",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Sporadic rm_init_adapter(0) failed errors cause xserver not to launch on ArchLinux (Nvidia 8600GS M)",
+      "id": 28279,
+      "title": "Sporadic rm_init_adapter(0) failed errors cause xserver not to launch on ArchLinux (Nvidia 8600GS M)",
+      "slug": "sporadic-rm-init-adapter-0-failed-errors-cause-xserver-not-to-launch-on-archlinux-nvidia-8600gs-m",
+      "posts_count": 12,
+      "reply_count": 0,
+      "highest_post_number": 12,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a.png",
+      "created_at": "2013-02-14T02:40:19.000Z",
+      "last_posted_at": "2013-03-09T19:37:09.000Z",
+      "bumped": true,
+      "bumped_at": "2013-03-09T19:37:09.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 784,
+          "height": 46,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 35,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a_2_600x35.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 23,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a_2_400x23.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 17,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a_2_300x17.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 11,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/1/9/19e23930cc0300a50194940364a6a2652ec1d82a_2_200x11.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3318,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 13995,
+            "username": "MorningWood",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13092,
+            "username": "aplattner",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aplattner/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVIDIA logo blinking on first boot",
+      "id": 195220,
+      "title": "NVIDIA logo blinking on first boot",
+      "slug": "nvidia-logo-blinking-on-first-boot",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2021-11-15T22:49:18.872Z",
+      "last_posted_at": "2021-12-08T03:35:17.690Z",
+      "bumped": true,
+      "bumped_at": "2021-11-16T02:20:17.113Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "boot"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 566,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 172468,
+            "username": "austinmw89",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark: Keyboard and Mouse Not Working After NVIDIA Driver Upgrade / DPKG Interruption",
+      "id": 348453,
+      "title": "DGX Spark: Keyboard and Mouse Not Working After NVIDIA Driver Upgrade / DPKG Interruption",
+      "slug": "dgx-spark-keyboard-and-mouse-not-working-after-nvidia-driver-upgrade-dpkg-interruption",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-10-21T01:31:47.971Z",
+      "last_posted_at": "2025-10-23T11:48:39.123Z",
+      "bumped": true,
+      "bumped_at": "2025-10-23T11:48:39.123Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 187,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4703106,
+            "username": "e12morgan",
+            "name": "E12morgan",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 3447257,
+            "username": "kberger1",
+            "name": "Kberger",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kberger1/{size}/445722_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4708793,
+            "username": "therealmclovin",
+            "name": "Robert Kuehnl",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How do I fix &ldquo;Oh no something has gone wrong&rdquo; screen problem after installing NVIDIA driver ?",
+      "id": 62692,
+      "title": "How do I fix \"Oh no something has gone wrong\" screen problem after installing NVIDIA driver ?",
+      "slug": "how-do-i-fix-oh-no-something-has-gone-wrong-screen-problem-after-installing-nvidia-driver",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2018-06-28T05:10:36.000Z",
+      "last_posted_at": "2018-07-03T07:40:39.000Z",
+      "bumped": true,
+      "bumped_at": "2018-07-03T07:40:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5526,
+      "category_id": 8,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 36623,
+            "username": "BooSeon",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "no nvidia logo in screen",
+      "id": 68097,
+      "title": "no nvidia logo in screen",
+      "slug": "no-nvidia-logo-in-screen",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2018-12-04T01:59:41.000Z",
+      "last_posted_at": "2018-12-05T02:34:31.000Z",
+      "bumped": true,
+      "bumped_at": "2018-12-05T02:34:31.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 474,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 156602,
+            "username": "faongh",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Dgx station blank screen after unclean shutdown",
+      "id": 220228,
+      "title": "Dgx station blank screen after unclean shutdown",
+      "slug": "dgx-station-blank-screen-after-unclean-shutdown",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_1024x768.jpeg",
+      "created_at": "2022-07-08T18:29:28.578Z",
+      "last_posted_at": "2022-07-25T15:44:05.884Z",
+      "bumped": true,
+      "bumped_at": "2022-07-25T15:44:05.884Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1920,
+          "height": 1440,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 768,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_1024x768.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_800x600.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 450,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_600x450.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_400x300.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 225,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_300x225.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 150,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/0/1/01b989b493f0069f5e98e82c4f12c05f8c71ce14_2_200x150.jpeg"
+        }
+      ],
+      "tags": [
+        "boot",
+        "ubuntu"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1326,
+      "category_id": 10,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 1309817,
+            "username": "ayushchatur",
+            "name": "Ayushchatur",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 75592,
+            "username": "ScottEllis",
+            "name": "Scott Ellis",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/scottellis/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nvidia tx2 get errors with ubuntu 16.04",
+      "id": 62337,
+      "title": "Nvidia tx2 get errors with ubuntu 16.04",
+      "slug": "nvidia-tx2-get-errors-with-ubuntu-16-04",
+      "posts_count": 9,
+      "reply_count": 0,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2018-06-16T14:37:05.000Z",
+      "last_posted_at": "2018-06-17T19:35:42.000Z",
+      "bumped": true,
+      "bumped_at": "2018-06-17T19:35:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1018,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 158584,
+            "username": "darbams7777",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "The Jetson AGX Xavier starts up with a black screen after displaying the Nvidia logo",
+      "id": 179695,
+      "title": "The Jetson AGX Xavier starts up with a black screen after displaying the Nvidia logo",
+      "slug": "the-jetson-agx-xavier-starts-up-with-a-black-screen-after-displaying-the-nvidia-logo",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2021-06-03T07:55:07.250Z",
+      "last_posted_at": "2021-10-18T18:19:24.146Z",
+      "bumped": true,
+      "bumped_at": "2021-06-03T16:47:48.430Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "boot"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1052,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1260507,
+            "username": "nickkkula",
+            "name": "nickkkula",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Headles VNC (VINO) only shows Nvidia logo",
+      "id": 159322,
+      "title": "Headles VNC (VINO) only shows Nvidia logo",
+      "slug": "headles-vnc-vino-only-shows-nvidia-logo",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 9,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_1024x585.png",
+      "created_at": "2020-11-11T13:58:23.186Z",
+      "last_posted_at": "2021-10-18T18:21:06.708Z",
+      "bumped": true,
+      "bumped_at": "2020-11-12T14:00:05.587Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1649,
+          "height": 943,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 585,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_1024x585.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 457,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_800x457.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 343,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_600x343.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 228,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_400x228.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 171,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_300x171.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 114,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/c/2/c25481802e9ee7994f395110c34ab962f612f6a9_2_200x114.png"
+        }
+      ],
+      "tags": [
+        "vnc"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2713,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster, Accepted Answer",
+          "user": {
+            "id": 653326,
+            "username": "avs",
+            "name": "Avs",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 3,
+    "username": "sourashisbhowmik",
+    "name": null,
+    "excerpt": "Hi, the installation worked. One reboot and it is now fine.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4737799,
+        "username": "sourashisbhowmik",
+        "name": "Sourashisbhowmik",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4737799,
+      "username": "sourashisbhowmik",
+      "name": "Sourashisbhowmik",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 4737799,
+      "username": "sourashisbhowmik",
+      "name": "Sourashisbhowmik",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    }
+  },
+  "bookmarks": []
+}

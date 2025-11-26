@@ -1,0 +1,1614 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1711111,
+        "name": "Pietro N",
+        "username": "pietro_n",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-09T21:13:22.230Z",
+        "cooked": "<p>When I try to instal vLLM via a docker - any ideas?:</p>\n<p>:/workspace# pip uninstall -y packaging</p>\n<p>Found existing installation: packaging 23.2</p>\n<p>Uninstalling packaging-23.2:</p>\n<p>Successfully uninstalled packaging-23.2</p>\n<p>WARNING: Running pip as the ‘root’ user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: <a href=\"https://pip.pypa.io/warnings/venv\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">12. Virtual Environments and Packages — Python 3.14.0 documentation</a> . Use the --root-user-action option if you know what you are doing and want to suppress this warning.</p>\n<p>root@aaa:/workspace# pip install packaging&gt;=24.2</p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/dill-0.3.9-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/lightning_utilities-0.14.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/lightning_thunder-0.2.2.dev0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/looseversion-1.3.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/opt_einsum-3.4.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/nvfuser-0.2.26a0+c5e1555-py3.12-linux-aarch64.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>WARNING: Running pip as the ‘root’ user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: <a href=\"https://pip.pypa.io/warnings/venv\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">12. Virtual Environments and Packages — Python 3.14.0 documentation</a> . Use the --root-user-action option if you know what you are doing and want to suppress this warning.</p>\n<p>root@aaa:/workspace# pip install vllm</p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/dill-0.3.9-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/lightning_utilities-0.14.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/lightning_thunder-0.2.2.dev0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/looseversion-1.3.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/opt_einsum-3.4.0-py3.12.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/nvfuser-0.2.26a0+c5e1555-py3.12-linux-aarch64.egg is deprecated. pip 25.1 will enforce this behaviour change. A possible replacement is to use pip for package installation. Discussion can be found at <a href=\"https://github.com/pypa/pip/issues/12330\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub</a></p>\n<p>Collecting vllm</p>\n<p>Using cached vllm-0.11.0-cp38-abi3-manylinux2014_aarch64.whl.metadata (17 kB)</p>\n<p>Requirement already satisfied: regex in /usr/local/lib/python3.12/dist-packages (from vllm) (2024.11.6)</p>\n<p>Requirement already satisfied: cachetools in /usr/local/lib/python3.12/dist-packages (from vllm) (5.5.2)</p>\n<p>Requirement already satisfied: psutil in /usr/local/lib/python3.12/dist-packages (from vllm) (7.0.0)</p>\n<p>Collecting sentencepiece (from vllm)</p>\n<p>Using cached sentencepiece-0.2.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl.metadata (10 kB)</p>\n<p>Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from vllm) (1.26.4)</p>\n<p>Requirement already satisfied: requests&gt;=2.26.0 in /usr/local/lib/python3.12/dist-packages (from vllm) (2.32.3)</p>\n<p>Requirement already satisfied: tqdm in /usr/local/lib/python3.12/dist-packages (from vllm) (4.67.1)</p>\n<p>Collecting blake3 (from vllm)</p>\n<p>Using cached blake3-1.0.8-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (4.6 kB)</p>\n<p>Collecting py-cpuinfo (from vllm)</p>\n<p>Using cached py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)</p>\n<p>Collecting transformers&gt;=4.55.2 (from vllm)</p>\n<p>Using cached transformers-4.57.1-py3-none-any.whl.metadata (43 kB)</p>\n<p>Collecting tokenizers&gt;=0.21.1 (from vllm)</p>\n<p>Using cached tokenizers-0.22.1-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (6.8 kB)</p>\n<p>Requirement already satisfied: protobuf in /usr/local/lib/python3.12/dist-packages (from vllm) (4.24.4)</p>\n<p>Collecting fastapi&gt;=0.115.0 (from fastapi[standard]&gt;=0.115.0-&gt;vllm)</p>\n<p>Using cached fastapi-0.121.1-py3-none-any.whl.metadata (28 kB)</p>\n<p>Requirement already satisfied: aiohttp in /usr/local/lib/python3.12/dist-packages (from vllm) (3.11.13)</p>\n<p>Collecting openai&gt;=1.99.1 (from vllm)</p>\n<p>Using cached openai-2.7.1-py3-none-any.whl.metadata (29 kB)</p>\n<p>INFO: pip is looking at multiple versions of vllm to determine which version is compatible with other requirements. This could take a while.</p>\n<p>Collecting vllm</p>\n<p>Using cached vllm-0.10.2-cp38-abi3-manylinux2014_aarch64.whl.metadata (16 kB)</p>\n<p>Using cached vllm-0.10.1.1.tar.gz (10.5 MB)</p>\n<p>Installing build dependencies … error</p>\n<p><strong>error</strong>: <strong>subprocess-exited-with-error</strong></p>\n<p>× pip subprocess to install build dependencies did not run successfully.</p>\n<p>│ exit code: <strong>1</strong></p>\n<p>╰─&gt; [15 lines of output]</p>\n<pre><code>  Collecting cmake&gt;=3.26.1\n\n    Using cached cmake-3.31.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (6.3 kB)\n\n  Collecting ninja\n\n    Using cached ninja-1.11.1.3-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (5.3 kB)\n\n  ERROR: Cannot install packaging&gt;=24.2 because these package versions have conflicting dependencies.\n\n\n\n  The conflict is caused by:\n\n      The user requested packaging&gt;=24.2\n\n      The user requested (constraint) packaging==23.2\n\n\n\n  To fix this you could try to:\n\n  1\\. loosen the range of package versions you've specified\n\n  2\\. remove package versions to allow pip to attempt to solve the dependency conflict\n\n\n\n  ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts\n\n  \\[end of output\\]\n</code></pre>\n<p><strong>note</strong>: This error originates from a subprocess, and is likely not a problem with pip.</p>\n<p><strong>error</strong>: <strong>subprocess-exited-with-error</strong></p>\n<p>× pip subprocess to install build dependencies did not run successfully.</p>\n<p>│ exit code: <strong>1</strong></p>\n<p>╰─&gt; See above for output.</p>\n<p><strong>note</strong>: This error originates from a subprocess, and is likely not a problem with pip.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 6,
+        "updated_at": "2025-11-09T21:13:22.230Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 31,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 155.8,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": "Pietro N",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://pip.pypa.io/warnings/venv",
+            "internal": false,
+            "reflection": false,
+            "title": "12. Virtual Environments and Packages — Python 3.14.0 documentation",
+            "clicks": 1
+          },
+          {
+            "url": "https://github.com/pypa/pip/issues/12330",
+            "internal": false,
+            "reflection": false,
+            "title": "Remove additional detection of `.egg` packages when using the `importlib.metadata` backend · Issue #12330 · pypa/pip · GitHub",
+            "clicks": 0
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4237549,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1711116,
+        "name": "Raphael Amorim",
+        "username": "raphael.amorim",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/raphael.amorim/{size}/446733_2.png",
+        "created_at": "2025-11-09T21:36:41.886Z",
+        "cooked": "<p>Try to use it with this docker file: <a href=\"https://forums.developer.nvidia.com/t/running-nvidia-nemotron-nano-vl-12b-v2-nvfp4-qad-on-your-spark/350349\" class=\"inline-onebox\">Running nvidia/Nemotron-Nano-VL-12B-V2-NVFP4-QAD on your spark</a>.<br>\nI’m using latest vLLM main version, but you can use any other tag.</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 6,
+        "updated_at": "2025-11-09T21:36:41.886Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 45,
+        "readers_count": 44,
+        "score": 14.0,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": "Raphael Amorim",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/running-nvidia-nemotron-nano-vl-12b-v2-nvfp4-qad-on-your-spark/350349",
+            "internal": true,
+            "reflection": false,
+            "title": "Running nvidia/Nemotron-Nano-VL-12B-V2-NVFP4-QAD on your spark",
+            "clicks": 14
+          }
+        ],
+        "read": true,
+        "user_title": "Solved!",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4703451,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1711879,
+        "name": "Pietro N",
+        "username": "pietro_n",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-10T18:58:00.180Z",
+        "cooked": "<p>thanks but I dont think this addresses my issue, I can’t install vLLM.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 6,
+        "updated_at": "2025-11-10T18:58:00.180Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 36,
+        "readers_count": 35,
+        "score": 27.2,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": "Pietro N",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 4703451,
+          "username": "raphael.amorim",
+          "name": "Raphael Amorim",
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/raphael.amorim/{size}/446733_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4237549,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1711892,
+        "name": null,
+        "username": "abull",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+        "created_at": "2025-11-10T19:43:28.234Z",
+        "cooked": "<p>Take a look at this playbook and let us know if this helps answer your questions. <a href=\"https://build.nvidia.com/spark/vllm\" rel=\"noopener nofollow ugc\">Install and Use vLLM for Inference | DGX Spark</a></p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 6,
+        "updated_at": "2025-11-10T19:43:28.234Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 36,
+        "readers_count": 35,
+        "score": 27.2,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/spark/vllm",
+            "internal": false,
+            "reflection": false,
+            "title": "Install and Use vLLM for Inference | DGX Spark",
+            "clicks": 29
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 43960,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1712251,
+        "name": "Pietro N",
+        "username": "pietro_n",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-11-11T07:06:27.344Z",
+        "cooked": "<p>this worked abull - thank you.</p>",
+        "post_number": 5,
+        "post_type": 1,
+        "posts_count": 6,
+        "updated_at": "2025-11-11T07:06:27.344Z",
+        "reply_count": 0,
+        "reply_to_post_number": 4,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 30,
+        "readers_count": 29,
+        "score": 6.0,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": "Pietro N",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 43960,
+          "username": "abull",
+          "name": null,
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4237549,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/5",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1720552,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-25T07:07:24.078Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 6,
+        "post_type": 3,
+        "posts_count": 6,
+        "updated_at": "2025-11-25T07:07:24.078Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0,
+        "yours": false,
+        "topic_id": 350723,
+        "topic_slug": "vllm-container-issue-in-dgx-spark",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/vllm-container-issue-in-dgx-spark/350723/6",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1711111,
+      1711116,
+      1711879,
+      1711892,
+      1712251,
+      1720552
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      16
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      6,
+      1
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "vLLM Container issue in DGX Spark",
+  "id": 350723,
+  "title": "vLLM Container issue in DGX Spark",
+  "posts_count": 6,
+  "created_at": "2025-11-09T21:13:22.125Z",
+  "views": 204,
+  "reply_count": 2,
+  "like_count": 1,
+  "last_posted_at": "2025-11-11T07:06:27.344Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "vllm-container-issue-in-dgx-spark",
+  "category_id": 721,
+  "word_count": 1406,
+  "deleted_at": null,
+  "user_id": 4237549,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_350723",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 6,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 4,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "I&rsquo;d like to learn how to use the latest vLLM on DGX Spark",
+      "id": 350254,
+      "title": "I'd like to learn how to use the latest vLLM on DGX Spark",
+      "slug": "id-like-to-learn-how-to-use-the-latest-vllm-on-dgx-spark",
+      "posts_count": 9,
+      "reply_count": 5,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2025-11-05T08:59:17.617Z",
+      "last_posted_at": "2025-11-06T16:33:34.152Z",
+      "bumped": true,
+      "bumped_at": "2025-11-06T16:33:34.152Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "cuda"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 517,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4731106,
+            "username": "zh_useai",
+            "name": "Zh",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/zh_useai/{size}/449712_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4703451,
+            "username": "raphael.amorim",
+            "name": "Raphael Amorim",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/raphael.amorim/{size}/446733_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1354318,
+            "username": "swtb-datascience",
+            "name": "",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4686603,
+            "username": "rapha",
+            "name": "Rapha",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rapha/{size}/445064_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "vLLM container out of date for new models",
+      "id": 348801,
+      "title": "vLLM container out of date for new models",
+      "slug": "vllm-container-out-of-date-for-new-models",
+      "posts_count": 11,
+      "reply_count": 7,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2025-10-24T05:36:16.906Z",
+      "last_posted_at": "2025-11-14T01:16:42.156Z",
+      "bumped": true,
+      "bumped_at": "2025-10-31T01:15:54.153Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 13,
+      "views": 824,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4710161,
+            "username": "artrajala",
+            "name": "Artrajala",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 4598313,
+            "username": "johnny_nv",
+            "name": "Johnny Nuñez Cano",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/johnny_nv/{size}/436804_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1651581,
+            "username": "UmbrellaCodr",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/umbrellacodr/{size}/142783_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2083101,
+            "username": "eugr",
+            "name": "Eugr",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/eugr/{size}/449615_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Vllm on Jetson AGX orin",
+      "id": 296846,
+      "title": "Vllm on Jetson AGX orin",
+      "slug": "vllm-on-jetson-agx-orin",
+      "posts_count": 10,
+      "reply_count": 6,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2024-06-18T14:19:53.680Z",
+      "last_posted_at": "2024-07-17T03:01:21.701Z",
+      "bumped": true,
+      "bumped_at": "2024-06-26T16:54:28.513Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "pytorch",
+        "generative_ai"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4036,
+      "category_id": 486,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3529366,
+            "username": "pcha",
+            "name": "Pcha",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3541045,
+            "username": "ramitpahwa",
+            "name": "Ramitpahwa",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Getting Error in installing vllm on Nvidia Jetson AGX ORIN",
+      "id": 299555,
+      "title": "Getting Error in installing vllm on Nvidia Jetson AGX ORIN",
+      "slug": "getting-error-in-installing-vllm-on-nvidia-jetson-agx-orin",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560.png",
+      "created_at": "2024-07-12T05:18:37.047Z",
+      "last_posted_at": "2024-07-12T21:17:47.144Z",
+      "bumped": true,
+      "bumped_at": "2024-07-12T21:17:47.144Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 829,
+          "height": 339,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 327,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560_2_800x327.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 245,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560_2_600x245.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 163,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560_2_400x163.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 122,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560_2_300x122.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 81,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/0/1/7/01759bbb76ad874c41caa55a4e66cdf9205dc560_2_200x81.png"
+        }
+      ],
+      "tags": [
+        "generative_ai"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1068,
+      "category_id": 486,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3573841,
+            "username": "mausam.jain",
+            "name": "Mausam Jain",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Numba installation issue on jetson xavier",
+      "id": 73790,
+      "title": "Numba installation issue on jetson xavier",
+      "slug": "numba-installation-issue-on-jetson-xavier",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2019-04-26T18:52:21.000Z",
+      "last_posted_at": "2021-10-18T18:24:44.905Z",
+      "bumped": true,
+      "bumped_at": "2019-04-30T05:08:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4398,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 198254,
+            "username": "Varun_Rathinam",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Run VLLM in Spark",
+      "id": 348862,
+      "title": "Run VLLM in Spark",
+      "slug": "run-vllm-in-spark",
+      "posts_count": 84,
+      "reply_count": 65,
+      "highest_post_number": 85,
+      "image_url": null,
+      "created_at": "2025-10-24T16:52:57.928Z",
+      "last_posted_at": "2025-11-20T17:57:20.775Z",
+      "bumped": true,
+      "bumped_at": "2025-11-20T17:57:20.775Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 57,
+      "views": 2826,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4598313,
+            "username": "johnny_nv",
+            "name": "Johnny Nuñez Cano",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/johnny_nv/{size}/436804_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4711046,
+            "username": "tieshulin",
+            "name": "Tieshulin",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3212824,
+            "username": "email2eliza",
+            "name": "Email2eliza",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/email2eliza/{size}/306889_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4581031,
+            "username": "laurentdangela",
+            "name": "Laurentdangela",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4765555,
+            "username": "eric.curtin",
+            "name": "Eric Curtin",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "VPI installation error In docker container",
+      "id": 160254,
+      "title": "VPI installation error In docker container",
+      "slug": "vpi-installation-error-in-docker-container",
+      "posts_count": 8,
+      "reply_count": 5,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2020-11-24T03:08:53.620Z",
+      "last_posted_at": "2021-10-15T03:59:38.832Z",
+      "bumped": true,
+      "bumped_at": "2021-04-04T05:36:00.603Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "vpi"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1413,
+      "category_id": 76,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 41767,
+            "username": "leef918",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/leef918/{size}/17090_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 770429,
+            "username": "livne",
+            "name": "Livne",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Getting Error in installing vllm error on Jetson orin nx jetpack6.2",
+      "id": 332524,
+      "title": "Getting Error in installing vllm error on Jetson orin nx jetpack6.2",
+      "slug": "getting-error-in-installing-vllm-error-on-jetson-orin-nx-jetpack6-2",
+      "posts_count": 8,
+      "reply_count": 2,
+      "highest_post_number": 11,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_1024x639.png",
+      "created_at": "2025-05-08T02:41:33.255Z",
+      "last_posted_at": "2025-05-15T08:11:23.464Z",
+      "bumped": true,
+      "bumped_at": "2025-05-15T08:11:23.464Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1067,
+          "height": 666,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 639,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_1024x639.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 499,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_800x499.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 374,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_600x374.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 249,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_400x249.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 187,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_300x187.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 124,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/6/4/e640501d9fdaa524a935f7892a4c86e730ea7379_2_200x124.png"
+        }
+      ],
+      "tags": [
+        "cuda",
+        "python",
+        "pytorch",
+        "jetpack"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 561,
+      "category_id": 487,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2473890,
+            "username": "1692930439",
+            "name": "1692930439",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to install a Computer Vision library called VPI (Vision Programming Interface) with JetPack 4.3",
+      "id": 109746,
+      "title": "Unable to install a Computer Vision library called VPI (Vision Programming Interface) with JetPack 4.3",
+      "slug": "unable-to-install-a-computer-vision-library-called-vpi-vision-programming-interface-with-jetpack-4-3",
+      "posts_count": 13,
+      "reply_count": 2,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2019-12-30T11:02:48.000Z",
+      "last_posted_at": "2021-10-18T18:20:00.653Z",
+      "bumped": true,
+      "bumped_at": "2021-03-24T14:35:29.762Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3164,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 250455,
+            "username": "ipranjal",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 305007,
+            "username": "NitinRai",
+            "name": "Nitin Rai",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nitinrai/{size}/15561_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Install vllm in Thor failed",
+      "id": 344318,
+      "title": "Install vllm in Thor failed",
+      "slug": "install-vllm-in-thor-failed",
+      "posts_count": 7,
+      "reply_count": 2,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2025-09-08T02:12:55.369Z",
+      "last_posted_at": "2025-10-16T21:02:44.236Z",
+      "bumped": true,
+      "bumped_at": "2025-10-02T21:02:30.292Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "generative_ai"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 686,
+      "category_id": 740,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 209231,
+            "username": "liu.jialu",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/liu.jialu/{size}/146402_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34219,
+            "username": "DaneLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/danelll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1643100,
+            "username": "PrinceHal",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/princehal/{size}/451063_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 4,
+    "username": "abull",
+    "name": null,
+    "excerpt": "Take a look at this playbook and let us know if this helps answer your questions. <a href=\"https://build.nvidia.com/spark/vllm\" rel=\"noopener nofollow ugc\">Install and Use vLLM for Inference | DGX Spark</a>",
+    "accepter_name": null,
+    "accepter_username": "pietro_n"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4237549,
+        "username": "pietro_n",
+        "name": "Pietro N",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 43960,
+        "username": "abull",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      },
+      {
+        "id": 4703451,
+        "username": "raphael.amorim",
+        "name": "Raphael Amorim",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/raphael.amorim/{size}/446733_2.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      }
+    ],
+    "created_by": {
+      "id": 4237549,
+      "username": "pietro_n",
+      "name": "Pietro N",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 4237549,
+      "username": "pietro_n",
+      "name": "Pietro N",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "links": [
+      {
+        "url": "https://build.nvidia.com/spark/vllm",
+        "title": "Install and Use vLLM for Inference | DGX Spark",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 29,
+        "user_id": 43960,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://forums.developer.nvidia.com/t/running-nvidia-nemotron-nano-vl-12b-v2-nvfp4-qad-on-your-spark/350349",
+        "title": "Running nvidia/Nemotron-Nano-VL-12B-V2-NVFP4-QAD on your spark",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 14,
+        "user_id": 4703451,
+        "domain": "forums.developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://pip.pypa.io/warnings/venv",
+        "title": "12. Virtual Environments and Packages — Python 3.14.0 documentation",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 4237549,
+        "domain": "pip.pypa.io",
+        "root_domain": "pypa.io"
+      }
+    ]
+  },
+  "bookmarks": []
+}

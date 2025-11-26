@@ -1,0 +1,1264 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1704825,
+        "name": "Pds",
+        "username": "pds3",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T03:49:19.560Z",
+        "cooked": "<p><strong>Brand new DGX Spark. Setting it up via Standalone setup because I can’t see DGX spark hotspot. The set up can’t pass “Connect to Wi-Fi” as Spark keeps looking for available networks, but can’t find any. I get the following message “Error searching for nearby networks. Reason 500”</strong></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T03:49:19.560Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 95,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 424.6,
+        "yours": false,
+        "topic_id": 349522,
+        "topic_slug": "setting-up-dgx-spark-error-searching-for-nearby-networks-error-500",
+        "display_username": "Pds",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4574613,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/setting-up-dgx-spark-error-searching-for-nearby-networks-error-500/349522/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1704836,
+        "name": "Sdschwendener",
+        "username": "sdschwendener",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T04:06:50.111Z",
+        "cooked": "<p>Hi, I had a similar problem that the DGX Spark cannot see hidden wifi networks. I had to use an ethernet cable. Moreover, there was no way to back out of the menu to search for Wifi Networks, so I had to basically rip the power cord and try again. Terrible setup user experience</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T04:06:50.111Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 5,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 44.6,
+        "yours": false,
+        "topic_id": 349522,
+        "topic_slug": "setting-up-dgx-spark-error-searching-for-nearby-networks-error-500",
+        "display_username": "Sdschwendener",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4721650,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/setting-up-dgx-spark-error-searching-for-nearby-networks-error-500/349522/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1705465,
+        "name": "Agao4389",
+        "username": "agao4389",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T23:19:08.299Z",
+        "cooked": "<p>Hello, I seem to be having the issue, except that using Ethernet still had no effect. It also does not display the hotspot SSID as well. Has anyone else found a solution or experienced a similar issue?</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-30T23:19:08.299Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 4,
+        "reads": 17,
+        "readers_count": 16,
+        "score": 23.4,
+        "yours": false,
+        "topic_id": 349522,
+        "topic_slug": "setting-up-dgx-spark-error-searching-for-nearby-networks-error-500",
+        "display_username": "Agao4389",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4723424,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/setting-up-dgx-spark-error-searching-for-nearby-networks-error-500/349522/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1713985,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-13T23:19:38.452Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-13T23:19:38.452Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 349522,
+        "topic_slug": "setting-up-dgx-spark-error-searching-for-nearby-networks-error-500",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/setting-up-dgx-spark-error-searching-for-nearby-networks-error-500/349522/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1704825,
+      1704836,
+      1705465,
+      1713985
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      27
+    ],
+    [
+      3,
+      26
+    ],
+    [
+      4,
+      12
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Setting up DGX Spark. Error searching for nearby networks. Error 500",
+  "id": 349522,
+  "title": "Setting up DGX Spark. Error searching for nearby networks. Error 500",
+  "posts_count": 4,
+  "created_at": "2025-10-30T03:49:19.496Z",
+  "views": 126,
+  "reply_count": 0,
+  "like_count": 1,
+  "last_posted_at": "2025-11-13T23:19:38.452Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "setting-up-dgx-spark-error-searching-for-nearby-networks-error-500",
+  "category_id": 721,
+  "word_count": 160,
+  "deleted_at": null,
+  "user_id": 4574613,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_349522",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 3,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "DGX Spark Wifi Network Issues",
+      "id": 351292,
+      "title": "DGX Spark Wifi Network Issues",
+      "slug": "dgx-spark-wifi-network-issues",
+      "posts_count": 6,
+      "reply_count": 4,
+      "highest_post_number": 7,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_1024x768.jpeg",
+      "created_at": "2025-11-13T09:41:07.214Z",
+      "last_posted_at": "2025-11-17T17:51:11.766Z",
+      "bumped": true,
+      "bumped_at": "2025-11-17T17:51:11.766Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1920,
+          "height": 1440,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 768,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_1024x768.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_800x600.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 450,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_600x450.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_400x300.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 225,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_300x225.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 150,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/5/f/f/5ff4dd26b149884fa70b4f859dc192da46dd7db7_2_200x150.jpeg"
+        }
+      ],
+      "tags": [
+        "boot"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 136,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4750955,
+            "username": "hy572801400",
+            "name": "Hy572801400",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 192972,
+            "username": "NVES",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nves/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 43960,
+            "username": "abull",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/abull/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to connect to my TX1 via ethernet or wifi",
+      "id": 41039,
+      "title": "Unable to connect to my TX1 via ethernet or wifi",
+      "slug": "unable-to-connect-to-my-tx1-via-ethernet-or-wifi",
+      "posts_count": 14,
+      "reply_count": 0,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2016-01-18T20:49:47.000Z",
+      "last_posted_at": "2016-02-24T03:02:10.000Z",
+      "bumped": true,
+      "bumped_at": "2016-02-24T03:02:10.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 9870,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 30065,
+            "username": "anown0",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 29112,
+            "username": "jkjung",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 20648,
+            "username": "ctichenor",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ctichenor/{size}/9748_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22485,
+            "username": "barrettw",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 29330,
+            "username": "dkryder",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "TX1 has connected WIFI which is good,but TX1 cann&rsquo;t connect net.",
+      "id": 47062,
+      "title": "TX1 has connected WIFI which is good,but TX1 cann't connect net.",
+      "slug": "tx1-has-connected-wifi-which-is-good-but-tx1-cannt-connect-net",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2017-01-02T06:01:44.000Z",
+      "last_posted_at": "2017-01-12T04:56:04.000Z",
+      "bumped": true,
+      "bumped_at": "2017-01-12T04:56:04.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 608,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 36833,
+            "username": "QTXu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Creating Wi-Fi Hotspot on Jetson-TX1",
+      "id": 42369,
+      "title": "Creating Wi-Fi Hotspot on Jetson-TX1",
+      "slug": "creating-wi-fi-hotspot-on-jetson-tx1",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2016-04-18T12:04:19.000Z",
+      "last_posted_at": "2016-04-19T04:44:12.000Z",
+      "bumped": true,
+      "bumped_at": "2016-04-19T04:44:12.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2126,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 31524,
+            "username": "RiteshPanchal",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "No Ethernet connection after flashing jetpack 3.1",
+      "id": 52355,
+      "title": "No Ethernet connection after flashing jetpack 3.1",
+      "slug": "no-ethernet-connection-after-flashing-jetpack-3-1",
+      "posts_count": 24,
+      "reply_count": 0,
+      "highest_post_number": 24,
+      "image_url": null,
+      "created_at": "2017-08-08T21:41:52.000Z",
+      "last_posted_at": "2021-10-18T18:26:44.509Z",
+      "bumped": true,
+      "bumped_at": "2017-08-10T21:16:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3523,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 41736,
+            "username": "Coalman321",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DGX Spark - Day 1 - Installation went fine but upon restart no wifi and no LAN",
+      "id": 349771,
+      "title": "DGX Spark - Day 1 - Installation went fine but upon restart no wifi and no LAN",
+      "slug": "dgx-spark-day-1-installation-went-fine-but-upon-restart-no-wifi-and-no-lan",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-11-01T00:58:49.455Z",
+      "last_posted_at": "2025-11-04T00:33:03.717Z",
+      "bumped": true,
+      "bumped_at": "2025-11-04T00:33:03.717Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "kernel",
+        "installation"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 195,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 4725590,
+            "username": "akjoshi",
+            "name": "Akjoshi",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Can I set the TX2 board using WIFI?",
+      "id": 54531,
+      "title": "Can I set the TX2 board using WIFI?",
+      "slug": "can-i-set-the-tx2-board-using-wifi",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2017-10-26T01:37:47.000Z",
+      "last_posted_at": "2017-11-20T03:14:44.000Z",
+      "bumped": true,
+      "bumped_at": "2017-11-20T03:14:44.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 907,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 49763,
+            "username": "maglc13",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 28430,
+            "username": "kayccc",
+            "name": " kayccc",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/kayccc/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "My Jetson TX1 is not able to connect to WiFi",
+      "id": 40517,
+      "title": "My Jetson TX1 is not able to connect to WiFi",
+      "slug": "my-jetson-tx1-is-not-able-to-connect-to-wifi",
+      "posts_count": 25,
+      "reply_count": 0,
+      "highest_post_number": 25,
+      "image_url": null,
+      "created_at": "2015-12-03T21:46:05.000Z",
+      "last_posted_at": "2017-05-27T11:24:30.000Z",
+      "bumped": true,
+      "bumped_at": "2017-05-27T11:24:30.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 14699,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 33788,
+            "username": "JonMorris",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 37980,
+            "username": "dbourque3",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 40181,
+            "username": "Nil1",
+            "name": "Nil_",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Jetson TX1 is searching the ip address of target.",
+      "id": 44055,
+      "title": "Jetson TX1 is searching the ip address of target.",
+      "slug": "jetson-tx1-is-searching-the-ip-address-of-target",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_1024x768.jpeg",
+      "created_at": "2016-07-27T19:06:19.000Z",
+      "last_posted_at": "2016-07-27T20:15:18.000Z",
+      "bumped": true,
+      "bumped_at": "2016-07-27T20:15:18.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 3264,
+          "height": 2448,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299.jpeg"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 768,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_1024x768.jpeg"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 600,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_800x600.jpeg"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 450,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_600x450.jpeg"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_400x300.jpeg"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 225,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_300x225.jpeg"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 150,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/3/3/333f812d49474ce0c036a94efcc0f485d3a4b299_2_200x150.jpeg"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3582,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 33448,
+            "username": "aysegul",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16872,
+            "username": "linuxdev",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/linuxdev/{size}/10243_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Hotspot on TX1 -  I am able to create a hotspot network using nm-connection-editor interface but hotspot network is not visible on any of the other devices. ",
+      "id": 58249,
+      "title": "Hotspot on TX1 -  I am able to create a hotspot network using nm-connection-editor interface but hotspot network is not visible on any of the other devices. ",
+      "slug": "hotspot-on-tx1-i-am-able-to-create-a-hotspot-network-using-nm-connection-editor-interface-but-hotspot-network-is-not-visible-on-any-of-the-other-devices",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2018-02-15T11:33:34.000Z",
+      "last_posted_at": "2021-10-18T18:58:11.859Z",
+      "bumped": true,
+      "bumped_at": "2018-03-13T06:15:22.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 652,
+      "category_id": 80,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 143993,
+            "username": "ug201311001",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 28444,
+            "username": "dusty_nv",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dusty_nv/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "sdschwendener",
+    "name": null,
+    "excerpt": "Hi, I had a similar problem that the DGX Spark cannot see hidden wifi networks. I had to use an ethernet cable. Moreover, there was no way to back out of the menu to search for Wifi Networks, so I had to basically rip the power cord and try again. Terrible setup user experience",
+    "accepter_name": null,
+    "accepter_username": "pds3"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4723424,
+        "username": "agao4389",
+        "name": "Agao4389",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 4574613,
+        "username": "pds3",
+        "name": "Pds",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 4721650,
+        "username": "sdschwendener",
+        "name": "Sdschwendener",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      }
+    ],
+    "created_by": {
+      "id": 4574613,
+      "username": "pds3",
+      "name": "Pds",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png"
+    }
+  },
+  "bookmarks": []
+}

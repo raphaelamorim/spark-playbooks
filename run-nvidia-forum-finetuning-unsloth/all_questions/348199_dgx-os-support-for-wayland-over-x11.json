@@ -1,0 +1,1231 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1698073,
+        "name": "Kyfjqnw5nz",
+        "username": "kyfjqnw5nz",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T05:11:52.561Z",
+        "cooked": "<p>Hello,</p>\n<p>Has anyone been able to switch the default ubuntu display server in DGX OS to wayland? I am not seeing the option when clicking the gear icon at the login screen</p>\n<p>Would anyone know why we’re forced to fall back to x11 even after enabling wayland in /etc/gdm3/custom.conf?</p>\n<p>Thank you</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-19T05:11:52.561Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 33,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 157.6,
+        "yours": false,
+        "topic_id": 348199,
+        "topic_slug": "dgx-os-support-for-wayland-over-x11",
+        "display_username": "Kyfjqnw5nz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4699351,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-os-support-for-wayland-over-x11/348199/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1698076,
+        "name": "Kyfjqnw5nz",
+        "username": "kyfjqnw5nz",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-19T05:35:05.654Z",
+        "cooked": "<p>Nvm, I was able to find the solution in this old post <a href=\"https://forums.developer.nvidia.com/t/how-to-run-wayland-on-latest-driver-hardware-os/128898/3\" class=\"inline-onebox\">How to run Wayland on latest driver, hardware, OS? - #3 by willy65vae</a> . Thanks all</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-19T05:35:05.654Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 7.6,
+        "yours": false,
+        "topic_id": 348199,
+        "topic_slug": "dgx-os-support-for-wayland-over-x11",
+        "display_username": "Kyfjqnw5nz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://forums.developer.nvidia.com/t/how-to-run-wayland-on-latest-driver-hardware-os/128898/3",
+            "internal": true,
+            "reflection": false,
+            "title": "How to run Wayland on latest driver, hardware, OS?",
+            "clicks": 25
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4699351,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-os-support-for-wayland-over-x11/348199/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1698759,
+        "name": null,
+        "username": "aplattner",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aplattner/{size}/14043_2.png",
+        "created_at": "2025-10-20T15:35:22.267Z",
+        "cooked": "<p>You can run Wayland, but the version of Ubuntu that DGX OS is based on doesn’t have the explicit synchronization support that’s needed to make Wayland a good experience.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-20T15:35:22.267Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 15.8,
+        "yours": false,
+        "topic_id": 348199,
+        "topic_slug": "dgx-os-support-for-wayland-over-x11",
+        "display_username": null,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 13092,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-os-support-for-wayland-over-x11/348199/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1699817,
+        "name": "Kyfjqnw5nz",
+        "username": "kyfjqnw5nz",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-21T22:40:36.901Z",
+        "cooked": "<p>Thanks. I’m aware of that but I needed to run something that requires wayland</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-21T22:40:36.901Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 23,
+        "readers_count": 22,
+        "score": 4.6,
+        "yours": false,
+        "topic_id": 348199,
+        "topic_slug": "dgx-os-support-for-wayland-over-x11",
+        "display_username": "Kyfjqnw5nz",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 13092,
+          "username": "aplattner",
+          "name": null,
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/aplattner/{size}/14043_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4699351,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/dgx-os-support-for-wayland-over-x11/348199/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1708059,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-04T22:40:59.433Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 5,
+        "post_type": 3,
+        "posts_count": 5,
+        "updated_at": "2025-11-04T22:40:59.433Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 348199,
+        "topic_slug": "dgx-os-support-for-wayland-over-x11",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/dgx-os-support-for-wayland-over-x11/348199/5",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1698073,
+      1698076,
+      1698759,
+      1699817,
+      1708059
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      38
+    ],
+    [
+      3,
+      36
+    ],
+    [
+      4,
+      35
+    ],
+    [
+      5,
+      21
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "DGX OS support for Wayland over x11",
+  "id": 348199,
+  "title": "DGX OS support for Wayland over x11",
+  "posts_count": 5,
+  "created_at": "2025-10-19T05:11:52.490Z",
+  "views": 158,
+  "reply_count": 1,
+  "like_count": 0,
+  "last_posted_at": "2025-11-04T22:40:59.433Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "dgx-os-support-for-wayland-over-x11",
+  "category_id": 721,
+  "word_count": 149,
+  "deleted_at": null,
+  "user_id": 4699351,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348199",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 5,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Enable Wayland on TX2 with Jetpack 4.2",
+      "id": 71870,
+      "title": "Enable Wayland on TX2 with Jetpack 4.2",
+      "slug": "enable-wayland-on-tx2-with-jetpack-4-2",
+      "posts_count": 13,
+      "reply_count": 0,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2019-03-22T16:54:17.000Z",
+      "last_posted_at": "2021-10-18T18:32:35.371Z",
+      "bumped": true,
+      "bumped_at": "2019-05-31T05:10:54.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3154,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 38837,
+            "username": "bmanyu",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34931,
+            "username": "carolyuu",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/carolyuu/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 206949,
+            "username": "DONGYUN",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/dongyun/{size}/11779_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "BUG - GNOME won&rsquo;t load Wayland session with latest Nvidia 381.22 drivers + Ubuntu GNOME 17.04",
+      "id": 50313,
+      "title": "BUG - GNOME won't load Wayland session with latest Nvidia 381.22 drivers + Ubuntu GNOME 17.04",
+      "slug": "bug-gnome-wont-load-wayland-session-with-latest-nvidia-381-22-drivers-ubuntu-gnome-17-04",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2017-05-26T19:57:24.000Z",
+      "last_posted_at": "2018-01-22T04:04:42.000Z",
+      "bumped": true,
+      "bumped_at": "2018-01-22T04:04:42.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 8074,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 40521,
+            "username": "Source0f1",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 33076,
+            "username": "Farika",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 129920,
+            "username": "ray.rwalk2730",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 36183,
+            "username": "TimRichardson",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to run Wayland on latest driver, hardware, OS?",
+      "id": 128898,
+      "title": "How to run Wayland on latest driver, hardware, OS?",
+      "slug": "how-to-run-wayland-on-latest-driver-hardware-os",
+      "posts_count": 13,
+      "reply_count": 5,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2020-06-20T21:45:02.455Z",
+      "last_posted_at": "2020-06-22T08:26:53.611Z",
+      "bumped": true,
+      "bumped_at": "2020-06-22T08:26:53.611Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "wayland"
+      ],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 6554,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 184740,
+            "username": "willy65vae",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/willy65vae/{size}/20345_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19039,
+            "username": "generix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/generix/{size}/16024_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Is there at least hope of official Wayland support wihout XYZ workarounds?",
+      "id": 28624,
+      "title": "Is there at least hope of official Wayland support wihout XYZ workarounds?",
+      "slug": "is-there-at-least-hope-of-official-wayland-support-wihout-xyz-workarounds",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2013-03-14T00:33:39.000Z",
+      "last_posted_at": "2013-10-04T15:14:03.000Z",
+      "bumped": true,
+      "bumped_at": "2013-10-04T15:14:03.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 5288,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 14238,
+            "username": "DamnAlias",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13293,
+            "username": "birdie",
+            "name": "Artem S. Tashkinov",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/birdie/{size}/10073_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13398,
+            "username": "HasiPopasi",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13229,
+            "username": "Gusar",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 7256,
+            "username": "shmerl",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "364.12 - GTX  580 - Using glxinfo in weston with xwayland.so module crashes",
+      "id": 41943,
+      "title": "364.12 - GTX  580 - Using glxinfo in weston with xwayland.so module crashes",
+      "slug": "364-12-gtx-580-using-glxinfo-in-weston-with-xwayland-so-module-crashes",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2016-03-22T08:36:37.000Z",
+      "last_posted_at": "2016-03-22T08:36:37.000Z",
+      "bumped": false,
+      "bumped_at": "2016-03-22T08:36:37.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1404,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 15871,
+            "username": "blackout24",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Switching from X11 to Wayland",
+      "id": 83968,
+      "title": "Switching from X11 to Wayland",
+      "slug": "switching-from-x11-to-wayland",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2019-10-28T16:05:39.000Z",
+      "last_posted_at": "2019-10-29T03:09:40.000Z",
+      "bumped": true,
+      "bumped_at": "2019-10-29T03:09:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1354,
+      "category_id": 75,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 255903,
+            "username": "vilivolcini",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 34931,
+            "username": "carolyuu",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/carolyuu/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Status Of Wayland Support?",
+      "id": 37169,
+      "title": "Status Of Wayland Support?",
+      "slug": "status-of-wayland-support",
+      "posts_count": 35,
+      "reply_count": 0,
+      "highest_post_number": 35,
+      "image_url": null,
+      "created_at": "2015-03-11T21:23:03.000Z",
+      "last_posted_at": "2017-01-26T20:11:43.000Z",
+      "bumped": true,
+      "bumped_at": "2017-01-26T20:11:43.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 82082,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 17272,
+            "username": "Rabcor",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 18813,
+            "username": "chemal",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 618968,
+            "username": "hussam",
+            "name": "Hussam Al-Tayeb",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/hussam/{size}/15536_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17658,
+            "username": "salamanderrake",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/salamanderrake/{size}/295703_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 11668,
+            "username": "BratSinot",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Gnome wayland won&rsquo;t launch on fedora 23 and 364.12",
+      "id": 42011,
+      "title": "Gnome wayland won't launch on fedora 23 and 364.12",
+      "slug": "gnome-wayland-wont-launch-on-fedora-23-and-364-12",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2016-03-26T06:19:07.000Z",
+      "last_posted_at": "2016-03-26T12:37:43.000Z",
+      "bumped": true,
+      "bumped_at": "2016-03-26T12:37:43.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1137,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3683,
+            "username": "Celexi",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 15871,
+            "username": "blackout24",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Wayland support",
+      "id": 33660,
+      "title": "Wayland support",
+      "slug": "wayland-support",
+      "posts_count": 13,
+      "reply_count": 0,
+      "highest_post_number": 13,
+      "image_url": null,
+      "created_at": "2014-06-15T07:12:57.000Z",
+      "last_posted_at": "2015-07-02T19:02:49.000Z",
+      "bumped": true,
+      "bumped_at": "2015-07-02T19:02:49.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 17642,
+      "category_id": 148,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 9545,
+            "username": "Cheery",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 15289,
+            "username": "UraniumDeer",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13293,
+            "username": "birdie",
+            "name": "Artem S. Tashkinov",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/birdie/{size}/10073_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 7256,
+            "username": "shmerl",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 21871,
+            "username": "omer666",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "DRM support",
+      "id": 51698,
+      "title": "DRM support",
+      "slug": "drm-support",
+      "posts_count": 11,
+      "reply_count": 0,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2017-07-18T02:16:06.000Z",
+      "last_posted_at": "2021-10-18T18:27:54.710Z",
+      "bumped": true,
+      "bumped_at": "2018-01-16T06:15:26.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1812,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 41867,
+            "username": "william01110111",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 21533,
+            "username": "snarky",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/snarky/{size}/10446_2.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 34466,
+            "username": "WayneWWW",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/waynewww/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "kyfjqnw5nz",
+    "name": null,
+    "excerpt": "Nvm, I was able to find the solution in this old post <a href=\"https://forums.developer.nvidia.com/t/how-to-run-wayland-on-latest-driver-hardware-os/128898/3\" class=\"inline-onebox\">How to run Wayland on latest driver, hardware, OS? - #3 by willy65vae</a> . Thanks all",
+    "accepter_name": null,
+    "accepter_username": "kyfjqnw5nz"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4699351,
+        "username": "kyfjqnw5nz",
+        "name": "Kyfjqnw5nz",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 3,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 13092,
+        "username": "aplattner",
+        "name": null,
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aplattner/{size}/14043_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4699351,
+      "username": "kyfjqnw5nz",
+      "name": "Kyfjqnw5nz",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png"
+    },
+    "links": [
+      {
+        "url": "https://forums.developer.nvidia.com/t/how-to-run-wayland-on-latest-driver-hardware-os/128898/3",
+        "title": "How to run Wayland on latest driver, hardware, OS?",
+        "internal": true,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 25,
+        "user_id": 4699351,
+        "domain": "forums.developer.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}

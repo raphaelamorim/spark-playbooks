@@ -1,0 +1,1133 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1702638,
+        "name": "Calvinchang33",
+        "username": "ue5Profiler",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-27T06:07:52.246Z",
+        "cooked": "<p>System 1:</p>\n<ul>\n<li>DGX Spark</li>\n<li>Connected through NVIDIA Sync</li>\n</ul>\n<p>System 2:</p>\n<ul>\n<li>Windows 11</li>\n<li>NVIDIA RTX 3070</li>\n</ul>\n<p><strong>Issue:</strong></p>\n<p>On system 1, my code below will throw an error:</p>\n<pre><code class=\"lang-auto\">python numba-test.py\n…/.venv/lib/python3.12/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 4 will likely result in GPU under-utilization due to low occupancy.\nwarn(NumbaPerformanceWarning(msg))\nSegmentation fault (core dumped)\n</code></pre>\n<p>On system 2, the code runs fine:</p>\n<pre><code class=\"lang-auto\">[2. 2. 2. ... 2. 2. 2.]\n\n…\n</code></pre>\n<p><strong>Code:</strong></p>\n<pre><code class=\"lang-auto\"># %%\nfrom numba import cuda\nimport numpy as np\n\n@cuda.jit\ndef vector_add(a, b, c):\n    idx = cuda.grid(1)\n    if idx &lt; a.size:\n        c[idx] = a[idx] + b[idx]\n\nN = 1024\na = np.ones(N, dtype=np.float32)\nb = np.ones(N, dtype=np.float32)\nc = np.zeros_like(a)\n\nthreads_per_block = 256\n\nblocks_per_grid = (N + threads_per_block - 1) // threads_per_block\n\nvector_add[blocks_per_grid, threads_per_block](a, b, c)\n\ncuda.synchronize()\n\nprint(c)  \n</code></pre>\n<p><strong>Question/Help With:</strong><br>\nThe only thing I can think of at this hour is that the DGX spark has unified memory, but that really shouldn’t be causing this sort of problem. I’ve also never used numba before. So it could be some strange user error on my end. Was hoping to see if anyone else has had any issues or if this is a known issue.</p>\n<p>I was going to try cupy next, but as a last resort I will try a more traditional method and write a CUDA/C++ kernel and pybind11.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-27T15:54:12.819Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 22,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 112.4,
+        "yours": false,
+        "topic_id": 349110,
+        "topic_slug": "numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070",
+        "display_username": "Calvinchang33",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 2,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1378097,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070/349110/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1703101,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-27T18:07:11.796Z",
+        "cooked": "<p>I am not familiar with numba but I would check if they support CUDA 13 as we have seen many workloads that only support up to CUDA 12 fail</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-27T18:07:11.796Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 11,
+        "readers_count": 10,
+        "score": 27.2,
+        "yours": false,
+        "topic_id": 349110,
+        "topic_slug": "numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070/349110/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1703314,
+        "name": "Calvinchang33",
+        "username": "ue5Profiler",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-28T01:19:28.100Z",
+        "cooked": "<p>Thank you for your reply. This helps a lot.</p>\n<p>It seems like numba has special instructions for CUDA 13. I will try again and come back with an update.</p>\n<aside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://nvidia.github.io/numba-cuda/user/installation.html#installation-with-a-python-package-manager:~:text=%24%20pip%20install%20numba-cuda%5Bcu13%5D\">\n  <header class=\"source\">\n      <a class=\"blocked-hotlinked-placeholder\" alt=\"\" data-blocked-hotlinked-src=\"https://nvidia.github.io/numba-cuda/_static/numba-green-icon-rgb.svg\" width=\"\" height=\"\" href=\"https://nvidia.github.io/numba-cuda/_static/numba-green-icon-rgb.svg\" title=\"Image hosted on another site. Click to open in a new tab.\" rel=\"noopener nofollow ugc\"><svg class=\"fa d-icon d-icon-link svg-icon\" aria-hidden=\"true\"><use href=\"#link\"></use></svg><span class=\"notice\">External Image</span></a>\n\n      <a href=\"https://nvidia.github.io/numba-cuda/user/installation.html#installation-with-a-python-package-manager:~:text=%24%20pip%20install%20numba-cuda%5Bcu13%5D\" target=\"_blank\" rel=\"noopener nofollow ugc\">nvidia.github.io</a>\n  </header>\n\n  <article class=\"onebox-body\">\n    \n\n<h3><a href=\"https://nvidia.github.io/numba-cuda/user/installation.html#installation-with-a-python-package-manager:~:text=%24%20pip%20install%20numba-cuda%5Bcu13%5D\" target=\"_blank\" rel=\"noopener nofollow ugc\">Installation — Numba CUDA</a></h3>\n\n\n\n  </article>\n\n  <div class=\"onebox-metadata\">\n    \n    \n  </div>\n\n  <div style=\"clear: both\"></div>\n</aside>\n\n<pre><code class=\"lang-auto\">$ pip install numba-cuda[cu13]\n</code></pre>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 4,
+        "updated_at": "2025-10-28T01:19:28.100Z",
+        "reply_count": 0,
+        "reply_to_post_number": 2,
+        "quote_count": 0,
+        "incoming_link_count": 3,
+        "reads": 10,
+        "readers_count": 9,
+        "score": 17.0,
+        "yours": false,
+        "topic_id": 349110,
+        "topic_slug": "numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070",
+        "display_username": "Calvinchang33",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://nvidia.github.io/numba-cuda/user/installation.html#installation-with-a-python-package-manager:~:text=%24%20pip%20install%20numba-cuda%5Bcu13%5D",
+            "internal": false,
+            "reflection": false,
+            "title": "Installation — Numba CUDA",
+            "clicks": 1
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "reply_to_user": {
+          "id": 3567453,
+          "username": "aniculescu",
+          "name": "Aniculescu",
+          "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 1378097,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070/349110/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715792,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:31:07.087Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 4,
+        "post_type": 3,
+        "posts_count": 4,
+        "updated_at": "2025-11-17T19:31:07.087Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 2,
+        "readers_count": 1,
+        "score": 0.4,
+        "yours": false,
+        "topic_id": 349110,
+        "topic_slug": "numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070/349110/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1702638,
+      1703101,
+      1703314,
+      1715792
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      30
+    ],
+    [
+      2,
+      29
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "Numba segmentation faults on DGX Spark, but not on my 3070",
+  "id": 349110,
+  "title": "Numba segmentation faults on DGX Spark, but not on my 3070",
+  "posts_count": 4,
+  "created_at": "2025-10-27T06:07:52.178Z",
+  "views": 52,
+  "reply_count": 1,
+  "like_count": 1,
+  "last_posted_at": "2025-10-28T01:19:28.100Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "numba-segmentation-faults-on-dgx-spark-but-not-on-my-3070",
+  "category_id": 721,
+  "word_count": 323,
+  "deleted_at": null,
+  "user_id": 1378097,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_349110",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 4,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "nano + tensorflow + numba",
+      "id": 77311,
+      "title": "nano + tensorflow + numba",
+      "slug": "nano-tensorflow-numba",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2019-07-01T08:17:27.000Z",
+      "last_posted_at": "2021-10-18T17:44:43.331Z",
+      "bumped": true,
+      "bumped_at": "2019-07-18T08:48:59.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1017,
+      "category_id": 76,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 194247,
+            "username": "schoninger",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Testing the excecution with and with out GPU and CUDA in Jetson TX2",
+      "id": 110012,
+      "title": "Testing the excecution with and with out GPU and CUDA in Jetson TX2",
+      "slug": "testing-the-excecution-with-and-with-out-gpu-and-cuda-in-jetson-tx2",
+      "posts_count": 5,
+      "reply_count": 0,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2020-01-06T17:32:00.000Z",
+      "last_posted_at": "2021-10-18T18:19:24.946Z",
+      "bumped": true,
+      "bumped_at": "2020-01-16T17:50:17.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 3297,
+      "category_id": 81,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 292485,
+            "username": "kjbaili",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 34659,
+            "username": "AastaLLL",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aastalll/{size}/14043_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 6598,
+            "username": "nadeemm",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nadeemm/{size}/367020_2.png",
+            "primary_group_name": "Employee",
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "SDK sample code failures only on samples that launch a kernel",
+      "id": 7023,
+      "title": "SDK sample code failures only on samples that launch a kernel",
+      "slug": "sdk-sample-code-failures-only-on-samples-that-launch-a-kernel",
+      "posts_count": 18,
+      "reply_count": 0,
+      "highest_post_number": 18,
+      "image_url": null,
+      "created_at": "2008-12-31T03:41:02.000Z",
+      "last_posted_at": "2009-01-07T18:38:39.000Z",
+      "bumped": true,
+      "bumped_at": "2009-01-07T18:38:39.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 8787,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3429,
+            "username": "kovelan",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1705,
+            "username": "E.D_Riedijk",
+            "name": "E.D. Riedijk",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2224,
+            "username": "tmurray",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 213,
+            "username": "netllama",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3673,
+            "username": "tyoc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "random kernel execution failure with unknown error CUDA programming on Linux",
+      "id": 2592,
+      "title": "random kernel execution failure with unknown error CUDA programming on Linux",
+      "slug": "random-kernel-execution-failure-with-unknown-error-cuda-programming-on-linux",
+      "posts_count": 10,
+      "reply_count": 0,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2008-02-10T19:53:50.000Z",
+      "last_posted_at": "2008-06-11T21:40:25.000Z",
+      "bumped": true,
+      "bumped_at": "2008-06-11T21:40:25.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 8708,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 1564,
+            "username": "egaburov",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1085,
+            "username": "DenisR",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 423,
+            "username": "MisterAnderson42",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 213,
+            "username": "netllama",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "problem running demos",
+      "id": 7012,
+      "title": "problem running demos",
+      "slug": "problem-running-demos",
+      "posts_count": 10,
+      "reply_count": 0,
+      "highest_post_number": 10,
+      "image_url": "https://global.discourse-cdn.com/nvidia/original/3X/b/2/b2342278c1d542bf728dea7b04c72483f3101bf6.png",
+      "created_at": "2008-12-30T07:51:19.000Z",
+      "last_posted_at": "2009-01-01T08:24:53.000Z",
+      "bumped": true,
+      "bumped_at": "2009-01-01T08:24:53.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 522,
+          "height": 541,
+          "url": "https://global.discourse-cdn.com/nvidia/original/3X/b/2/b2342278c1d542bf728dea7b04c72483f3101bf6.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 385,
+          "height": 400,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/b/2/b2342278c1d542bf728dea7b04c72483f3101bf6_2_385x400.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 289,
+          "height": 300,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/b/2/b2342278c1d542bf728dea7b04c72483f3101bf6_2_289x300.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 192,
+          "height": 200,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/3X/b/2/b2342278c1d542bf728dea7b04c72483f3101bf6_2_192x200.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 8275,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3673,
+            "username": "tyoc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1705,
+            "username": "E.D_Riedijk",
+            "name": "E.D. Riedijk",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "about running cuda on a gpu cluster",
+      "id": 16755,
+      "title": "about running cuda on a gpu cluster",
+      "slug": "about-running-cuda-on-a-gpu-cluster",
+      "posts_count": 26,
+      "reply_count": 0,
+      "highest_post_number": 26,
+      "image_url": null,
+      "created_at": "2010-05-24T14:21:26.000Z",
+      "last_posted_at": "2010-05-31T07:56:30.000Z",
+      "bumped": true,
+      "bumped_at": "2010-05-31T07:56:30.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 21719,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 8073,
+            "username": "shadowperi",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/shadowperi/{size}/9914_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 5594,
+            "username": "Tom_Milledge",
+            "name": "Tom Milledge",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 4641,
+            "username": "avidday",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/avidday/{size}/59219_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "help",
+      "id": 16724,
+      "title": "help",
+      "slug": "help",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2010-05-21T02:29:40.000Z",
+      "last_posted_at": "2010-05-21T02:29:40.000Z",
+      "bumped": false,
+      "bumped_at": "2010-05-21T02:29:40.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 4314,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 2819,
+            "username": "qijiin21c",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "nan in simple vector addition",
+      "id": 27652,
+      "title": "nan in simple vector addition",
+      "slug": "nan-in-simple-vector-addition",
+      "posts_count": 8,
+      "reply_count": 0,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2012-12-12T20:54:36.000Z",
+      "last_posted_at": "2012-12-13T15:04:52.000Z",
+      "bumped": true,
+      "bumped_at": "2012-12-13T15:04:52.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 2482,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 13605,
+            "username": "Axionator",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6159,
+            "username": "njuffa",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Top_Contributor",
+            "flair_name": "Top_Contributor",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/e/9/e928fc31cf60f6c1cf3a3ff16565aa24e6f4bbbf.png",
+            "flair_group_id": 57,
+            "trust_level": 4
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 9769,
+            "username": "nezix",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/nezix/{size}/28228_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nvidia GPU Accelration(Segmentation Fault Core Dumped)",
+      "id": 81194,
+      "title": "Nvidia GPU Accelration(Segmentation Fault Core Dumped)",
+      "slug": "nvidia-gpu-accelration-segmentation-fault-core-dumped",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2019-09-05T05:56:32.000Z",
+      "last_posted_at": "2019-09-05T05:56:32.000Z",
+      "bumped": false,
+      "bumped_at": "2019-09-05T05:56:32.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 574,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 253951,
+            "username": "coa46z64",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Emulation/CPU=correct,Execution/GPU=incorrect emulation",
+      "id": 5190,
+      "title": "Emulation/CPU=correct,Execution/GPU=incorrect emulation",
+      "slug": "emulation-cpu-correct-execution-gpu-incorrect-emulation",
+      "posts_count": 27,
+      "reply_count": 0,
+      "highest_post_number": 27,
+      "image_url": null,
+      "created_at": "2008-08-26T17:39:44.000Z",
+      "last_posted_at": "2008-09-02T17:01:35.000Z",
+      "bumped": true,
+      "bumped_at": "2008-09-02T17:01:35.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 21639,
+      "category_id": 7,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2244,
+            "username": "chrismc",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2752,
+            "username": "waswas",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2224,
+            "username": "tmurray",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1705,
+            "username": "E.D_Riedijk",
+            "name": "E.D. Riedijk",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1171,
+            "username": "Sylvain_Collange",
+            "name": "Sylvain Collange",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 3,
+    "username": "ue5Profiler",
+    "name": null,
+    "excerpt": "Thank you for your reply. This helps a lot. \nIt seems like numba has special instructions for CUDA 13. I will try again and come back with an update. \n\n\n$ pip install numba-cuda[cu13]",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 1378097,
+        "username": "ue5Profiler",
+        "name": "Calvinchang33",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 1378097,
+      "username": "ue5Profiler",
+      "name": "Calvinchang33",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 1378097,
+      "username": "ue5Profiler",
+      "name": "Calvinchang33",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "links": [
+      {
+        "url": "https://nvidia.github.io/numba-cuda/user/installation.html#installation-with-a-python-package-manager:~:text=%24%20pip%20install%20numba-cuda%5Bcu13%5D",
+        "title": "Installation — Numba CUDA",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 1,
+        "user_id": 1378097,
+        "domain": "nvidia.github.io",
+        "root_domain": "nvidia.github.io"
+      }
+    ]
+  },
+  "bookmarks": []
+}

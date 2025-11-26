@@ -1,0 +1,1377 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1704848,
+        "name": "Elsaco",
+        "username": "elsaco",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T04:56:27.318Z",
+        "cooked": "<p>On a fresh Windows 11 with missing <code>$USER\\.ssh</code> folder Workbench fails to install:</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://global.discourse-cdn.com/nvidia/original/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6.png\" data-download-href=\"/uploads/short-url/6KjgnBpKfp8Vapk3sABA8Yrf154.png?dl=1\" title=\"ai_wb_error\" rel=\"noopener nofollow ugc\"><img src=\"https://global.discourse-cdn.com/nvidia/original/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6.png\" alt=\"ai_wb_error\" data-base62-sha1=\"6KjgnBpKfp8Vapk3sABA8Yrf154\" width=\"630\" height=\"471\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">ai_wb_error</span><span class=\"informations\">630×471 23.6 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-30T04:56:27.318Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 14,
+        "reads": 13,
+        "readers_count": 12,
+        "score": 72.6,
+        "yours": false,
+        "topic_id": 349526,
+        "topic_slug": "ai-workbench-installation-error-on-windows",
+        "display_username": "Elsaco",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2474958,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/ai-workbench-installation-error-on-windows/349526/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1705252,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-30T14:37:22.021Z",
+        "cooked": "<p>I would check to see if the <code>$USER/.ssh</code> folder exists. I’m not sure if NV Sync creates it by itself if the folder does not exist</p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-30T14:37:22.021Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 2.4,
+        "yours": false,
+        "topic_id": 349526,
+        "topic_slug": "ai-workbench-installation-error-on-windows",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/ai-workbench-installation-error-on-windows/349526/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1705271,
+        "name": "Elsaco",
+        "username": "elsaco",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-30T14:59:45.514Z",
+        "cooked": "<p>The fix is trivial. However, the Workbench installer shouldn’t fail and instead create the <code>.ssh</code> folder if not present.</p>",
+        "post_number": 3,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-30T14:59:45.514Z",
+        "reply_count": 1,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 349526,
+        "topic_slug": "ai-workbench-installation-error-on-windows",
+        "display_username": "Elsaco",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 2474958,
+        "hidden": false,
+        "trust_level": 1,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/ai-workbench-installation-error-on-windows/349526/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1705274,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-30T15:02:50.234Z",
+        "cooked": "<p>This is an issue with NV Sync. Thank you for bringing this to our attention, I will see if this is something we can add in a future release</p>",
+        "post_number": 4,
+        "post_type": 1,
+        "posts_count": 5,
+        "updated_at": "2025-10-30T15:02:50.234Z",
+        "reply_count": 0,
+        "reply_to_post_number": 3,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 12,
+        "readers_count": 11,
+        "score": 7.4,
+        "yours": false,
+        "topic_id": 349526,
+        "topic_slug": "ai-workbench-installation-error-on-windows",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "reply_to_user": {
+          "id": 2474958,
+          "username": "elsaco",
+          "name": "Elsaco",
+          "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+        },
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/ai-workbench-installation-error-on-windows/349526/4",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715810,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:37:04.112Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 6,
+        "post_type": 3,
+        "posts_count": 5,
+        "updated_at": "2025-11-17T19:37:04.112Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 1,
+        "readers_count": 0,
+        "score": 0.2,
+        "yours": false,
+        "topic_id": 349526,
+        "topic_slug": "ai-workbench-installation-error-on-windows",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/ai-workbench-installation-error-on-windows/349526/6",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1704848,
+      1705252,
+      1705271,
+      1705274,
+      1715810
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      27
+    ],
+    [
+      2,
+      26
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [],
+  "tags_descriptions": {},
+  "fancy_title": "AI Workbench installation error on Windows",
+  "id": 349526,
+  "title": "AI Workbench installation error on Windows",
+  "posts_count": 5,
+  "created_at": "2025-10-30T04:56:27.241Z",
+  "views": 49,
+  "reply_count": 1,
+  "like_count": 0,
+  "last_posted_at": "2025-10-30T15:02:50.234Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "ai-workbench-installation-error-on-windows",
+  "category_id": 721,
+  "word_count": 96,
+  "deleted_at": null,
+  "user_id": 2474958,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": "https://global.discourse-cdn.com/nvidia/original/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6.png",
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_349526",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 6,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": [
+    {
+      "max_width": null,
+      "max_height": null,
+      "width": 630,
+      "height": 471,
+      "url": "https://global.discourse-cdn.com/nvidia/original/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6.png"
+    },
+    {
+      "max_width": 600,
+      "max_height": 600,
+      "width": 600,
+      "height": 448,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6_2_600x448.png"
+    },
+    {
+      "max_width": 400,
+      "max_height": 400,
+      "width": 400,
+      "height": 299,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6_2_400x299.png"
+    },
+    {
+      "max_width": 300,
+      "max_height": 300,
+      "width": 300,
+      "height": 224,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6_2_300x224.png"
+    },
+    {
+      "max_width": 200,
+      "max_height": 200,
+      "width": 200,
+      "height": 149,
+      "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/2/f/4/2f4932577b9331aa37b1bdb03c8df1cdc44073f6_2_200x149.png"
+    }
+  ],
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "Fail to install windows 11 AI Workbench",
+      "id": 283618,
+      "title": "Fail to install windows 11 AI Workbench",
+      "slug": "fail-to-install-windows-11-ai-workbench",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2024-02-21T23:25:49.312Z",
+      "last_posted_at": "2024-04-10T15:44:30.836Z",
+      "bumped": true,
+      "bumped_at": "2024-04-08T14:03:25.581Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "workbench-install"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 714,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2149758,
+            "username": "simone7",
+            "name": "Simone",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3088605,
+            "username": "ark_su",
+            "name": "Ark Su",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 550054,
+            "username": "bfurtaw",
+            "name": "Bfurtaw",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bfurtaw/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Installing Error Application Error: Something happened, please contact support or try restarting the application and installer",
+      "id": 291826,
+      "title": "Installing Error Application Error: Something happened, please contact support or try restarting the application and installer",
+      "slug": "installing-error-application-error-something-happened-please-contact-support-or-try-restarting-the-application-and-installer",
+      "posts_count": 18,
+      "reply_count": 11,
+      "highest_post_number": 18,
+      "image_url": null,
+      "created_at": "2024-05-05T00:09:55.001Z",
+      "last_posted_at": "2024-06-13T22:27:30.408Z",
+      "bumped": true,
+      "bumped_at": "2024-05-30T22:27:22.797Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 1273,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 2881452,
+            "username": "bad_eed",
+            "name": "Bad Eed",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 550054,
+            "username": "bfurtaw",
+            "name": "Bfurtaw",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bfurtaw/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3502285,
+            "username": "lanasadonna",
+            "name": "Lanasadonna",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3525641,
+            "username": "agrawal.anshul",
+            "name": "Agrawal Anshul",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nvidia AI Workbench Installation",
+      "id": 350627,
+      "title": "Nvidia AI Workbench Installation",
+      "slug": "nvidia-ai-workbench-installation",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_1023x709.png",
+      "created_at": "2025-11-07T21:16:12.966Z",
+      "last_posted_at": "2025-11-18T17:13:17.771Z",
+      "bumped": true,
+      "bumped_at": "2025-11-18T17:13:17.771Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1899,
+          "height": 1315,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1023,
+          "height": 709,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_1023x709.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 553,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_800x553.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 415,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_600x415.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 276,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_400x276.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 207,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_300x207.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 138,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/e/3/9/e39a5096e493d665456f035cd6add6b0570e543d_2_200x138.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 149,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 966222,
+            "username": "martintalero",
+            "name": "Martintalero",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Failed installation on Win 11, looked at other threads but doesn&rsquo;t work",
+      "id": 297542,
+      "title": "Failed installation on Win 11, looked at other threads but doesn't work",
+      "slug": "failed-installation-on-win-11-looked-at-other-threads-but-doesnt-work",
+      "posts_count": 11,
+      "reply_count": 6,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2024-06-25T05:28:47.282Z",
+      "last_posted_at": "2024-08-16T15:31:05.378Z",
+      "bumped": true,
+      "bumped_at": "2024-08-16T15:31:05.378Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 347,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3400333,
+            "username": "vikklontorza",
+            "name": "Victor Ng",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2953543,
+            "username": "edwli",
+            "name": "Edward",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/edwli/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to install workbench on windows 11",
+      "id": 307035,
+      "title": "Unable to install workbench on windows 11",
+      "slug": "unable-to-install-workbench-on-windows-11",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2024-09-17T12:34:13.513Z",
+      "last_posted_at": "2024-09-17T18:37:41.000Z",
+      "bumped": true,
+      "bumped_at": "2024-09-17T18:37:41.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nvidia-ai-workbench"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 308,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 3677465,
+            "username": "varunh1017",
+            "name": "Varunh1017",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 550054,
+            "username": "bfurtaw",
+            "name": "Bfurtaw",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bfurtaw/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to install on windows 11",
+      "id": 286910,
+      "title": "Unable to install on windows 11",
+      "slug": "unable-to-install-on-windows-11",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2024-03-21T14:50:15.629Z",
+      "last_posted_at": "2024-03-23T13:45:37.523Z",
+      "bumped": true,
+      "bumped_at": "2024-03-23T13:45:37.523Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 457,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 2924825,
+            "username": "cataclysmstudios",
+            "name": "Cataclysmstudios",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3066141,
+            "username": "dkleissas",
+            "name": "Dkleissas",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I can&rsquo;t install AI Workbennch correctly",
+      "id": 306895,
+      "title": "I can't install AI Workbennch correctly",
+      "slug": "i-cant-install-ai-workbennch-correctly",
+      "posts_count": 8,
+      "reply_count": 5,
+      "highest_post_number": 8,
+      "image_url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_1024x699.png",
+      "created_at": "2024-09-16T00:30:41.102Z",
+      "last_posted_at": "2024-09-30T16:52:29.304Z",
+      "bumped": true,
+      "bumped_at": "2024-09-30T16:52:29.304Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": [
+        {
+          "max_width": null,
+          "max_height": null,
+          "width": 1428,
+          "height": 975,
+          "url": "https://global.discourse-cdn.com/nvidia/original/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28.png"
+        },
+        {
+          "max_width": 1024,
+          "max_height": 1024,
+          "width": 1024,
+          "height": 699,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_1024x699.png"
+        },
+        {
+          "max_width": 800,
+          "max_height": 800,
+          "width": 800,
+          "height": 546,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_800x546.png"
+        },
+        {
+          "max_width": 600,
+          "max_height": 600,
+          "width": 600,
+          "height": 409,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_600x409.png"
+        },
+        {
+          "max_width": 400,
+          "max_height": 400,
+          "width": 400,
+          "height": 273,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_400x273.png"
+        },
+        {
+          "max_width": 300,
+          "max_height": 300,
+          "width": 300,
+          "height": 204,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_300x204.png"
+        },
+        {
+          "max_width": 200,
+          "max_height": 200,
+          "width": 200,
+          "height": 136,
+          "url": "https://global.discourse-cdn.com/nvidia/optimized/4X/7/7/2/77203e607fd231547e0f865e9fcca1655d15fe28_2_200x136.png"
+        }
+      ],
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 163,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3706926,
+            "username": "Duce_X",
+            "name": "Duce X",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/duce_x/{size}/356475_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3342043,
+            "username": "chinonsoodiaka",
+            "name": "🅱🅻🅰🆀",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/chinonsoodiaka/{size}/365461_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Installing AI Workbench ends in Preparing installation. This may take a few minutes. Checking bundle for artifacts",
+      "id": 322794,
+      "title": "Installing AI Workbench ends in Preparing installation. This may take a few minutes. Checking bundle for artifacts",
+      "slug": "installing-ai-workbench-ends-in-preparing-installation-this-may-take-a-few-minutes-checking-bundle-for-artifacts",
+      "posts_count": 18,
+      "reply_count": 15,
+      "highest_post_number": 18,
+      "image_url": null,
+      "created_at": "2025-02-06T11:29:31.167Z",
+      "last_posted_at": "2025-02-24T13:58:49.000Z",
+      "bumped": true,
+      "bumped_at": "2025-02-24T13:58:49.000Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 295,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 1519306,
+            "username": "hwulfershb",
+            "name": "Holger Wulfers",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Help error installing Workbench",
+      "id": 295676,
+      "title": "Help error installing Workbench",
+      "slug": "help-error-installing-workbench",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2024-06-09T07:33:29.154Z",
+      "last_posted_at": "2024-06-10T22:02:20.188Z",
+      "bumped": true,
+      "bumped_at": "2024-06-10T22:02:20.188Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 483,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3555562,
+            "username": "getinlisbon",
+            "name": "Getinlisbon",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Unable to install AI Workbench Desktop WSL2 v0.28.29 on Windows 11 (x86_64)",
+      "id": 281943,
+      "title": "Unable to install AI Workbench Desktop WSL2 v0.28.29 on Windows 11 (x86_64)",
+      "slug": "unable-to-install-ai-workbench-desktop-wsl2-v0-28-29-on-windows-11-x86-64",
+      "posts_count": 9,
+      "reply_count": 3,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2024-02-06T02:03:57.505Z",
+      "last_posted_at": "2024-03-06T20:44:13.202Z",
+      "bumped": true,
+      "bumped_at": "2024-02-21T20:43:35.139Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "workbench-v-02829",
+        "workbench-desktop-app",
+        "workbench-podman",
+        "workbench-install"
+      ],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 1352,
+      "category_id": 671,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3102090,
+            "username": "rajatarya",
+            "name": "Rajat Arya",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/rajatarya/{size}/295383_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user": {
+            "id": 2465245,
+            "username": "twhitehouse",
+            "name": "Twhitehouse",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/twhitehouse/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 550054,
+            "username": "bfurtaw",
+            "name": "Bfurtaw",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/bfurtaw/{size}/14047_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3296216,
+            "username": "carlos75",
+            "name": "Carlos",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/carlos75/{size}/315753_2.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 3,
+    "username": "elsaco",
+    "name": null,
+    "excerpt": "The fix is trivial. However, the Workbench installer shouldn’t fail and instead create the .ssh folder if not present.",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 2474958,
+        "username": "elsaco",
+        "name": "Elsaco",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 2,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 1
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 2,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 2474958,
+      "username": "elsaco",
+      "name": "Elsaco",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    }
+  },
+  "bookmarks": []
+}

@@ -1,0 +1,1160 @@
+{
+  "post_stream": {
+    "posts": [
+      {
+        "id": 1702042,
+        "name": "Krzsam",
+        "username": "krzsam",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "created_at": "2025-10-25T18:00:20.308Z",
+        "cooked": "<p>Not an issue specifically regarding DGX Spark, but perhaps a more general issue regarding NIM ecosystem - NIMs should be built multi-platform (meaning for both amd64 and arm64)</p>\n<p>I have tried first random NIM from the catalogue, <a href=\"https://build.nvidia.com/stabilityai/stable-diffusion-3_5-large/deploy\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\">stable-diffusion-3.5-large Model by Stability AI | NVIDIA NIM</a> and it is built only for amd64, so it cannot be run on DGX Spark.</p>",
+        "post_number": 1,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-25T18:00:20.308Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 22,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 136.6,
+        "yours": false,
+        "topic_id": 348914,
+        "topic_slug": "nims-should-be-built-multiplatform",
+        "display_username": "Krzsam",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/stabilityai/stable-diffusion-3_5-large/deploy",
+            "internal": false,
+            "reflection": false,
+            "title": "stable-diffusion-3.5-large Model by Stability AI | NVIDIA NIM",
+            "clicks": 5
+          }
+        ],
+        "read": true,
+        "user_title": null,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 2
+          }
+        ],
+        "moderator": false,
+        "admin": false,
+        "staff": false,
+        "user_id": 4713046,
+        "hidden": false,
+        "trust_level": 0,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/nims-should-be-built-multiplatform/348914/1",
+        "event": null,
+        "calendar_details": [],
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_vote": false,
+        "can_translate": false
+      },
+      {
+        "id": 1703112,
+        "name": "Aniculescu",
+        "username": "aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "created_at": "2025-10-27T18:23:38.886Z",
+        "cooked": "<p>We are in the process of updating our NIMs models to be compatible with DGX Spark.<br>\nIn the meantime, please check out our playbook on deploying NIMs on DGX Spark: <a href=\"https://build.nvidia.com/spark/nim-llm\" class=\"inline-onebox\">Try NVIDIA NIM APIs</a></p>",
+        "post_number": 2,
+        "post_type": 1,
+        "posts_count": 3,
+        "updated_at": "2025-10-27T18:23:38.886Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 1,
+        "reads": 20,
+        "readers_count": 19,
+        "score": 24.0,
+        "yours": false,
+        "topic_id": 348914,
+        "topic_slug": "nims-should-be-built-multiplatform",
+        "display_username": "Aniculescu",
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_bg_color": "",
+        "flair_color": "",
+        "flair_group_id": 63,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "link_counts": [
+          {
+            "url": "https://build.nvidia.com/spark/nim-llm",
+            "internal": false,
+            "reflection": false,
+            "title": "Try NVIDIA NIM APIs",
+            "clicks": 12
+          }
+        ],
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [
+          {
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "moderator": true,
+        "admin": false,
+        "staff": true,
+        "user_id": 3567453,
+        "hidden": false,
+        "trust_level": 2,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "post_url": "/t/nims-should-be-built-multiplatform/348914/2",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": true,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      },
+      {
+        "id": 1715789,
+        "name": "system",
+        "username": "system",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+        "created_at": "2025-11-17T19:30:07.256Z",
+        "cooked": "<p>This topic was automatically closed 14 days after the last reply. New replies are no longer allowed.</p>",
+        "post_number": 3,
+        "post_type": 3,
+        "posts_count": 3,
+        "updated_at": "2025-11-17T19:30:07.256Z",
+        "reply_count": 0,
+        "reply_to_post_number": null,
+        "quote_count": 0,
+        "incoming_link_count": 0,
+        "reads": 3,
+        "readers_count": 2,
+        "score": 0.6,
+        "yours": false,
+        "topic_id": 348914,
+        "topic_slug": "nims-should-be-built-multiplatform",
+        "display_username": "system",
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_bg_color": null,
+        "flair_color": null,
+        "flair_group_id": null,
+        "badges_granted": [],
+        "version": 1,
+        "can_edit": false,
+        "can_delete": false,
+        "can_recover": false,
+        "can_see_hidden_post": false,
+        "can_wiki": false,
+        "read": true,
+        "user_title": "Moderator",
+        "title_is_group": false,
+        "bookmarked": false,
+        "actions_summary": [],
+        "moderator": true,
+        "admin": true,
+        "staff": true,
+        "user_id": -1,
+        "hidden": false,
+        "trust_level": 4,
+        "deleted_at": null,
+        "user_deleted": false,
+        "edit_reason": null,
+        "can_view_edit_history": false,
+        "wiki": false,
+        "action_code": "autoclosed.enabled",
+        "post_url": "/t/nims-should-be-built-multiplatform/348914/3",
+        "event": null,
+        "can_accept_answer": false,
+        "can_unaccept_answer": false,
+        "accepted_answer": false,
+        "topic_accepted_answer": true,
+        "can_translate": false
+      }
+    ],
+    "stream": [
+      1702042,
+      1703112,
+      1715789
+    ]
+  },
+  "timeline_lookup": [
+    [
+      1,
+      31
+    ],
+    [
+      2,
+      29
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "suggested_topics": [],
+  "tags": [
+    "nim"
+  ],
+  "tags_descriptions": {},
+  "fancy_title": "NIMs should be built multiplatform",
+  "id": 348914,
+  "title": "NIMs should be built multiplatform",
+  "posts_count": 3,
+  "created_at": "2025-10-25T18:00:20.227Z",
+  "views": 97,
+  "reply_count": 0,
+  "like_count": 3,
+  "last_posted_at": "2025-10-27T18:23:38.886Z",
+  "visible": true,
+  "closed": true,
+  "archived": false,
+  "has_summary": false,
+  "archetype": "regular",
+  "slug": "nims-should-be-built-multiplatform",
+  "category_id": 721,
+  "word_count": 99,
+  "deleted_at": null,
+  "user_id": 4713046,
+  "featured_link": null,
+  "pinned_globally": false,
+  "pinned_at": null,
+  "pinned_until": null,
+  "image_url": null,
+  "slow_mode_seconds": 0,
+  "draft": null,
+  "draft_key": "topic_348914",
+  "draft_sequence": null,
+  "unpinned": null,
+  "pinned": false,
+  "current_post_number": 1,
+  "highest_post_number": 3,
+  "deleted_by": null,
+  "actions_summary": [
+    {
+      "id": 4,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 8,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 10,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    },
+    {
+      "id": 7,
+      "count": 0,
+      "hidden": false,
+      "can_act": false
+    }
+  ],
+  "chunk_size": 20,
+  "bookmarked": false,
+  "topic_timer": null,
+  "message_bus_last_id": 0,
+  "participant_count": 2,
+  "show_read_indicator": false,
+  "thumbnails": null,
+  "slow_mode_enabled_until": null,
+  "related_topics": [
+    {
+      "fancy_title": "None of the Biology NIM Containers Can Run on DGX Spark - Correct?",
+      "id": 349486,
+      "title": "None of the Biology NIM Containers Can Run on DGX Spark - Correct?",
+      "slug": "none-of-the-biology-nim-containers-can-run-on-dgx-spark-correct",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-10-29T21:43:03.176Z",
+      "last_posted_at": "2025-10-30T14:29:45.552Z",
+      "bumped": true,
+      "bumped_at": "2025-10-30T14:29:45.552Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 140,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4331929,
+            "username": "mert7",
+            "name": "Mert",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user": {
+            "id": 3567453,
+            "username": "aniculescu",
+            "name": "Aniculescu",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/system/{size}/68080_2.png",
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Missing official native ARM64 NIM images for essential AI models",
+      "id": 350681,
+      "title": "Missing official native ARM64 NIM images for essential AI models",
+      "slug": "missing-official-native-arm64-nim-images-for-essential-ai-models",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2025-11-08T17:50:10.899Z",
+      "last_posted_at": "2025-11-09T21:46:42.829Z",
+      "bumped": true,
+      "bumped_at": "2025-11-09T21:46:42.829Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim",
+        "llama"
+      ],
+      "tags_descriptions": {},
+      "like_count": 7,
+      "views": 123,
+      "category_id": 721,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4741231,
+            "username": "whippet",
+            "name": "Whippet",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 835463,
+            "username": "alan.dang",
+            "name": "Alan Dang",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 4703451,
+            "username": "raphael.amorim",
+            "name": "Raphael Amorim",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/raphael.amorim/{size}/446733_2.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NIM does not support llama-3.1-8b-instruct and llama-3.1-70b-instruct on GH200 On-Prem deployment",
+      "id": 312542,
+      "title": "NIM does not support llama-3.1-8b-instruct and llama-3.1-70b-instruct on GH200 On-Prem deployment",
+      "slug": "nim-does-not-support-llama-3-1-8b-instruct-and-llama-3-1-70b-instruct-on-gh200-on-prem-deployment",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-11-07T10:42:06.272Z",
+      "last_posted_at": "2024-11-07T19:51:02.161Z",
+      "bumped": true,
+      "bumped_at": "2024-11-07T19:51:02.161Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim",
+        "llama",
+        "llama-31-8b-instruct"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 310,
+      "category_id": 698,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3641965,
+            "username": "sjbbihan",
+            "name": "Sjbbihan",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 1547621,
+            "username": "neal.vaidya",
+            "name": "Neal Vaidya",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/neal.vaidya/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Misral 및 Mixral 모델을 위한 새로운 NVIDIA NIM을 통해 AI 프로젝트 지원",
+      "id": 301174,
+      "title": "Misral 및 Mixral 모델을 위한 새로운 NVIDIA NIM을 통해 AI 프로젝트 지원",
+      "slug": "misral-mixral-nvidia-nim-ai",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-07-26T06:25:22.080Z",
+      "last_posted_at": "2024-07-26T13:25:01.293Z",
+      "bumped": true,
+      "bumped_at": "2024-07-26T06:25:22.143Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 4,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 33,
+      "category_id": 664,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 835628,
+            "username": "smoon",
+            "name": "Smoon",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/smoon/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "A Simple Guide to Deploying Generative AI with NVIDIA NIM",
+      "id": 294901,
+      "title": "A Simple Guide to Deploying Generative AI with NVIDIA NIM",
+      "slug": "a-simple-guide-to-deploying-generative-ai-with-nvidia-nim",
+      "posts_count": 10,
+      "reply_count": 4,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2024-06-02T11:30:29.962Z",
+      "last_posted_at": "2024-09-08T07:59:40.241Z",
+      "bumped": true,
+      "bumped_at": "2024-09-08T07:59:40.241Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 4,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 3,
+      "views": 934,
+      "category_id": 318,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 546649,
+            "username": "jwitsoe",
+            "name": "Jen Witsoe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/jwitsoe/{size}/16591_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3560301,
+            "username": "pipi18891",
+            "name": "Pipi1889",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3584226,
+            "username": "intothewildblows",
+            "name": "Intothewildblows",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 777084,
+            "username": "hwolff",
+            "name": "Hwolff",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/hwolff/{size}/382649_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3729806,
+            "username": "raghums534",
+            "name": "Raghums534",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "NVIDIA NIM, 이제 개발자 프로그램 회원에게 무료로 제공됩니다",
+      "id": 301883,
+      "title": "NVIDIA NIM, 이제 개발자 프로그램 회원에게 무료로 제공됩니다",
+      "slug": "nvidia-nim",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-08-01T02:41:17.774Z",
+      "last_posted_at": "2024-08-01T14:14:44.436Z",
+      "bumped": true,
+      "bumped_at": "2024-08-01T02:41:17.846Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 4,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 69,
+      "category_id": 664,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 835628,
+            "username": "smoon",
+            "name": "Smoon",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/smoon/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "I have an issue when installing NVIDIA NIM on laptop",
+      "id": 305947,
+      "title": "I have an issue when installing NVIDIA NIM on laptop",
+      "slug": "i-have-an-issue-when-installing-nvidia-nim-on-laptop",
+      "posts_count": 10,
+      "reply_count": 4,
+      "highest_post_number": 11,
+      "image_url": null,
+      "created_at": "2024-09-06T14:01:14.345Z",
+      "last_posted_at": "2025-06-14T18:54:45.111Z",
+      "bumped": true,
+      "bumped_at": "2025-06-14T18:54:45.111Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 1009,
+      "category_id": 698,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3750143,
+            "username": "ariuskudar",
+            "name": "Ariuskudar",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1547621,
+            "username": "neal.vaidya",
+            "name": "Neal Vaidya",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/neal.vaidya/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16384,
+            "username": "ntsarb",
+            "name": null,
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/ntsarb/{size}/183044_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3186812,
+            "username": "artofcharly",
+            "name": "Andrew Krivulya (Charly)",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/artofcharly/{size}/421943_2.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "RTX 4090 shows as &ldquo;non-free GPU&rdquo; when running NIM model in docker",
+      "id": 295740,
+      "title": "RTX 4090 shows as \"non-free GPU\" when running NIM model in docker",
+      "slug": "rtx-4090-shows-as-non-free-gpu-when-running-nim-model-in-docker",
+      "posts_count": 9,
+      "reply_count": 2,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2024-06-10T08:20:34.959Z",
+      "last_posted_at": "2024-10-21T00:59:01.580Z",
+      "bumped": true,
+      "bumped_at": "2024-10-21T00:59:01.580Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 5,
+      "views": 2344,
+      "category_id": 669,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3557728,
+            "username": "daniel.brosnan",
+            "name": "Daniel Brosnan",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 45690,
+            "username": "rtxyz",
+            "name": null,
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 3583729,
+            "username": "egidio.desalve",
+            "name": "Egidio Desalve",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1510661,
+            "username": "alvgaona",
+            "name": "",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/alvgaona/{size}/129126_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3847685,
+            "username": "tommy.l.walker",
+            "name": "Tommy L Walker",
+            "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Container image (nim) construction guide for models where a nim doesn&rsquo;t exist?",
+      "id": 303739,
+      "title": "Container image (nim) construction guide for models where a nim doesn't exist?",
+      "slug": "container-image-nim-construction-guide-for-models-where-a-nim-doesnt-exist",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2024-08-18T00:56:33.153Z",
+      "last_posted_at": "2024-11-29T13:35:22.368Z",
+      "bumped": true,
+      "bumped_at": "2024-11-29T13:35:22.368Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "tags": [
+        "nim"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 196,
+      "category_id": 698,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 3562563,
+            "username": "joe173",
+            "name": "Joe",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/joe173/{size}/356435_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 1547621,
+            "username": "neal.vaidya",
+            "name": "Neal Vaidya",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/neal.vaidya/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "moderator": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3941027,
+            "username": "gwinnerf",
+            "name": "Gwinnerf",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/gwinnerf/{size}/378415_2.png",
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "fancy_title": "Nvidia nim으로 생성형 ai를 배포하기 위한 빠른 가이드",
+      "id": 295192,
+      "title": "Nvidia nim으로 생성형 ai를 배포하기 위한 빠른 가이드",
+      "slug": "nvidia-nim-ai",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-06-05T02:52:07.099Z",
+      "last_posted_at": "2024-06-05T03:10:47.602Z",
+      "bumped": true,
+      "bumped_at": "2024-06-05T02:52:07.156Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "thumbnails": null,
+      "visibility_reason_id": 4,
+      "tags": [],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 155,
+      "category_id": 664,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 835628,
+            "username": "smoon",
+            "name": "Smoon",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/smoon/{size}/256893_2.png",
+            "primary_group_name": "Employee",
+            "flair_name": "Employee",
+            "flair_group_id": 63,
+            "admin": true,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 194229,
+            "username": "TomNVIDIA",
+            "name": "TomNVIDIA",
+            "avatar_template": "/user_avatar/forums.developer.nvidia.com/tomnvidia/{size}/14181_2.png",
+            "primary_group_name": "NsightGraphicsPro",
+            "flair_name": "Administrator",
+            "flair_url": "https://global.discourse-cdn.com/nvidia/original/3X/7/8/786c2b0600281de14dd72c7e2d4b32c9acf7e1de.png",
+            "flair_group_id": 56,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 2
+          }
+        }
+      ]
+    }
+  ],
+  "summarizable": false,
+  "accepted_answer": {
+    "post_number": 2,
+    "username": "aniculescu",
+    "name": null,
+    "excerpt": "We are in the process of updating our NIMs models to be compatible with DGX Spark. \nIn the meantime, please check out our playbook on deploying NIMs on DGX Spark: <a href=\"https://build.nvidia.com/spark/nim-llm\" class=\"inline-onebox\">Try NVIDIA NIM APIs</a>",
+    "accepter_name": null,
+    "accepter_username": "aniculescu"
+  },
+  "can_vote": false,
+  "vote_count": 0,
+  "user_voted": false,
+  "discourse_zendesk_plugin_zendesk_id": null,
+  "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+  "details": {
+    "can_edit": false,
+    "notification_level": 1,
+    "participants": [
+      {
+        "id": 4713046,
+        "username": "krzsam",
+        "name": "Krzsam",
+        "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png",
+        "post_count": 1,
+        "primary_group_name": null,
+        "flair_name": null,
+        "flair_url": null,
+        "flair_color": null,
+        "flair_bg_color": null,
+        "flair_group_id": null,
+        "trust_level": 0
+      },
+      {
+        "id": 3567453,
+        "username": "aniculescu",
+        "name": "Aniculescu",
+        "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png",
+        "post_count": 1,
+        "primary_group_name": "Employee",
+        "flair_name": "Employee",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 63,
+        "moderator": true,
+        "trust_level": 2
+      }
+    ],
+    "created_by": {
+      "id": 4713046,
+      "username": "krzsam",
+      "name": "Krzsam",
+      "avatar_template": "https://developer.download.nvidia.com/images/forums/profile-default-devtalk-84.png"
+    },
+    "last_poster": {
+      "id": 3567453,
+      "username": "aniculescu",
+      "name": "Aniculescu",
+      "avatar_template": "/user_avatar/forums.developer.nvidia.com/aniculescu/{size}/382649_2.png"
+    },
+    "links": [
+      {
+        "url": "https://build.nvidia.com/spark/nim-llm",
+        "title": "Try NVIDIA NIM APIs",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 12,
+        "user_id": 3567453,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      },
+      {
+        "url": "https://build.nvidia.com/stabilityai/stable-diffusion-3_5-large/deploy",
+        "title": "stable-diffusion-3.5-large Model by Stability AI | NVIDIA NIM",
+        "internal": false,
+        "attachment": false,
+        "reflection": false,
+        "clicks": 5,
+        "user_id": 4713046,
+        "domain": "build.nvidia.com",
+        "root_domain": "nvidia.com"
+      }
+    ]
+  },
+  "bookmarks": []
+}
